@@ -1,4 +1,4 @@
-# 更新时间: 2025-10-05 23:50:37
+# 更新时间: 2025-10-06 00:20:18
 # 提取的规则数：2624
 
 @@||ad.10010.com^
@@ -663,6 +663,7 @@
 @@||p*-ecom-fe.byteimg.com^
 @@||lf*-webcast-cdn-tos-ncdn.bytegecko.com^
 @@||d*.static.yximgs.com^
+@@||tracker.namitiyu.com^
 @@||advert.kf5.com^
 @@||ad.ourgame.com^
 @@||ad.10010.com^
@@ -670,26 +671,25 @@
 @@||img.ads.tvb.com^
 @@||ad.kazakinfo.com^
 @@||app-advertise.zhihuishu.com^
-@@||stats.britishbaseball.org.uk^
 @@||captcha.su.baidu.com^
 @@||ad.abchina.com^
 @@||adcdn.pingan.com^
 @@||buyad.bi-xenon.cn^
 @@||ssl.o.auspost.com.au
 @@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
+@@||stats.britishbaseball.org.uk^
 @@||redirect.appmetrica.yandex.com^
 @@||metrics.torproject.org^
 @@||logging.apache.org^
-@@||tracker.namitiyu.com^
-@@||track2.royalmail.com^
 @@||vodafonelimited.tt.omtrdc.net^
+@@||track2.royalmail.com^
 @@||equifaxps.122.2o7.net^
-@@||wwwimage-tve.cbsstatic.com^
-@@||smartpixel.tv
 @@||cbsi.map.fastly.net^
+@@||wwwimage-tve.cbsstatic.com^
+@@||content.ingbank.pl^
+@@||smartpixel.tv
 @@||kiplinger.112.2o7.net^
 @@||redirect.appmetrica.yandex.net^
-@@||content.ingbank.pl^
 @@||webtrack.dhlglobalmail.com^
 @@||optout.rlcdn.com^
 @@||lobechat.com/_next/static/chunks/
