@@ -1,4 +1,4 @@
-# 更新时间: 2025-10-06 23:57:34
+# 更新时间: 2025-10-07 00:29:27
 # 白名单规则数：4979
 # 作者名称: Menghuibanxian
 # 作者主页:https://github.com/Menghuibanxian/AdguardHome
@@ -466,22 +466,22 @@
 @@||ncomment.kuwo.cn^
 @@||vip1.kuwo.cn^
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
+@@||tracker.namitiyu.com^
 @@||ssl.o.auspost.com.au
 @@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
-@@||tracker.namitiyu.com^
 @@||metrics.torproject.org^
 @@||cbsi.map.fastly.net^
 @@||logging.apache.org^
 @@||equifaxps.122.2o7.net^
 @@||content.ingbank.pl^
 @@||webtrack.dhlglobalmail.com^
-@@||vodafonelimited.tt.omtrdc.net^
-@@||wwwimage-tve.cbsstatic.com^
-@@||kiplinger.112.2o7.net^
-@@||redirect.appmetrica.yandex.com^
-@@||track2.royalmail.com^
-@@||optout.rlcdn.com^
 @@||stats.britishbaseball.org.uk^
+@@||wwwimage-tve.cbsstatic.com^
+@@||vodafonelimited.tt.omtrdc.net^
+@@||redirect.appmetrica.yandex.com^
+@@||optout.rlcdn.com^
+@@||track2.royalmail.com^
+@@||kiplinger.112.2o7.net^
 @@||redirect.appmetrica.yandex.net^
 @@||smartpixel.tv
 @@||lobechat.com/_next/static/chunks/
