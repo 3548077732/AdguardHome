@@ -1,4 +1,4 @@
-# 更新时间: 2025-10-06 15:56:05
+# 更新时间: 2025-10-06 16:27:35
 # 白名单规则数：4979
 # 作者名称: Menghuibanxian
 # 作者主页:https://github.com/Menghuibanxian/AdguardHome
@@ -466,24 +466,24 @@
 @@||ncomment.kuwo.cn^
 @@||vip1.kuwo.cn^
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
-@@||tracker.namitiyu.com^
 @@||ssl.o.auspost.com.au
 @@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
-@@||stats.britishbaseball.org.uk^
-@@||redirect.appmetrica.yandex.com^
+@@||tracker.namitiyu.com^
 @@||metrics.torproject.org^
-@@||logging.apache.org^
-@@||track2.royalmail.com^
-@@||vodafonelimited.tt.omtrdc.net^
-@@||equifaxps.122.2o7.net^
-@@||wwwimage-tve.cbsstatic.com^
-@@||smartpixel.tv
 @@||cbsi.map.fastly.net^
-@@||kiplinger.112.2o7.net^
-@@||redirect.appmetrica.yandex.net^
+@@||logging.apache.org^
+@@||equifaxps.122.2o7.net^
 @@||content.ingbank.pl^
 @@||webtrack.dhlglobalmail.com^
+@@||vodafonelimited.tt.omtrdc.net^
+@@||wwwimage-tve.cbsstatic.com^
+@@||kiplinger.112.2o7.net^
+@@||redirect.appmetrica.yandex.com^
+@@||track2.royalmail.com^
 @@||optout.rlcdn.com^
+@@||stats.britishbaseball.org.uk^
+@@||redirect.appmetrica.yandex.net^
+@@||smartpixel.tv
 @@||lobechat.com/_next/static/chunks/
 @@googlesyndication.com$domain=bilinovel.com
 @@||cqshuda.com/template/conch/asset/js/conch.vip.js
