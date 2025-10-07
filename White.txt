@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-07 20:39:41
-# 白名单规则数：4982
+# 更新时间: 2025-10-07 21:17:58
+# 白名单规则数：4979
 # 作者名称: Menghuibanxian
 # 作者主页:https://github.com/Menghuibanxian/AdguardHome
 
@@ -588,7 +588,7 @@
 @@||aihuishou.com^
 @@||aikanlive.miguvideo.com^
 @@||aikanvod.miguvideo.com^
-@@||aisite.wejianzhan.com^$important
+@@||aisite.wejianzhan.com^
 @@||aisubtitle.hdslb.com^
 @@||aizhan.com^
 @@||akamaized.net^
@@ -1348,6 +1348,7 @@
 @@||m.jd.com^
 @@||m.jd.watbc.top^
 @@||m.jd.watbe.top^
+@@||m.jf.10010.com^
 @@||m.jiaoyimao.com^
 @@||m.jxdown.com^
 @@||m.manhuabei.com^
@@ -1409,7 +1410,7 @@
 @@||member.bilibili.com^
 @@||message.bilibili.com^
 @@||metok.sys.miui.com^
-@@||metrics1-drcn.dt.dbankcloud.cn^$important
+@@||metrics1-drcn.dt.dbankcloud.cn^
 @@||mi-img.com^
 @@||mibi.api.xiaomi.com^
 @@||midas.gtimg.cn^
@@ -1762,7 +1763,7 @@
 @@||sjh.baidu.com^
 @@||sjws.ssl.qihucdn.com^
 @@||sm.cn^
-@@||smarthome-drcn.dbankcdn.com^$important
+@@||smarthome-drcn.dbankcdn.com^
 @@||smsks1.cmpassport.com^
 @@||snowflake.qq.com^
 @@||sns-avatar-qc.xhscdn.com^
@@ -2357,7 +2358,6 @@
 @@||i.mi.com^
 @@||cdn.web-global.fds.api.mi-img.com^
 @@||galleryapi.micloud.xiaomi.net^
-@@||smarthome-drcn.dbankcdn.com^
 @@||appdl-2-drcn.dbankcdn.com^
 @@||www.vmall.com^
 @@||m.vmall.com^
@@ -3443,9 +3443,6 @@
 @@||z3.cnzz.com^$important
 @@||zhebk.cn^$important
 @@||zixu.site^$important
-@@||m.jf.10010.com^
-@@||aisite.wejianzhan.com^
-@@||metrics1-drcn.dt.dbankcloud.cn^
 p2.music.126.net.163jiasu.com
 cdn.bootcss.com
 mps.amap.com
