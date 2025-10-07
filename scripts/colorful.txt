@@ -1,4 +1,4 @@
-# 更新时间: 2025-10-07 07:55:37
+# 更新时间: 2025-10-07 09:22:17
 # 提取的规则数：2624
 
 @@||ad.10010.com^
@@ -663,7 +663,6 @@
 @@||p*-ecom-fe.byteimg.com^
 @@||lf*-webcast-cdn-tos-ncdn.bytegecko.com^
 @@||d*.static.yximgs.com^
-@@||tracker.namitiyu.com^
 @@||ad.abchina.com^
 @@||ssl.o.auspost.com.au
 @@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
@@ -677,6 +676,7 @@
 @@||ad.ourgame.com^
 @@||ad.10010.com^
 @@||img.ads.tvb.com^
+@@||tracker.namitiyu.com^
 @@||metrics.torproject.org^
 @@||cbsi.map.fastly.net^
 @@||logging.apache.org^
