@@ -1,4 +1,4 @@
-# 更新时间: 2025-10-09 15:56:17
+# 更新时间: 2025-10-09 16:28:00
 # 白名单规则数：4980
 # 作者名称: Menghuibanxian
 # 作者主页:https://github.com/Menghuibanxian/AdguardHome
@@ -469,22 +469,22 @@
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
 @@||ssl.o.auspost.com.au
 @@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
+@@||stats.britishbaseball.org.uk^
+@@||wwwimage-tve.cbsstatic.com^
 @@||tracker.namitiyu.com^
 @@||kiplinger.112.2o7.net^
-@@||cbsi.map.fastly.net^
-@@||stats.britishbaseball.org.uk^
-@@||content.ingbank.pl^
 @@||smartpixel.tv
-@@||wwwimage-tve.cbsstatic.com^
-@@||metrics.torproject.org^
-@@||logging.apache.org^
 @@||optout.rlcdn.com^
 @@||redirect.appmetrica.yandex.net^
-@@||equifaxps.122.2o7.net^
-@@||redirect.appmetrica.yandex.com^
-@@||track2.royalmail.com^
 @@||vodafonelimited.tt.omtrdc.net^
 @@||webtrack.dhlglobalmail.com^
+@@||redirect.appmetrica.yandex.com^
+@@||metrics.torproject.org^
+@@||equifaxps.122.2o7.net^
+@@||content.ingbank.pl^
+@@||cbsi.map.fastly.net^
+@@||track2.royalmail.com^
+@@||logging.apache.org^
 @@||lobechat.com/_next/static/chunks/
 @@googlesyndication.com$domain=bilinovel.com
 @@||cqshuda.com/template/conch/asset/js/conch.vip.js
