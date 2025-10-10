@@ -1,4 +1,4 @@
-# 更新时间: 2025-10-10 23:56:13
+# 更新时间: 2025-10-11 00:25:38
 # 白名单规则数：4980
 # 作者名称: Menghuibanxian
 # 作者主页:https://github.com/Menghuibanxian/AdguardHome
@@ -468,8 +468,8 @@
 @@||vip1.kuwo.cn^
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
 @@||ssl.o.auspost.com.au
-@@||tracker.namitiyu.com^
 @@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
+@@||tracker.namitiyu.com^
 @@||logging.apache.org^
 @@||redirect.appmetrica.yandex.com^
 @@||optout.rlcdn.com^
@@ -482,9 +482,9 @@
 @@||metrics.torproject.org^
 @@||wwwimage-tve.cbsstatic.com^
 @@||track2.royalmail.com^
+@@||kiplinger.112.2o7.net^
 @@||redirect.appmetrica.yandex.net^
 @@||smartpixel.tv
-@@||kiplinger.112.2o7.net^
 @@||lobechat.com/_next/static/chunks/
 @@googlesyndication.com$domain=bilinovel.com
 @@||cqshuda.com/template/conch/asset/js/conch.vip.js
