@@ -1,4 +1,4 @@
-# 更新时间: 2025-10-11 07:57:59
+# 更新时间: 2025-10-11 09:47:24
 # 提取的规则数：2626
 
 @@||ad.10010.com^
@@ -683,12 +683,12 @@
 @@||optout.rlcdn.com^
 @@||equifaxps.122.2o7.net^
 @@||stats.britishbaseball.org.uk^
-@@||vodafonelimited.tt.omtrdc.net^
 @@||cbsi.map.fastly.net^
+@@||wwwimage-tve.cbsstatic.com^
 @@||content.ingbank.pl^
+@@||vodafonelimited.tt.omtrdc.net^
 @@||webtrack.dhlglobalmail.com^
 @@||metrics.torproject.org^
-@@||wwwimage-tve.cbsstatic.com^
 @@||track2.royalmail.com^
 @@||kiplinger.112.2o7.net^
 @@||redirect.appmetrica.yandex.net^
