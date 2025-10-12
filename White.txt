@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-12 15:50:44
-# 白名单规则数：4980
+# 更新时间: 2025-10-12 16:21:43
+# 白名单规则数：4979
 # 作者名称: Menghuibanxian
 # 作者主页:https://github.com/Menghuibanxian/AdguardHome
 
@@ -467,24 +467,23 @@
 @@||ncomment.kuwo.cn^
 @@||vip1.kuwo.cn^
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
-@@||ssl.o.auspost.com.au
-@@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
-@@||tracker.namitiyu.com^
-@@||stats.britishbaseball.org.uk^
-@@||equifaxps.122.2o7.net^
-@@||cbsi.map.fastly.net^
-@@||kiplinger.112.2o7.net^
-@@||wwwimage-tve.cbsstatic.com^
-@@||content.ingbank.pl^
-@@||smartpixel.tv
 @@||vodafonelimited.tt.omtrdc.net^
-@@||redirect.appmetrica.yandex.net^
 @@||redirect.appmetrica.yandex.com^
 @@||logging.apache.org^
-@@||optout.rlcdn.com^
-@@||metrics.torproject.org^
-@@||webtrack.dhlglobalmail.com^
+@@||kiplinger.112.2o7.net^
+@@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
+@@||tracker.namitiyu.com^
+@@||wwwimage-tve.cbsstatic.com^
 @@||track2.royalmail.com^
+@@||cbsi.map.fastly.net^
+@@||stats.britishbaseball.org.uk^
+@@||content.ingbank.pl^
+@@||webtrack.dhlglobalmail.com^
+@@||optout.rlcdn.com^
+@@||smartpixel.tv
+@@||metrics.torproject.org^
+@@||equifaxps.122.2o7.net^
+@@||redirect.appmetrica.yandex.net^
 @@||lobechat.com/_next/static/chunks/
 @@googlesyndication.com$domain=bilinovel.com
 @@||cqshuda.com/template/conch/asset/js/conch.vip.js

@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-12 15:50:44
-# 提取的规则数：2626
+# 更新时间: 2025-10-12 16:21:43
+# 提取的规则数：2625
 
 @@||ad.10010.com^
 @@||ad.abchina.com^
@@ -664,35 +664,34 @@
 @@||p*-ecom-fe.byteimg.com^
 @@||lf*-webcast-cdn-tos-ncdn.bytegecko.com^
 @@||d*.static.yximgs.com^
+@@||vodafonelimited.tt.omtrdc.net^
 @@||ad.abchina.com^
+@@||advert.kf5.com^
 @@||buyad.bi-xenon.cn^
+@@||ad.ourgame.com^
+@@||ad.10010.com^
 @@||api.ads.tvb.com^
 @@||ad.kazakinfo.com^
-@@||captcha.su.baidu.com^
-@@||adcdn.pingan.com^
-@@||advert.kf5.com^
-@@||ssl.o.auspost.com.au
-@@||ad.ourgame.com^
-@@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
-@@||img.ads.tvb.com^
 @@||app-advertise.zhihuishu.com^
-@@||ad.10010.com^
-@@||tracker.namitiyu.com^
-@@||stats.britishbaseball.org.uk^
-@@||equifaxps.122.2o7.net^
-@@||cbsi.map.fastly.net^
-@@||kiplinger.112.2o7.net^
-@@||wwwimage-tve.cbsstatic.com^
-@@||content.ingbank.pl^
-@@||smartpixel.tv
-@@||vodafonelimited.tt.omtrdc.net^
-@@||redirect.appmetrica.yandex.net^
 @@||redirect.appmetrica.yandex.com^
 @@||logging.apache.org^
-@@||optout.rlcdn.com^
-@@||metrics.torproject.org^
-@@||webtrack.dhlglobalmail.com^
+@@||kiplinger.112.2o7.net^
+@@||captcha.su.baidu.com^
+@@||adcdn.pingan.com^
+@@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
+@@||img.ads.tvb.com^
+@@||tracker.namitiyu.com^
+@@||wwwimage-tve.cbsstatic.com^
 @@||track2.royalmail.com^
+@@||cbsi.map.fastly.net^
+@@||stats.britishbaseball.org.uk^
+@@||content.ingbank.pl^
+@@||webtrack.dhlglobalmail.com^
+@@||optout.rlcdn.com^
+@@||smartpixel.tv
+@@||metrics.torproject.org^
+@@||equifaxps.122.2o7.net^
+@@||redirect.appmetrica.yandex.net^
 @@||lobechat.com/_next/static/chunks/
 @@googlesyndication.com$domain=bilinovel.com
 @@||cqshuda.com/template/conch/asset/js/conch.vip.js
