@@ -1,4 +1,4 @@
-# 更新时间: 2025-10-14 15:55:59
+# 更新时间: 2025-10-14 16:25:18
 # 白名单规则数：4980
 # 作者名称: Menghuibanxian
 # 作者主页:https://github.com/Menghuibanxian/AdguardHome
@@ -467,24 +467,24 @@
 @@||ncomment.kuwo.cn^
 @@||vip1.kuwo.cn^
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
-@@||metrics.torproject.org^
 @@||ssl.o.auspost.com.au
 @@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
-@@||webtrack.dhlglobalmail.com^
-@@||equifaxps.122.2o7.net^
 @@||tracker.namitiyu.com^
-@@||optout.rlcdn.com^
-@@||track2.royalmail.com^
-@@||wwwimage-tve.cbsstatic.com^
+@@||webtrack.dhlglobalmail.com^
 @@||kiplinger.112.2o7.net^
-@@||redirect.appmetrica.yandex.net^
 @@||smartpixel.tv
-@@||redirect.appmetrica.yandex.com^
-@@||content.ingbank.pl^
-@@||vodafonelimited.tt.omtrdc.net^
-@@||cbsi.map.fastly.net^
-@@||stats.britishbaseball.org.uk^
+@@||equifaxps.122.2o7.net^
+@@||optout.rlcdn.com^
 @@||logging.apache.org^
+@@||redirect.appmetrica.yandex.net^
+@@||cbsi.map.fastly.net^
+@@||track2.royalmail.com^
+@@||redirect.appmetrica.yandex.com^
+@@||wwwimage-tve.cbsstatic.com^
+@@||stats.britishbaseball.org.uk^
+@@||vodafonelimited.tt.omtrdc.net^
+@@||metrics.torproject.org^
+@@||content.ingbank.pl^
 @@||lobechat.com/_next/static/chunks/
 @@googlesyndication.com$domain=bilinovel.com
 @@||cqshuda.com/template/conch/asset/js/conch.vip.js
