@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-15 21:59:06
-# 提取的规则数：2627
+# 更新时间: 2025-10-15 22:29:16
+# 提取的规则数：2629
 
 @@||ad.10010.com^
 @@||ad.abchina.com^
@@ -1539,6 +1539,7 @@
 @@||is.snssdk.com^
 @@||is1-ssl.mzstatic.com^
 @@||isee.weishi.qq.com^
+@@||isite.baidu.com^$important
 @@||issuecdn.baidupcs.com^
 @@||isure.stream.qqmusic.qq.com^
 @@||item.taobao.com^
@@ -1912,6 +1913,7 @@
 @@||p3-webcast-sign.douyinpic.com^
 @@||p3.dcarimg.com^
 @@||p3.douyinpic.com^
+@@||p4-ad.adukwai.com^$important
 @@||p5-auto-sign.dcarimg.com^
 @@||p5-auto.dcarimg.com^
 @@||p5-sign.douyinpic.com^

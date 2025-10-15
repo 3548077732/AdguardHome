@@ -1,4 +1,4 @@
-# 更新时间: 2025-10-15 21:59:06
+# 更新时间: 2025-10-15 22:29:16
 # 白名单规则数：4983
 # 作者名称: Menghuibanxian
 # 作者主页:https://github.com/Menghuibanxian/AdguardHome
@@ -1252,6 +1252,7 @@
 @@||is-hl.snssdk.com^
 @@||is1-ssl.mzstatic.com^
 @@||isee.weishi.qq.com^
+@@||isite.baidu.com^$important
 @@||issuecdn.baidupcs.com^
 @@||isure.stream.qqmusic.qq.com^
 @@||item.taobao.com^
@@ -1546,6 +1547,7 @@
 @@||p3-webcast-sign.douyinpic.com^
 @@||p3.dcarimg.com^
 @@||p3.douyinpic.com^
+@@||p4-ad.adukwai.com^$important
 @@||p5-auto-sign.dcarimg.com^
 @@||p5-auto.dcarimg.com^
 @@||p5-sign.douyinpic.com^
@@ -3445,8 +3447,6 @@
 @@||z3.cnzz.com^$important
 @@||zhebk.cn^$important
 @@||zixu.site^$important
-@@||p4-ad.adukwai.com^$important
-@@||isite.baidu.com^$important
 p2.music.126.net.163jiasu.com
 cdn.bootcss.com
 mps.amap.com
