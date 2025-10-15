@@ -1,4 +1,4 @@
-# 更新时间: 2025-10-16 03:15:31
+# 更新时间: 2025-10-16 03:27:52
 # 白名单规则数：4983
 # 作者名称: Menghuibanxian
 # 作者主页:https://github.com/Menghuibanxian/AdguardHome
