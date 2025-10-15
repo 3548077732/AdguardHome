@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-15 07:56:07
-# 提取的规则数：2626
+# 更新时间: 2025-10-15 08:12:02
+# 提取的规则数：2627
 
 @@||ad.10010.com^
 @@||ad.abchina.com^
@@ -2571,6 +2571,7 @@
 @@||zm.sm-tc.cn^
 @@||ztgame.com^
 @@||白名单仅用于测试.com^
+@@||web.qun.qq.com^$app=com.tencent.mobileqq
 @@||mmbiz.qpic.cn^$app=com.tencent.mm,important
 @@||wx.qlogo.cn^$app=com.tencent.mm,important
 @@||mmbiz.qlogo.cn^$app=com.tencent.mm,important
