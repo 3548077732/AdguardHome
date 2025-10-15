@@ -7,7 +7,7 @@
 
 
 
-
+#酷友提议，qq公告
 @@||web.qun.qq.com^$app=com.tencent.mobileqq
 
 
