@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-19 13:57:36
-# 提取的规则数：2630
+# 更新时间: 2025-10-19 14:33:07
+# 提取的规则数：2631
 
 @@||ad.10010.com^
 @@||ad.abchina.com^
@@ -2526,6 +2526,7 @@
 @@||wxsnsdy.wxs.qq.com^
 @@||wxsnsencsvp.wxs.qq.com^
 @@||x0.ifengimg.com^
+@@||x2.ifengimg.com^
 @@||x6img.com^
 @@||xhslink.com^
 @@||xiaoshuo.wtzw.com^
