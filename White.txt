@@ -1,4 +1,4 @@
-# 更新时间: 2025-10-19 20:00:33
+# 更新时间: 2025-10-19 20:49:52
 # 白名单规则数：4988
 # 作者名称: Menghuibanxian
 # 作者主页:https://github.com/Menghuibanxian/AdguardHome
@@ -616,12 +616,14 @@
 @@||apd-ugcvlive.apdcdn.tc.qq.com^
 @@||apd-vlive.apdcdn.tc.qq.com^
 @@||api-album.quark.cn^
+@@||api-chat.soulapp.cn^$important
 @@||api-cmnt.wtzw.com^
 @@||api-cn.cdo.heytapmobi.com^
 @@||api-cn.store.heytapmobi.com^
 @@||api-cn.theme.heytapmobi.com^
 @@||api-game.meizu.com^
 @@||api-ks.wtzw.com^
+@@||api-pay.soulapp.cn^
 @@||api-pda.jdl.com^
 @@||api-push.meizu.com^
 @@||api-shoulei-ssl.xunlei.com^
@@ -1231,6 +1233,7 @@
 @@||in.appcenter.ms^
 @@||increase-openapi.soulapp.cn^
 @@||inews.gtimg.com^
+@@||info.zb.qq.com^$important
 @@||ingest.sentry.io^
 @@||input.shouji.sogou.com^
 @@||inr-op.elemecdn.com^
@@ -1980,6 +1983,7 @@
 @@||vv.video.qq.com^
 @@||w.pandora.xiaomi.com^
 @@||w1.kskwai.com^
+@@||w2.kskwai.com^$important
 @@||w8.com.cn^
 @@||waapdg.jd.com^
 @@||waimai-guide.ele.me^
@@ -3448,10 +3452,6 @@
 @@||z3.cnzz.com^$important
 @@||zhebk.cn^$important
 @@||zixu.site^$important
-@@||api-pay.soulapp.cn^
-@@||api-chat.soulapp.cn^$important
-@@||info.zb.qq.com^$important
-@@||w2.kskwai.com^$important
 p2.music.126.net.163jiasu.com
 cdn.bootcss.com
 mps.amap.com
