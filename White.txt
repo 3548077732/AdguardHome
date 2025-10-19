@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-19 18:36:05
-# 白名单规则数：4984
+# 更新时间: 2025-10-19 18:46:54
+# 白名单规则数：4988
 # 作者名称: Menghuibanxian
 # 作者主页:https://github.com/Menghuibanxian/AdguardHome
 
@@ -3448,6 +3448,10 @@
 @@||z3.cnzz.com^$important
 @@||zhebk.cn^$important
 @@||zixu.site^$important
+@@||api-pay.soulapp.cn^
+@@||api-chat.soulapp.cn^$important
+@@||info.zb.qq.com^$important
+@@||w2.kskwai.com^$important
 p2.music.126.net.163jiasu.com
 cdn.bootcss.com
 mps.amap.com
