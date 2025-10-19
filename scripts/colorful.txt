@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-19 10:04:47
-# 提取的规则数：2629
+# 更新时间: 2025-10-19 11:21:36
+# 提取的规则数：2630
 
 @@||ad.10010.com^
 @@||ad.abchina.com^
@@ -693,6 +693,7 @@
 @@||smartpixel.tv
 @@||stats.britishbaseball.org.uk^
 @@||track2.royalmail.com^
+@@||x2.ifengimg.com^
 @@||lobechat.com/_next/static/chunks/
 @@googlesyndication.com$domain=bilinovel.com
 @@||cqshuda.com/template/conch/asset/js/conch.vip.js

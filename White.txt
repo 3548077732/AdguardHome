@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-19 10:04:47
-# 白名单规则数：4983
+# 更新时间: 2025-10-19 11:21:36
+# 白名单规则数：4984
 # 作者名称: Menghuibanxian
 # 作者主页:https://github.com/Menghuibanxian/AdguardHome
 
@@ -485,6 +485,7 @@
 @@||smartpixel.tv
 @@||stats.britishbaseball.org.uk^
 @@||track2.royalmail.com^
+@@||x2.ifengimg.com^
 @@||lobechat.com/_next/static/chunks/
 @@googlesyndication.com$domain=bilinovel.com
 @@||cqshuda.com/template/conch/asset/js/conch.vip.js
