@@ -1,4 +1,4 @@
-# 更新时间: 2025-10-20 23:51:01
+# 更新时间: 2025-10-21 00:24:40
 # 白名单规则数：4988
 # 作者名称: Menghuibanxian
 # 作者主页:https://github.com/Menghuibanxian/AdguardHome
@@ -468,23 +468,23 @@
 @@||vip1.kuwo.cn^
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
 @@||tracker.namitiyu.com^
+@@||ssl.o.auspost.com.au
+@@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
 @@||kiplinger.112.2o7.net^
 @@||content.ingbank.pl^
 @@||wwwimage-tve.cbsstatic.com^
 @@||metrics.torproject.org^
 @@||vodafonelimited.tt.omtrdc.net^
-@@||ssl.o.auspost.com.au
-@@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
 @@||redirect.appmetrica.yandex.com^
-@@||track2.royalmail.com^
-@@||stats.britishbaseball.org.uk^
 @@||cbsi.map.fastly.net^
+@@||stats.britishbaseball.org.uk^
+@@||track2.royalmail.com^
 @@||optout.rlcdn.com^
 @@||webtrack.dhlglobalmail.com^
 @@||redirect.appmetrica.yandex.net^
+@@||equifaxps.122.2o7.net^
 @@||smartpixel.tv
 @@||logging.apache.org^
-@@||equifaxps.122.2o7.net^
 @@||x2.ifengimg.com^
 @@||lobechat.com/_next/static/chunks/
 @@googlesyndication.com$domain=bilinovel.com
