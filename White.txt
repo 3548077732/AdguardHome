@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-21 13:59:12
-# 白名单规则数：4988
+# 更新时间: 2025-10-21 14:38:58
+# 白名单规则数：4989
 # 作者名称: Menghuibanxian
 # 作者主页:https://github.com/Menghuibanxian/AdguardHome
 
@@ -3367,6 +3367,7 @@
 @@||sq-device.apple.com^$important
 @@||sq.bls.mdt.qq.com^$important
 @@||srv.android.shouji.sogou.com^$important
+@@||srv.sec.miui.com^$important
 @@||ssl.gstatic.com^$important
 @@||ssw.live.com^$important
 @@||staffhub.ms^$important
