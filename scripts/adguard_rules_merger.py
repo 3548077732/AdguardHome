@@ -4,7 +4,6 @@ import requests
 import time
 import json
 import datetime
-import os
 
 # 获取北京时间
 def get_beijing_time():
@@ -43,10 +42,7 @@ def get_beijing_time():
     return datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 # 文件路径配置
-ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BLACKLIST_FILE = os.path.join(ROOT_DIR, "Black.txt")
-COLORFUL_FILE = os.path.join(ROOT_DIR, "scripts", "colorful.txt")
-WHITELIST_FILE = os.path.join(ROOT_DIR, "White.txt")
+COMBINED_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Black.txt")
 
 # 黑名单源
 BLACKLIST_SOURCES = {
@@ -107,6 +103,26 @@ def deduplicate_rules(rules):
             seen.add(rule)
             result.append(rule)
     return result
+
+def format_whitelist_rule(rule):
+    """确保白名单规则遵循 AdGuardHome 格式 (@@||开头，^结尾)"""
+    # 如果规则已经以 @@|| 开头，则只确保以 ^ 结尾
+    if rule.startswith("@@||"):
+        if not rule.endswith("^"):
+            rule = rule + "^"
+    # 如果规则不以 @@|| 开头，则添加 @@|| 前缀和 ^ 后缀
+    else:
+        # 移除可能存在的 || 前缀
+        if rule.startswith("||"):
+            rule = rule[2:]
+        # 移除可能存在的 ^ 后缀
+        if rule.endswith("^"):
+            rule = rule[:-1]
+        # 添加 @@|| 前缀和 ^ 后缀
+        rule = "@@||" + rule + "^"
+    return rule
+
+
 
 def download_blacklist_sources():
     """下载所有黑名单源的规则"""
@@ -182,37 +198,6 @@ def main():
     deduplicated_blacklist = deduplicate_rules(filtered_blacklist)
     print(f"去重后的黑名单规则数量: {len(deduplicated_blacklist)}")
     
-    # 使用之前获取的时间戳
-    
-    # 保存处理后的黑名单
-    with open(BLACKLIST_FILE, "w", encoding="utf-8") as f:
-        # 按照用户要求的格式添加文件头部
-        f.write(f"# 更新时间: {current_time}\n")
-        f.write(f"# 黑名单规则数：{len(deduplicated_blacklist)}\n")
-        f.write(f"# 作者名称: Menghuibanxian\n")
-        f.write(f"# 作者主页:https://github.com/Menghuibanxian/AdguardHome\n")
-        f.write("\n")
-        
-        # 添加规则内容并过滤掉以[开头且以]结尾的行
-        for rule in deduplicated_blacklist:
-            if not (rule.startswith('[') and rule.endswith(']')):
-                f.write(f"{rule}\n")
-    print(f"已保存处理后的黑名单到 {BLACKLIST_FILE}")
-    
-    # 使用之前获取的时间戳
-    
-    # 保存提取的白名单到colorful.txt
-    with open(COLORFUL_FILE, "w", encoding="utf-8") as f:
-        # 按照用户要求的格式添加文件头部
-        f.write(f"# 更新时间: {current_time}\n")
-        f.write(f"# 提取的规则数：{len(extracted_whitelist)}\n")
-        f.write("\n")
-        
-        # 添加规则内容
-        for rule in extracted_whitelist:
-            f.write(f"{rule}\n")
-    print(f"已保存提取的白名单到 {COLORFUL_FILE}")
-    
     # 下载白名单源
     downloaded_whitelist = download_whitelist_sources()
     print(f"下载的白名单规则数量: {len(downloaded_whitelist)}")
@@ -224,22 +209,52 @@ def main():
     deduplicated_whitelist = deduplicate_rules(merged_whitelist)
     print(f"合并去重后的白名单规则数量: {len(deduplicated_whitelist)}")
     
-    # 保存最终的白名单
-    # 使用之前获取的时间戳
+    # 直接合并黑名单和白名单到 Black.txt，不创建临时文件
+    # 准备黑名单内容（过滤掉以[开头且以]结尾的行）
+    blacklist_content_lines = []
+    for rule in deduplicated_blacklist:
+        if not (rule.startswith('[') and rule.endswith(']')):
+            blacklist_content_lines.append(rule)
     
-    with open(WHITELIST_FILE, "w", encoding="utf-8") as f:
-        # 按照用户要求的格式添加文件头部
+    # 准备白名单内容（过滤掉以[开头且以]结尾的行）
+    whitelist_content_lines = []
+    for rule in deduplicated_whitelist:
+        if not (rule.startswith('[') and rule.endswith(']')):
+            whitelist_content_lines.append(rule)
+    
+    # 处理白名单规则，确保它们遵循 AdGuardHome 格式
+    formatted_whitelist_content_lines = []
+    for line in whitelist_content_lines:
+        line = line.strip()
+        # 跳过空行
+        if not line:
+            formatted_whitelist_content_lines.append(line)
+        else:
+            # 格式化白名单规则
+            formatted_rule = format_whitelist_rule(line)
+            formatted_whitelist_content_lines.append(formatted_rule)
+    
+    # 计算总规则数
+    total_count = len(deduplicated_blacklist) + len(deduplicated_whitelist)
+    blacklist_count = len(deduplicated_blacklist)
+    whitelist_count = len(deduplicated_whitelist)
+    
+    # 合并黑名单和格式化后的白名单到 Black.txt
+    with open(COMBINED_FILE, "w", encoding="utf-8-sig") as f:
+        # 写入新的文件头部信息
         f.write(f"# 更新时间: {current_time}\n")
-        f.write(f"# 白名单规则数：{len(deduplicated_whitelist)}\n")
+        f.write(f"# 总规则数：{total_count} (黑名单: {blacklist_count}, 白名单: {whitelist_count})\n")
         f.write(f"# 作者名称: Menghuibanxian\n")
-        f.write(f"# 作者主页:https://github.com/Menghuibanxian/AdguardHome\n")
+        f.write(f"# 作者主页: https://github.com/Menghuibanxian/AdguardHome\n")
         f.write("\n")
         
-        # 添加规则内容并过滤掉以[开头且以]结尾的行
-        for rule in deduplicated_whitelist:
-            if not (rule.startswith('[') and rule.endswith(']')):
-                f.write(f"{rule}\n")
-    print(f"已保存最终的白名单到 {WHITELIST_FILE}")
+        # 写入黑名单内容
+        for line in blacklist_content_lines:
+            f.write(f"{line}\n")
+        
+        # 写入格式化后的白名单内容
+        for line in formatted_whitelist_content_lines:
+            f.write(f"{line}\n")
     
     print("AdGuardHome规则处理完成！")
 
