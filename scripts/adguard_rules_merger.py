@@ -180,6 +180,100 @@ def download_whitelist_sources():
     print(f"所有白名单源下载完成，共获取到 {len(all_whitelist_rules)} 条规则")
     return all_whitelist_rules
 
+def extract_domains_from_rules(rules, is_whitelist=False):
+    """从规则中提取域名"""
+    domains = set()
+    for rule in rules:
+        domain = None
+        # 处理白名单规则
+        if is_whitelist:
+            # 处理 AdGuard 格式 (@@||domain^)
+            if rule.startswith("@@||"):
+                domain = rule[4:].rstrip('^')
+            # 处理其他可能的白名单格式 (@@domain^)
+            elif rule.startswith("@@"):
+                domain = rule[2:].rstrip('^')
+        # 处理黑名单规则
+        else:
+            # 处理 AdGuard 格式 (||domain^)
+            if rule.startswith("||"):
+                domain = rule[2:].rstrip('^')
+            # 处理 hosts 格式 (0.0.0.0 domain)
+            elif rule.startswith("0.0.0.0 "):
+                domain = rule[8:]
+            # 处理其他格式
+            elif not rule.startswith("#") and not rule.startswith("!") and " " not in rule:
+                domain = rule.rstrip('^')
+        
+        if domain:
+            domains.add(domain)
+    return domains
+
+def remove_conflicting_rules(blacklist_rules, whitelist_rules):
+    """移除冲突和重复的规则"""
+    # 提取黑名单和白名单中的域名
+    blacklist_domains = extract_domains_from_rules(blacklist_rules, is_whitelist=False)
+    whitelist_domains = extract_domains_from_rules(whitelist_rules, is_whitelist=True)
+    
+    # 找出同时存在于黑名单和白名单中的域名（冲突域名）
+    conflicting_domains = blacklist_domains.intersection(whitelist_domains)
+    print(f"发现 {len(conflicting_domains)} 个冲突域名")
+    
+    # 过滤黑名单规则，移除与白名单冲突的规则
+    filtered_blacklist = []
+    # 用于存储已处理的域名，避免重复
+    processed_domains = set()
+    
+    for rule in blacklist_rules:
+        should_include = True
+        # 提取黑名单中的域名用于比较
+        check_domain = None
+        
+        # 处理 AdGuard 格式 (||domain^)
+        if rule.startswith("||"):
+            check_domain = rule[2:].rstrip('^')
+        # 处理 hosts 格式 (0.0.0.0 domain)
+        elif rule.startswith("0.0.0.0 "):
+            check_domain = rule[8:]
+        # 处理其他格式
+        elif not rule.startswith("#") and not rule.startswith("!") and " " not in rule:
+            check_domain = rule.rstrip('^')
+        
+        # 如果黑名单域名与白名单冲突，则排除该规则
+        if check_domain and check_domain in conflicting_domains:
+            should_include = False
+        
+        # 如果域名已经处理过，则排除该规则（避免重复）
+        if check_domain and check_domain in processed_domains:
+            should_include = False
+            
+        if should_include:
+            filtered_blacklist.append(rule)
+            # 将处理过的域名添加到集合中
+            if check_domain:
+                processed_domains.add(check_domain)
+    
+    # 过滤白名单规则，只保留那些在黑名单中也存在的域名
+    # 预先计算过滤后的黑名单域名集合，提高效率
+    filtered_blacklist_domains = extract_domains_from_rules(filtered_blacklist, is_whitelist=False)
+    
+    filtered_whitelist = []
+    for rule in whitelist_rules:
+        check_domain = None
+        # 提取白名单中的域名用于比较
+        if rule.startswith("@@||"):
+            check_domain = rule[4:].rstrip('^')
+        elif rule.startswith("@@"):
+            check_domain = rule[2:].rstrip('^')
+        
+        # 只有当白名单域名在最终的黑名单中存在时才保留
+        if check_domain and check_domain in filtered_blacklist_domains:
+            filtered_whitelist.append(rule)
+    
+    print(f"过滤后白名单规则数量: {len(filtered_whitelist)}")
+    
+    return filtered_blacklist, filtered_whitelist
+
 def main():
     print("开始处理AdGuardHome规则...")
     
@@ -209,16 +303,21 @@ def main():
     deduplicated_whitelist = deduplicate_rules(merged_whitelist)
     print(f"合并去重后的白名单规则数量: {len(deduplicated_whitelist)}")
     
+    # 移除冲突和重复的规则
+    final_blacklist, filtered_whitelist = remove_conflicting_rules(deduplicated_blacklist, deduplicated_whitelist)
+    print(f"移除冲突规则后的黑名单数量: {len(final_blacklist)}")
+    print(f"过滤后的白名单数量: {len(filtered_whitelist)}")
+    
     # 直接合并黑名单和白名单到 Black.txt，不创建临时文件
     # 准备黑名单内容（过滤掉以[开头且以]结尾的行）
     blacklist_content_lines = []
-    for rule in deduplicated_blacklist:
+    for rule in final_blacklist:
         if not (rule.startswith('[') and rule.endswith(']')):
             blacklist_content_lines.append(rule)
     
     # 准备白名单内容（过滤掉以[开头且以]结尾的行）
     whitelist_content_lines = []
-    for rule in deduplicated_whitelist:
+    for rule in filtered_whitelist:
         if not (rule.startswith('[') and rule.endswith(']')):
             whitelist_content_lines.append(rule)
     
@@ -235,8 +334,8 @@ def main():
             formatted_whitelist_content_lines.append(formatted_rule)
     
     # 计算总规则数
-    total_count = len(deduplicated_blacklist) + len(deduplicated_whitelist)
-    blacklist_count = len(deduplicated_blacklist)
+    total_count = len(final_blacklist) + len(deduplicated_whitelist)
+    blacklist_count = len(final_blacklist)
     whitelist_count = len(deduplicated_whitelist)
     
     # 合并黑名单和格式化后的白名单到 Black.txt
