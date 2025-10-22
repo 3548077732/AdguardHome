@@ -22,6 +22,5 @@ https://github.com/Menghuibanxian/AdguardHome_all
 ├── scripts/
 │   └── adguard_rules_merger.py    # 规则更新脚本(规则放置的位置)
 ├── Uncertain position.txt         # 临时黑白名单（没用）
-├── Black.txt                      # 去重后的黑名单(最终黑名单)
-└── White.txt                      # 去重后的白名单(最终白名单)
+└── Black.txt                      # 去重后的规则
 ```
