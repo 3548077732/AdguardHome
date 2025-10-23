@@ -4,8 +4,7 @@
 黑名单:
 https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Black.txt
 
-白名单:
-https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/White.txt
+
 
 
 
