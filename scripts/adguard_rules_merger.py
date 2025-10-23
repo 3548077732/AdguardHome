@@ -59,7 +59,7 @@ BLACKLIST_SOURCES = {
     "那个谁520          ": "https://raw.githubusercontent.com/qq5460168/666/master/rules.txt",
     "1hosts            ": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt",
     "茯苓的广告规则       ": "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt",
-    "立场不定的          ": "https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Uncertain%20position.txt",
+    "立场不定的          ": "https://raw.githubusercontent.com/Menghuibanxian/Minecraft/refs/heads/main/adguard%20home",
     "酷安 番茄 七猫      ": "https://d.kstore.dev/download/10497/xiaoshuo.txt"
 }
 
