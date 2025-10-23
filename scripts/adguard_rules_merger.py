@@ -253,10 +253,7 @@ def remove_conflicting_rules(blacklist_rules, whitelist_rules):
             if check_domain:
                 processed_domains.add(check_domain)
     
-    # 过滤白名单规则，只保留那些在黑名单中也存在的域名
-    # 预先计算过滤后的黑名单域名集合，提高效率
-    filtered_blacklist_domains = extract_domains_from_rules(filtered_blacklist, is_whitelist=False)
-    
+    # 过滤白名单规则，移除与黑名单冲突的规则
     filtered_whitelist = []
     for rule in whitelist_rules:
         check_domain = None
@@ -266,8 +263,8 @@ def remove_conflicting_rules(blacklist_rules, whitelist_rules):
         elif rule.startswith("@@"):
             check_domain = rule[2:].rstrip('^')
         
-        # 只有当白名单域名在最终的黑名单中存在时才保留
-        if check_domain and check_domain in filtered_blacklist_domains:
+        # 只有当白名单域名不在冲突域名中时才保留
+        if check_domain and check_domain not in conflicting_domains:
             filtered_whitelist.append(rule)
     
     print(f"过滤后白名单规则数量: {len(filtered_whitelist)}")
