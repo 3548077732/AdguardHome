@@ -43,6 +43,7 @@ def get_beijing_time():
 
 # 文件路径配置
 COMBINED_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Black.txt")
+WHITE_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "White.txt")
 
 # 黑名单源
 BLACKLIST_SOURCES = {
@@ -58,7 +59,8 @@ BLACKLIST_SOURCES = {
     "那个谁520          ": "https://raw.githubusercontent.com/qq5460168/666/master/rules.txt",
     "1hosts            ": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt",
     "茯苓的广告规则       ": "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt",
-    "立场不定的          ": "https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Uncertain%20position.txt"
+    "立场不定的          ": "https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Uncertain%20position.txt",
+    "酷安 番茄 七猫      ": "https://d.kstore.dev/download/10497/xiaoshuo.txt"
 }
 
 # 白名单源
@@ -271,7 +273,7 @@ def remove_conflicting_rules(blacklist_rules, whitelist_rules):
     
     return filtered_blacklist, filtered_whitelist
 
-def main():
+def main(generate_white_file=True):
     print("开始处理AdGuardHome规则...")
     
     # 获取当前北京时间，只获取一次，所有文件使用相同的时间戳
@@ -352,7 +354,30 @@ def main():
         for line in formatted_whitelist_content_lines:
             f.write(f"{line}\n")
     
-    print("AdGuardHome规则处理完成！")
+    # 如果需要生成单独的White.txt文件
+    if generate_white_file:
+        # 单独生成White.txt文件
+        with open(WHITE_FILE, "w", encoding="utf-8-sig") as f:
+            # 写入白名单文件头部信息
+            f.write(f"# 更新时间: {current_time}\n")
+            f.write(f"# 白名单规则数：{len(formatted_whitelist_content_lines)}\n")
+            f.write(f"# 作者名称: Menghuibanxian\n")
+            f.write(f"# 作者主页: https://github.com/Menghuibanxian/AdguardHome\n")
+            f.write("\n")
+            
+            # 写入格式化后的白名单内容
+            for line in formatted_whitelist_content_lines:
+                f.write(f"{line}\n")
+        
+        print("AdGuardHome规则处理完成！Black.txt和White.txt文件已生成。")
+    else:
+        # 如果不需要生成White.txt文件，删除已存在的文件
+        if os.path.exists(WHITE_FILE):
+            os.remove(WHITE_FILE)
+        print("AdGuardHome规则处理完成！Black.txt文件已生成。")
 
 if __name__ == "__main__":
-    main()
+    import sys
+    # 检查命令行参数，如果没有"--no-white-file"参数，则生成White.txt文件
+    generate_white_file = "--no-white-file" not in sys.argv
+    main(generate_white_file)
