@@ -21,6 +21,5 @@ https://github.com/Menghuibanxian/AdguardHome_all
 │       └── auto-commit.yml        # GitHub Actions工作流配置
 ├── scripts/
 │   └── adguard_rules_merger.py    # 规则更新脚本(规则放置的位置)
-├── Uncertain position.txt         # 临时黑白名单（没用）
-└── Black.txt                      # 去重后的规则
+└── Black.txt                      # 去重后合并的规则
 ```
