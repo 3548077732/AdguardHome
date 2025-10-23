@@ -73,16 +73,16 @@ WHITELIST_SOURCES = {
 }
 
 def remove_comments_and_blank_lines(rules):
-    """移除规则中的注释和空行"""
+    """移除规则中的注释和空行（保留正则中的 ! 和 #）"""
     result = []
-    for line in rules:
-        # 去掉行首和行尾的空白字符
-        line = line.strip()
-        # 跳过空行和注释行
+    for raw in rules:
+        line = raw.strip()
+        # 跳过空行和以 ! 或 # 开头的整行注释
         if not line or line.startswith("!") or line.startswith("#"):
             continue
-        # 去掉行内的注释
-        line = re.sub(r"[!#].*$", "", line).strip()
+        # 仅移除以空白跟随的内联注释片段，例如："rule  # comment" 或 "rule  ! comment"
+        # 避免误删正则中的 "?!"、"#[...]" 等模式
+        line = re.sub(r"\s[!#].*$", "", line).strip()
         if line:
             result.append(line)
     return result
@@ -326,16 +326,15 @@ def main(generate_white_file=True):
         line = line.strip()
         # 跳过空行
         if not line:
-            formatted_whitelist_content_lines.append(line)
-        else:
-            # 格式化白名单规则
-            formatted_rule = format_whitelist_rule(line)
-            formatted_whitelist_content_lines.append(formatted_rule)
-    
-    # 计算总规则数
-    total_count = len(final_blacklist) + len(deduplicated_whitelist)
-    blacklist_count = len(final_blacklist)
-    whitelist_count = len(deduplicated_whitelist)
+            continue
+        # 格式化白名单规则
+        formatted_rule = format_whitelist_rule(line)
+        formatted_whitelist_content_lines.append(formatted_rule)
+
+    # 根据最终将写入的有效规则行数进行统计，确保与文件一致
+    blacklist_count = sum(1 for l in blacklist_content_lines if str(l).strip())
+    whitelist_count = sum(1 for l in formatted_whitelist_content_lines if str(l).strip())
+    total_count = blacklist_count + whitelist_count
     
     # 合并黑名单和格式化后的白名单到 Black.txt
     with open(COMBINED_FILE, "w", encoding="utf-8-sig") as f:
@@ -348,26 +347,29 @@ def main(generate_white_file=True):
         
         # 写入黑名单内容
         for line in blacklist_content_lines:
-            f.write(f"{line}\n")
+            if str(line).strip():
+                f.write(f"{line}\n")
         
         # 写入格式化后的白名单内容
         for line in formatted_whitelist_content_lines:
-            f.write(f"{line}\n")
+            if str(line).strip():
+                f.write(f"{line}\n")
     
     # 如果需要生成单独的White.txt文件
     if generate_white_file:
         # 单独生成White.txt文件
         with open(WHITE_FILE, "w", encoding="utf-8-sig") as f:
-            # 写入白名单文件头部信息
+            # 写入白名单文件头部信息（使用实际写入的有效行数）
             f.write(f"# 更新时间: {current_time}\n")
-            f.write(f"# 白名单规则数：{len(formatted_whitelist_content_lines)}\n")
+            f.write(f"# 白名单规则数：{whitelist_count}\n")
             f.write(f"# 作者名称: Menghuibanxian\n")
             f.write(f"# 作者主页: https://github.com/Menghuibanxian/AdguardHome\n")
             f.write("\n")
             
             # 写入格式化后的白名单内容
             for line in formatted_whitelist_content_lines:
-                f.write(f"{line}\n")
+                if str(line).strip():
+                    f.write(f"{line}\n")
         
         print("AdGuardHome规则处理完成！Black.txt和White.txt文件已生成。")
     else:
