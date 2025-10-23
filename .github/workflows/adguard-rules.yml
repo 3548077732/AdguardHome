@@ -18,12 +18,16 @@ permissions:
 jobs:
   merge-adguard-rules:
     runs-on: ubuntu-latest
+    concurrency:
+      group: adguard-rules-update
+      cancel-in-progress: true
     # 添加超时设置
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - name: 检出代码库
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
+          ref: main  # 固定到main分支，避免detached HEAD
           fetch-depth: 0  # 确保获取所有历史记录
           persist-credentials: true  # 使用持久化凭据
       
@@ -51,7 +55,7 @@ jobs:
       
       - name: 运行AdGuard规则合并脚本
         run: |
-          python scripts/adguard_rules_merger.py
+          python scripts/adguard_rules_merger.py --no-white-file
       
       - name: 配置Git环境
         run: |
@@ -68,7 +72,12 @@ jobs:
         run: |
           # 设置分支变量，提取github.ref中的分支名
           BRANCH_NAME=${GITHUB_REF#refs/heads/}
+          # 兼容触发器为空的情况，默认使用main
+          if [ -z "$BRANCH_NAME" ]; then BRANCH_NAME="main"; fi
           echo "推送至分支: $BRANCH_NAME"
+
+          # 确保当前HEAD附着到分支，避免detached HEAD
+          git checkout -B "$BRANCH_NAME"
           
           # 检查是否有变更
           if ! git diff --staged --quiet; then
@@ -78,14 +87,14 @@ jobs:
             # 添加推送重试机制，处理non-fast-forward错误
             for i in {1..3}; do
               echo "Attempt $i to push changes"
-              if git push; then
+              if git push origin "$BRANCH_NAME"; then
                 echo "Changes committed and pushed successfully"
                 break
               else
                 echo "Push attempt $i failed, trying to pull first"
-                if git pull --rebase; then
+                if git pull --rebase origin "$BRANCH_NAME"; then
                   echo "Pull successful, retrying push"
-                  if git push; then
+                  if git push origin "$BRANCH_NAME"; then
                     echo "Changes committed and pushed successfully after pull"
                     break
                   fi
