@@ -47,29 +47,40 @@ WHITE_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file
 
 # 黑名单源
 BLACKLIST_SOURCES = {
-    "AdGuard DNS filter": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt",
-    "秋风的规则          ": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
-    "GitHub加速         ": "https://raw.githubusercontent.com/521xueweihan/GitHub520/refs/heads/main/hosts",
-    "广告规则            ": "https://raw.githubusercontent.com/huantian233/HT-AD/main/AD.txt",
-    "DD自用             ": "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt",
-    "消失DD             ": "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/dns.txt",
-    "大萌主             ": "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
-    "逆向涉猎            ": "https://raw.githubusercontent.com/790953214/qy-Ads-Rule/main/black.txt",
-    "下个ID见           ": "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts",
-    "那个谁520          ": "https://raw.githubusercontent.com/qq5460168/666/master/rules.txt",
-    "1hosts            ": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt",
-    "茯苓的广告规则       ": "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt",
-    "立场不定的          ": "https://raw.githubusercontent.com/Menghuibanxian/Minecraft/refs/heads/main/adguard%20home",
-    "酷安 番茄 七猫      ": "https://d.kstore.dev/download/10497/xiaoshuo.txt"
+    "AdGuard DNS filter     ": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt",
+    "秋风的规则              ": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+    "GitHub加速             ": "https://raw.githubusercontent.com/521xueweihan/GitHub520/refs/heads/main/hosts",
+    "广告规则                ": "https://raw.githubusercontent.com/huantian233/HT-AD/main/AD.txt",
+    "DD自用                 ": "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt",
+    "消失DD                 ": "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/dns.txt",
+    "大萌主           　     ": "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
+    "逆向涉猎       　       ": "https://raw.githubusercontent.com/790953214/qy-Ads-Rule/main/black.txt",
+    "下个ID见               ": "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts",
+    "那个谁520              ": "https://raw.githubusercontent.com/qq5460168/666/master/rules.txt",
+    "1hosts                ": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt",
+    "茯苓的广告规则    　     ": "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt",
+    "立场不定的              ": "https://raw.githubusercontent.com/Menghuibanxian/Minecraft/refs/heads/main/adguard%20home",
+    "anti-ad混合名单   　    ": "https://anti-ad.net/easylist.txt",
+    "酷安 番茄 七猫　         ": "https://d.kstore.dev/download/10497/xiaoshuo.txt"
 }
 
+#　#
+# #
 # 白名单源
 WHITELIST_SOURCES = {
-    "茯苓允许列表  ": "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt",
-    "666         ": "https://raw.githubusercontent.com/qq5460168/666/master/allow.txt",
-    "个人自用白名单": "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt",
-    "冷漠白名单   ": "https://file-git.trli.club/file-hosts/allow/Domains",
-    "BlueSkyXN   ": "https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt"
+    "茯苓允许列表              ": "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt",
+    "qq5460168               ": "https://raw.githubusercontent.com/qq5460168/666/master/allow.txt",
+    "个人自用白名单         　  ": "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt",
+    "冷漠白名单         　     ": "https://file-git.trli.club/file-hosts/allow/Domains",
+    "BlueSkyXN          　   ": "https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt",
+    "那个谁520广告白名单 　     ": "https://raw.githubusercontent.com/qq5460168/EasyAds/main/allow.txt",
+    "AdGuardHome通用白名单 　  ": "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt",
+    "jhsvip白名单             ": "https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt",
+    "liwenjie119白名单        ": "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt",
+    "喵二白名单           　   ": "https://raw.githubusercontent.com/miaoermua/AdguardFilter/main/whitelist.txt",
+    "Cats-Team白名单        　": "https://raw.githubusercontent.com/Cats-Team/AdRules/script/script/allowlist.txt",
+    "浅笑白名单                ": "https://raw.githubusercontent.com/user001235/112/main/white.txt",
+    "酷安cocieto白名单         ": "https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt"
 }
 
 def remove_comments_and_blank_lines(rules):
@@ -88,7 +99,7 @@ def remove_comments_and_blank_lines(rules):
     return result
 
 def extract_whitelist_from_blacklist(blacklist_rules):
-    """从黑名单规则中提取白名单规则"""
+    """从黑名单规则中提取规则"""
     # 假设白名单规则在黑名单中以特定格式存在，例如以@@开头（AdGuard格式）
     whitelist_rules = [rule for rule in blacklist_rules if rule.startswith("@@")]
     # 过滤后的黑名单规则（移除白名单规则）
@@ -106,25 +117,77 @@ def deduplicate_rules(rules):
             result.append(rule)
     return result
 
+def parse_rule_components(rule: str):
+    s = rule.strip()
+    comps = {
+        "is_comment": s.startswith("#") or s.startswith("!"),
+        "is_regex": s.startswith("/") and s.endswith("/"),
+        "is_whitelist": s.startswith("@@"),
+        "is_hosts": False,
+        "is_basic_adguard": False,
+        "domain": None,
+        "has_modifiers": False,
+        "modifiers": []
+    }
+    if not s or comps["is_comment"]:
+        return comps
+    # hosts 格式
+    m = re.match(r'^(?:0\.0\.0\.0|127\.0\.0\.1|::1?)\s+([^\s#]+)', s)
+    if m:
+        comps["is_hosts"] = True
+        comps["domain"] = m.group(1).strip()
+        return comps
+    # 是否包含修饰符
+    if "$" in s:
+        comps["has_modifiers"] = True
+        mods = s[s.find("$")+1:]
+        comps["modifiers"] = [x.strip() for x in mods.split(",") if x.strip()]
+    # AdGuard 基本语法 ||domain^ 或 @@||domain^
+    if s.startswith("@@||"):
+        rest = s[4:]
+        dm = re.match(r'^([^\^\$\s]+)', rest)
+        if dm:
+            comps["is_basic_adguard"] = True
+            comps["domain"] = dm.group(1)
+            return comps
+    if s.startswith("||"):
+        rest = s[2:]
+        dm = re.match(r'^([^\^\$\s]+)', rest)
+        if dm:
+            comps["is_basic_adguard"] = True
+            comps["domain"] = dm.group(1)
+            return comps
+    # 纯域名行（Domains-only syntax）
+    if ' ' not in s and not s.startswith('|'):
+        rest = s[2:] if s.startswith("@@") else s
+        dm = re.match(r'^([^\^\$\s]+)', rest)
+        if dm:
+            dom = dm.group(1)
+            if re.match(r'^[A-Za-z0-9.-]+\.[A-Za-z0-9.-]+$', dom) and "*" not in dom:
+                comps["domain"] = dom
+    return comps
+
 def format_whitelist_rule(rule):
-    """确保白名单规则遵循 AdGuardHome 格式 (@@||开头，^结尾)"""
-    # 如果规则已经以 @@|| 开头，则只确保以 ^ 结尾
-    if rule.startswith("@@||"):
-        if not rule.endswith("^"):
-            rule = rule + "^"
-    # 如果规则不以 @@|| 开头，则添加 @@|| 前缀和 ^ 后缀
-    else:
-        # 移除可能存在的 || 前缀
-        if rule.startswith("||"):
-            rule = rule[2:]
-        # 移除可能存在的 ^ 后缀
-        if rule.endswith("^"):
-            rule = rule[:-1]
-        # 添加 @@|| 前缀和 ^ 后缀
-        rule = "@@||" + rule + "^"
-    return rule
+    """白名单规则尽量保留原始格式；仅在缺少 @@ 时最小补全"""
+    s = rule.strip()
+    if not s:
+        return s
 
+    # 已是白名单规则，原样返回（支持 @@||、@@|、@@/regex/ 等）
+    if s.startswith("@@"):
+        return s
 
+    # 阻止规则或锚点形式（|| 或 |）但没有 @@：仅前置 @@，其余保持不变
+    if s.startswith("||") or s.startswith("|"):
+        return "@@" + s
+
+    # 纯域名（无前后缀与修饰符）：最小补全为 @@||domain^
+    dm = re.match(r"^([A-Za-z0-9.-]+\.[A-Za-z0-9.-]+)$", s)
+    if dm:
+        return "@@||" + dm.group(1) + "^"
+
+    # 其他情况保持原样
+    return s
 
 def download_blacklist_sources():
     """下载所有黑名单源的规则"""
@@ -183,94 +246,38 @@ def download_whitelist_sources():
     return all_whitelist_rules
 
 def extract_domains_from_rules(rules, is_whitelist=False):
-    """从规则中提取域名"""
+    """从规则中提取域名（黑名单仅统计无修饰的纯域名规则）"""
     domains = set()
     for rule in rules:
-        domain = None
-        # 处理白名单规则
-        if is_whitelist:
-            # 处理 AdGuard 格式 (@@||domain^)
-            if rule.startswith("@@||"):
-                domain = rule[4:].rstrip('^')
-            # 处理其他可能的白名单格式 (@@domain^)
-            elif rule.startswith("@@"):
-                domain = rule[2:].rstrip('^')
-        # 处理黑名单规则
-        else:
-            # 处理 AdGuard 格式 (||domain^)
-            if rule.startswith("||"):
-                domain = rule[2:].rstrip('^')
-            # 处理 hosts 格式 (0.0.0.0 domain)
-            elif rule.startswith("0.0.0.0 "):
-                domain = rule[8:]
-            # 处理其他格式
-            elif not rule.startswith("#") and not rule.startswith("!") and " " not in rule:
-                domain = rule.rstrip('^')
-        
-        if domain:
-            domains.add(domain)
+        c = parse_rule_components(rule)
+        if c["domain"] and "*" not in c["domain"]:
+            if not is_whitelist and (c["has_modifiers"] or c["is_regex"]):
+                continue
+            domains.add(c["domain"])
     return domains
 
 def remove_conflicting_rules(blacklist_rules, whitelist_rules):
-    """移除冲突和重复的规则"""
-    # 提取黑名单和白名单中的域名
+    """移除重复并报告潜在冲突（不删除高级规则，避免误伤）"""
     blacklist_domains = extract_domains_from_rules(blacklist_rules, is_whitelist=False)
     whitelist_domains = extract_domains_from_rules(whitelist_rules, is_whitelist=True)
-    
-    # 找出同时存在于黑名单和白名单中的域名（冲突域名）
     conflicting_domains = blacklist_domains.intersection(whitelist_domains)
-    print(f"发现 {len(conflicting_domains)} 个冲突域名")
-    
-    # 过滤黑名单规则，移除与白名单冲突的规则
+    print(f"发现 {len(conflicting_domains)} 个潜在冲突域名（保留两侧规则，避免误删）")
+
+    # 黑名单：仅对无修饰的纯域名按域名去重；保留带修饰/正则/通配的高级规则
     filtered_blacklist = []
-    # 用于存储已处理的域名，避免重复
     processed_domains = set()
-    
     for rule in blacklist_rules:
-        should_include = True
-        # 提取黑名单中的域名用于比较
-        check_domain = None
-        
-        # 处理 AdGuard 格式 (||domain^)
-        if rule.startswith("||"):
-            check_domain = rule[2:].rstrip('^')
-        # 处理 hosts 格式 (0.0.0.0 domain)
-        elif rule.startswith("0.0.0.0 "):
-            check_domain = rule[8:]
-        # 处理其他格式
-        elif not rule.startswith("#") and not rule.startswith("!") and " " not in rule:
-            check_domain = rule.rstrip('^')
-        
-        # 如果黑名单域名与白名单冲突，则排除该规则
-        if check_domain and check_domain in conflicting_domains:
-            should_include = False
-        
-        # 如果域名已经处理过，则排除该规则（避免重复）
-        if check_domain and check_domain in processed_domains:
-            should_include = False
-            
-        if should_include:
-            filtered_blacklist.append(rule)
-            # 将处理过的域名添加到集合中
-            if check_domain:
-                processed_domains.add(check_domain)
-    
-    # 过滤白名单规则，移除与黑名单冲突的规则
-    filtered_whitelist = []
-    for rule in whitelist_rules:
-        check_domain = None
-        # 提取白名单中的域名用于比较
-        if rule.startswith("@@||"):
-            check_domain = rule[4:].rstrip('^')
-        elif rule.startswith("@@"):
-            check_domain = rule[2:].rstrip('^')
-        
-        # 只有当白名单域名不在冲突域名中时才保留
-        if check_domain and check_domain not in conflicting_domains:
-            filtered_whitelist.append(rule)
-    
+        c = parse_rule_components(rule)
+        if c["domain"] and not c["has_modifiers"] and not c["is_regex"] and "*" not in c["domain"]:
+            if c["domain"] in processed_domains:
+                continue
+            processed_domains.add(c["domain"])
+        filtered_blacklist.append(rule)
+
+    # 白名单保持原样（已在上游做文本去重）
+    filtered_whitelist = whitelist_rules[:]
     print(f"过滤后白名单规则数量: {len(filtered_whitelist)}")
-    
+
     return filtered_blacklist, filtered_whitelist
 
 def main(generate_white_file=True):
@@ -341,7 +348,7 @@ def main(generate_white_file=True):
         # 写入新的文件头部信息
         f.write(f"# 更新时间: {current_time}\n")
         f.write(f"# 总规则数：{total_count} (黑名单: {blacklist_count}, 白名单: {whitelist_count})\n")
-        f.write(f"# 作者名称: Menghuibanxian\n")
+        f.write(f"# 作者名称: Menghuibanxian  酷安名: 梦半仙\n")
         f.write(f"# 作者主页: https://github.com/Menghuibanxian/AdguardHome\n")
         f.write("\n")
         
@@ -362,7 +369,7 @@ def main(generate_white_file=True):
             # 写入白名单文件头部信息（使用实际写入的有效行数）
             f.write(f"# 更新时间: {current_time}\n")
             f.write(f"# 白名单规则数：{whitelist_count}\n")
-            f.write(f"# 作者名称: Menghuibanxian\n")
+            f.write(f"# 作者名称: Menghuibanxian  酷安名: 梦半仙\n")
             f.write(f"# 作者主页: https://github.com/Menghuibanxian/AdguardHome\n")
             f.write("\n")
             
