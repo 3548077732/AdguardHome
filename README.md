@@ -2,7 +2,7 @@
 我很懒如果你愿意帮我那我乐此不疲
 
 规则集:
-https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Black.txt
+https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Black.txt(推荐仅用规则内的白名单)
 
 
 
