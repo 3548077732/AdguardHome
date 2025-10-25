@@ -79,10 +79,10 @@ WHITELIST_SOURCES = {
     "liwenjie119白名单        ": "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt",
     "喵二白名单           　   ": "https://raw.githubusercontent.com/miaoermua/AdguardFilter/main/whitelist.txt",
     "Cats-Team白名单        　": "https://raw.githubusercontent.com/Cats-Team/AdRules/script/script/allowlist.txt",
-    "浅笑白名单                ": "https://raw.githubusercontent.com/user001235/112/main/white.txt",
-    "酷安cocieto白名单         ": "https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt"
+    "浅笑白名单                ": "https://raw.githubusercontent.com/user001235/112/main/white.txt"
 }
 
+#,    "酷安cocieto白名单         ": "https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt"
 def remove_comments_and_blank_lines(rules):
     """移除规则中的注释和空行（保留正则中的 ! 和 #）"""
     result = []
