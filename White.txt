@@ -1,4 +1,4 @@
-﻿# 更新时间: 2025-10-25 15:55:52
+﻿# 更新时间: 2025-10-25 16:22:47
 # 白名单规则数：6746
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
@@ -468,24 +468,24 @@
 @@||ncomment.kuwo.cn^
 @@||vip1.kuwo.cn^
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
-@@||ssl.o.auspost.com.au
 @@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
+@@||ssl.o.auspost.com.au
 @@||tracker.namitiyu.com^
-@@||wwwimage-tve.cbsstatic.com^
-@@||webtrack.dhlglobalmail.com^
-@@||redirect.appmetrica.yandex.com^
-@@||vodafonelimited.tt.omtrdc.net^
-@@||content.ingbank.pl^
-@@||cbsi.map.fastly.net^
 @@||smartpixel.tv
 @@||equifaxps.122.2o7.net^
-@@||redirect.appmetrica.yandex.net^
-@@||kiplinger.112.2o7.net^
+@@||webtrack.dhlglobalmail.com^
 @@||stats.britishbaseball.org.uk^
+@@||cbsi.map.fastly.net^
+@@||wwwimage-tve.cbsstatic.com^
+@@||content.ingbank.pl^
 @@||optout.rlcdn.com^
+@@||vodafonelimited.tt.omtrdc.net^
+@@||redirect.appmetrica.yandex.com^
+@@||redirect.appmetrica.yandex.net^
+@@||logging.apache.org^
+@@||kiplinger.112.2o7.net^
 @@||track2.royalmail.com^
 @@||metrics.torproject.org^
-@@||logging.apache.org^
 @@||x2.ifengimg.com^
 @@||lobechat.com/_next/static/chunks/
 @@googlesyndication.com$domain=bilinovel.com
