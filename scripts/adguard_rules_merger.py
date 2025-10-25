@@ -61,11 +61,10 @@ BLACKLIST_SOURCES = {
     "茯苓的广告规则    　     ": "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt",
     "立场不定的              ": "https://raw.githubusercontent.com/Menghuibanxian/Minecraft/refs/heads/main/adguard%20home",
     "anti-ad混合名单   　    ": "https://anti-ad.net/easylist.txt",
-    "那个谁520   　　　　     ": "https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt",
-    "酷安 番茄 七猫　         ": "https://d.kstore.dev/download/10497/xiaoshuo.txt"
+    "那个谁520   　　　　     ": "https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt"
 }
 
-#　#
+#　#    "酷安 番茄 七猫　         ": "https://d.kstore.dev/download/10497/xiaoshuo.txt"
 # #
 # 白名单源
 WHITELIST_SOURCES = {
