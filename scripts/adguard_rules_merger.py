@@ -66,7 +66,7 @@ BLACKLIST_SOURCES = {
 }
 
 #　#
-# #
+# ##
 # 白名单源
 WHITELIST_SOURCES = {
     "茯苓允许列表              ": "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt",
