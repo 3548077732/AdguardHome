@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-10-26 16:08:13
-# 白名单规则数：5422
+﻿# 更新时间: 2025-10-26 16:33:18
+# 白名单规则数：5404
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -468,24 +468,24 @@
 @@||ncomment.kuwo.cn^
 @@||vip1.kuwo.cn^
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
-@@||tracker.namitiyu.com^
-@@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
 @@||ssl.o.auspost.com.au
+@@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
 @@||smartpixel.tv
 @@||equifaxps.122.2o7.net^
-@@||webtrack.dhlglobalmail.com^
-@@||wwwimage-tve.cbsstatic.com^
 @@||content.ingbank.pl^
-@@||stats.britishbaseball.org.uk^
-@@||cbsi.map.fastly.net^
-@@||optout.rlcdn.com^
-@@||vodafonelimited.tt.omtrdc.net^
-@@||redirect.appmetrica.yandex.com^
+@@||tracker.namitiyu.com^
 @@||redirect.appmetrica.yandex.net^
 @@||logging.apache.org^
+@@||vodafonelimited.tt.omtrdc.net^
+@@||webtrack.dhlglobalmail.com^
+@@||optout.rlcdn.com^
+@@||wwwimage-tve.cbsstatic.com^
+@@||stats.britishbaseball.org.uk^
 @@||kiplinger.112.2o7.net^
-@@||track2.royalmail.com^
+@@||redirect.appmetrica.yandex.com^
 @@||metrics.torproject.org^
+@@||cbsi.map.fastly.net^
+@@||track2.royalmail.com^
 @@||x2.ifengimg.com^
 @@||lobechat.com/_next/static/chunks/
 @@googlesyndication.com$domain=bilinovel.com
@@ -2149,25 +2149,6 @@
 @@||icloud.com^
 @@||mzstatic.com^
 @@||web.qun.qq.com^$app=com.tencent.mobileqq
-@@||mmbiz.qpic.cn^$app=com.tencent.mm,important
-@@||wx.qlogo.cn^$app=com.tencent.mm,important
-@@||mmbiz.qlogo.cn^$app=com.tencent.mm,important
-@@||mmbizfiles.tencent-cloud.com^$app=com.tencent.mm
-@@||szextshort.weixin.qq.com^$app=com.tencent.mm
-@@||mmbizurl.cn^$app=com.tencent.mm
-@@||res.wx.qq.com^$app=com.tencent.mm
-@@||mmbizimg.qq.com^$app=com.tencent.mm
-@@||file.wx.qq.com^$app=com.tencent.mm
-@@||video.weixin.qq.com/mp4preview^$app=com.tencent.mm
-@@||mmbiz.qpic.cn/.*\.(jpg|jpeg|png|gif|webp)$app=com.tencent.mm
-@@||mmbiz.qpic.cn/ad/^$app=com.tencent.mm
-@@||mp.weixin.qq.com/mp/getappmsgext^$app=com.tencent.mm
-@@||mp.weixin.qq.com/s^$app=com.tencent.mm
-@@||mp.weixin.qq.com/mp/profile_ext^$app=com.tencent.mm
-@@||mp.weixin.qq.com/mp/getcomment^$app=com.tencent.mm
-@@||mp.weixin.qq.com/mp/like^$app=com.tencent.mm
-@@||wx.qq.com^$app=com.tencent.mm
-@@||qq.com^$app=com.tencent.mm,important
 @@||taobao.com^$important
 @@||tmall.com^$important
 @@||jd.com^important
@@ -4304,6 +4285,7 @@ xifuquan.com^
 zazhipu.com^
 fp.tongdun.net^
 fraudmetrix.cn^
+@@||quark.cn^$important
 @@||*.battlenet.com.cn^$important
 @@||*.ele.me^
 @@||*-ttcdn-tos.pstatp.com^
