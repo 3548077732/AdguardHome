@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-10-26 19:48:33
-# 白名单规则数：5404
+﻿# 更新时间: 2025-10-26 19:59:16
+# 白名单规则数：5386
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -2148,7 +2148,7 @@
 @@||support.apple.com^
 @@||icloud.com^
 @@||mzstatic.com^
-@@||web.qun.qq.com^$app=com.tencent.mobileqq
+@@||web.qun.qq.com^
 @@||taobao.com^$important
 @@||tmall.com^$important
 @@||jd.com^important
@@ -2158,24 +2158,6 @@
 @@||image.coolapk.com^$important
 @@||avatar.coolapk.com^$important
 @@||b23.tv^
-@@||mp.weixin.qq.com^
-@@||www.shidianguji.com^
-@@||api5-normal-sinfonlinec.fqnovel.com^
-@@||api5-normal-lf.fqnovel.com^
-@@||coolapk.com^
-@@||auni.telecome.cn^
-@@/.*weixin.*/
-@@||wxqcloud.qq.com.cn^
-@@||res.wx.qq.com^
-@@||qishui.com^
-@@||*luna.douyin*.*
-@@||developer.huawei.com^
-@@||appimg*dbankcdn.com^
-@@||ppui-static-wap.cdn.bcebos.com^
-@@||tieba.baidu.com^
-@@||baidupcs.com^
-@@/^down(pack|app)\.baidu\.com$/
-@@/^(tiebapic|tiebac)\.baidu\.com$/
 @@||ad.azure.com^
 @@||ad.ext.azure.com^
 @@||ads.taboola.com^
