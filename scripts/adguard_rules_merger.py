@@ -84,7 +84,7 @@ WHITELIST_SOURCES = {
     "浅笑白名单                  ": "https://raw.githubusercontent.com/user001235/112/main/white.txt"
 }
 
-#    "冷漠白名单         　     ": "https://file-git.trli.club/file-hosts/allow/Domains",
+#    "冷漠白名单         　     ": "https://file-git.trli.club/file-hosts/allow/Domains",            暂时别用qq.com被白名单了
 #
 
 def remove_comments_and_blank_lines(rules):
