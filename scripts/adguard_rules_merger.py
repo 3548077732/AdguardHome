@@ -72,7 +72,7 @@ WHITELIST_SOURCES = {
     "茯苓允许列表              ": "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt",
     "qq5460168                ": "https://raw.githubusercontent.com/qq5460168/666/master/allow.txt",
     "个人自用白名单            ": "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt",
-    "酷安cocieto白名单         ": "https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt"
+    "酷安cocieto白名单         ": "https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt",
     "BlueSkyXN          　     ": "https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt",
     "那个谁520广告白名单 　     ": "https://raw.githubusercontent.com/qq5460168/EasyAds/main/allow.txt",
     "AdGuardHome通用白名单 　   ": "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt",
