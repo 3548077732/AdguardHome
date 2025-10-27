@@ -1,4 +1,4 @@
-﻿# 更新时间: 2025-10-27 23:50:51
+﻿# 更新时间: 2025-10-28 00:26:09
 # 白名单规则数：5381
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
@@ -470,7 +470,6 @@
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
 @@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
 @@||ssl.o.auspost.com.au
-@@||tracker.namitiyu.com^
 @@||smartpixel.tv
 @@||redirect.appmetrica.yandex.com^
 @@||optout.rlcdn.com^
@@ -481,6 +480,7 @@
 @@||track2.royalmail.com^
 @@||equifaxps.122.2o7.net^
 @@||content.ingbank.pl^
+@@||tracker.namitiyu.com^
 @@||webtrack.dhlglobalmail.com^
 @@||vodafonelimited.tt.omtrdc.net^
 @@||cbsi.map.fastly.net^
