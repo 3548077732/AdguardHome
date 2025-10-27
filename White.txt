@@ -1,4 +1,4 @@
-﻿# 更新时间: 2025-10-27 16:00:47
+﻿# 更新时间: 2025-10-27 16:37:34
 # 白名单规则数：5383
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
@@ -468,24 +468,24 @@
 @@||ncomment.kuwo.cn^
 @@||vip1.kuwo.cn^
 @@||adash-emas.cn-hangzhou.aliyuncs.com^
-@@||ssl.o.auspost.com.au
 @@||o.auspost.com.au.ssl.d2.sc.omtrdc.net
+@@||ssl.o.auspost.com.au
 @@||tracker.namitiyu.com^
 @@||smartpixel.tv
+@@||redirect.appmetrica.yandex.com^
+@@||optout.rlcdn.com^
+@@||kiplinger.112.2o7.net^
+@@||wwwimage-tve.cbsstatic.com^
+@@||metrics.torproject.org^
+@@||logging.apache.org^
+@@||track2.royalmail.com^
 @@||equifaxps.122.2o7.net^
 @@||content.ingbank.pl^
-@@||redirect.appmetrica.yandex.net^
-@@||logging.apache.org^
-@@||vodafonelimited.tt.omtrdc.net^
 @@||webtrack.dhlglobalmail.com^
-@@||optout.rlcdn.com^
-@@||wwwimage-tve.cbsstatic.com^
-@@||stats.britishbaseball.org.uk^
-@@||kiplinger.112.2o7.net^
-@@||redirect.appmetrica.yandex.com^
-@@||metrics.torproject.org^
+@@||vodafonelimited.tt.omtrdc.net^
 @@||cbsi.map.fastly.net^
-@@||track2.royalmail.com^
+@@||stats.britishbaseball.org.uk^
+@@||redirect.appmetrica.yandex.net^
 @@||x2.ifengimg.com^
 @@||lobechat.com/_next/static/chunks/
 @@googlesyndication.com$domain=bilinovel.com
