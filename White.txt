@@ -1,4 +1,4 @@
-﻿# 更新时间: 2025-10-27 07:56:18
+﻿# 更新时间: 2025-10-27 09:46:51
 # 白名单规则数：5383
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
@@ -482,9 +482,9 @@
 @@||wwwimage-tve.cbsstatic.com^
 @@||stats.britishbaseball.org.uk^
 @@||kiplinger.112.2o7.net^
-@@||cbsi.map.fastly.net^
 @@||redirect.appmetrica.yandex.com^
 @@||metrics.torproject.org^
+@@||cbsi.map.fastly.net^
 @@||track2.royalmail.com^
 @@||x2.ifengimg.com^
 @@||lobechat.com/_next/static/chunks/
