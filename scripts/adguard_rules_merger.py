@@ -302,15 +302,17 @@ def process_rules(rules):
     for line in original_rules:
         if (not line or                           # 空行
             "!" in line or "$" in line or         # 包含特殊字符
-            line.startswith(("/", ".", "-"))):    # 特定开头
+            "/" in line or "\\" in line or        # 包含路径分隔符（/或\）
+            line.startswith((".", "-"))):         # 特定开头
             continue
         usable_original.append(line)
     
     # 处理提取规则--------标准的---------跳过!，暂时不跳过$,生不逢时啊----------------------------------------------------------
     usable_extracted = []
     for line in extracted_rules:
-        # 跳过空行和包含!的行
-        if not line or "!" in line:
+        # 跳过空行、包含!的行、包含路径分隔符的行
+        if (not line or "!" in line or
+            "/" in line or "\\" in line):
             continue
         usable_extracted.append(line)
     
