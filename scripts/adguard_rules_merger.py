@@ -306,6 +306,9 @@ def process_rules(rules):
         # 跳过明显是路径的规则（包含/且不是正则）
         if "/" in line and not line.startswith("/") and not line.startswith("^"):
             continue
+        # 跳过以.或-开头的行
+        if line.startswith(".") or line.startswith("-"):
+            continue
         usable_original.append(line)
     
     # 处理提取规则--------标准的---------跳过!，暂时不跳过$,生不逢时啊
