@@ -52,7 +52,7 @@ BLACKLIST_SOURCES = {
     "GitHub加速              ": "https://raw.githubusercontent.com/521xueweihan/GitHub520/refs/heads/main/hosts",
     #"广告规则                ": "https://raw.githubusercontent.com/huantian233/HT-AD/main/AD.txt",
     #"DD自用                  ": "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt",
-    "消失DD                  ": "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/dns.txt",
+    "消失DD                  ": "https://raw.githubusercontent.com/afwfv/DD-AD/refs/heads/release/dns.txt",
     #"大萌主           　     ": "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
     "逆向涉猎       　       ": "https://raw.githubusercontent.com/790953214/qy-Ads-Rule/main/black.txt",
     "下个ID见                ": "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts",
