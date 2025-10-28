@@ -297,22 +297,21 @@ def process_rules(rules):
         else:
             original_rules.append(line)
     
-    # 处理原规则------去除特殊字符(!或$)的行-------去除定字符开头的行(/、.、-)--------------------------------------------------
+    # 处理原规则------去除特殊字符(!或$)的行-------去除定字符开头的行(/、.、-)
     usable_original = []
     for line in original_rules:
         if (not line or                           # 空行
             "!" in line or "$" in line or         # 包含特殊字符
-            "/" in line or "\\" in line or        # 包含路径分隔符（/或\）
+            "/" in line or                        # 包含/
             line.startswith((".", "-"))):         # 特定开头
             continue
         usable_original.append(line)
     
-    # 处理提取规则--------标准的---------跳过!，暂时不跳过$,生不逢时啊----------------------------------------------------------
+    # 处理提取规则-----------------跳过$!
     usable_extracted = []
     for line in extracted_rules:
-        # 跳过空行、包含!的行、包含路径分隔符的行
         if (not line or "!" in line or
-            "/" in line or "\\" in line):
+            "/" in line):                         # 包含/
             continue
         usable_extracted.append(line)
     
@@ -381,9 +380,19 @@ def main(generate_white_file=True):
         formatted_rule = format_whitelist_rule(line)
         formatted_whitelist_content_lines.append(formatted_rule)
 
+    # 先过滤白名单内容（去除空行、特殊字符和路径分隔符）
+    filtered_whitelist_lines = []
+    for line in formatted_whitelist_content_lines:
+        if str(line).strip() and not (
+            "!" in line or "$" in line or     # 包含特殊字符
+            "/" in line or                    # 包含/
+            line.startswith((".", "-"))       # 特定开头
+        ):
+            filtered_whitelist_lines.append(line)
+
     # 根据最终将写入的有效规则行数进行统计，确保与文件一致
     blacklist_count = sum(1 for l in processed_blacklist if str(l).strip())
-    whitelist_count = sum(1 for l in formatted_whitelist_content_lines if str(l).strip())
+    whitelist_count = len(filtered_whitelist_lines)  # 使用已过滤的白名单数量
     total_count = blacklist_count + whitelist_count
     
     # 合并黑名单和格式化后的白名单到 Black.txt
@@ -400,26 +409,24 @@ def main(generate_white_file=True):
             if str(line).strip():
                 f.write(f"{line}\n")
         
-        # 写入格式化后的白名单内容
-        for line in formatted_whitelist_content_lines:
-            if str(line).strip():
-                f.write(f"{line}\n")
+        # 写入过滤后的白名单内容到Black.txt
+        for line in filtered_whitelist_lines:
+            f.write(f"{line}\n")
 
     # 如果需要生成单独的White.txt文件
     if generate_white_file:
         # 单独生成White.txt文件
         with open(WHITE_FILE, "w", encoding="utf-8-sig") as f:
-            # 写入白名单文件头部信息（使用实际写入的有效行数）
+            # 写入白名单文件头部信息（使用过滤后的实际规则数量）
             f.write(f"# 更新时间: {current_time}\n")
-            f.write(f"# 白名单规则数：{whitelist_count}\n")
+            f.write(f"# 白名单规则数：{len(filtered_whitelist_lines)}\n")  # 使用过滤后的实际数量
             f.write(f"# 作者名称: Menghuibanxian  酷安名: 梦半仙\n")
             f.write(f"# 作者主页: https://github.com/Menghuibanxian/AdguardHome\n")
             f.write("\n")
             
-            # 写入格式化后的白名单内容
-            for line in formatted_whitelist_content_lines:
-                if str(line).strip():
-                    f.write(f"{line}\n")
+            # 写入过滤后的白名单内容到White.txt
+            for line in filtered_whitelist_lines:
+                f.write(f"{line}\n")
         
         print("AdGuardHome规则处理完成！Black.txt和White.txt文件已生成。")
     else:
