@@ -297,7 +297,7 @@ def process_rules(rules):
         else:
             original_rules.append(line)
     
-    # 处理原规则
+    # 处理原规则---------非标准的
     usable_original = []
     for line in original_rules:
         # 跳过空行、包含!或$的行
@@ -308,11 +308,11 @@ def process_rules(rules):
             continue
         usable_original.append(line)
     
-    # 处理提取规则
+    # 处理提取规则--------标准的---------跳过!，暂时不跳过$,生不逢时啊
     usable_extracted = []
     for line in extracted_rules:
-        # 跳过空行、包含!或$的行
-        if not line or "!" in line or "$" in line:
+        # 跳过空行和包含!的行
+        if not line or "!" in line:
             continue
         usable_extracted.append(line)
     
