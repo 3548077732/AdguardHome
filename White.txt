@@ -1,4 +1,4 @@
-﻿# 更新时间: 2025-11-02 19:55:41
+﻿# 更新时间: 2025-11-02 20:35:26
 # 白名单规则数：4570
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
@@ -2414,6 +2414,7 @@
 @@||game.html5.qq.com^
 @@||game.res.meizu.com^
 @@||game.weixin.qq.com^
+@@||games-community-gl.heytapmobile.com^$important
 @@||games.mobileapi.hupu.com^
 @@||gateway.kugou.com^
 @@||gc.apple.com^$important
@@ -2695,6 +2696,7 @@
 @@||micloud.xiaomi.net^
 @@||migrate.driveapi.micloud.xiaomi.net^
 @@||mime.baidu.com^
+@@||mini-game-gl.heytapmobile.com^$important
 @@||mini2015.qq.com^
 @@||minigame.zijieapi.com^
 @@||minigame5-normal-hl.zijieapi.com^
@@ -3033,6 +3035,7 @@
 @@||store-site-backend-static.ak.epicgames.com^$important
 @@||store.epicgames.com^$important
 @@||store.heytapimage.com^
+@@||store.is.autonavi.com^$important
 @@||store.meizu.com^
 @@||storedl1.nearme.com.cn^
 @@||studcat.infra.systems^
@@ -3187,6 +3190,7 @@
 @@||we.tl^
 @@||weather-data.apple.com*^
 @@||web.vip.miui.com^
+@@||webapi.amap.com^$important
 @@||webcast-open.douyin.com^
 @@||webzjcaptcha.reg.163.com^
 @@||weidian.com^
@@ -3301,11 +3305,7 @@
 @@||zkres.myzaker.com^
 @@||zm.sm-tc.cn^
 @@||ztgame.com^
-@@||mini-game-gl.heytapmobile.com^$important
-@@||games-community-gl.heytapmobile.com^$important
-@@||store.is.autonavi.com^$important
 @@||h35.ynodd.cn^$
-@@||webapi.amap.com^$important
 @@|wxpaylogo.qpic.cn^
 @@||haohuo.jinritemai.com^
 @@||analytics.google.com
