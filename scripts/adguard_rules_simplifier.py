@@ -12,11 +12,11 @@ class AdGuardRulesSimplifier:
         self.base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         # 域名文件位于 scripts/logs 下
         self.domain_file = os.path.join(self.base_dir, "scripts", "logs", "domain name.txt")
-        # 输出的 Black.txt 位于仓库根目录
-        self.output_file = os.path.join(self.base_dir, "Black.txt")
+        # 输出文件改为 pure black.txt，位于仓库根目录
+        self.output_file = os.path.join(self.base_dir, "pure black.txt")
         
-        # Black.txt 使用本地合并产物，避免远程依赖
-        self.black_url = self.output_file
+        # 输入规则从本地合并产物 Black.txt 读取，避免远程依赖
+        self.black_url = os.path.join(self.base_dir, "Black.txt")
         self.autumn_url = "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt"
         self.github_url = "https://raw.githubusercontent.com/521xueweihan/GitHub520/refs/heads/main/hosts"
         
