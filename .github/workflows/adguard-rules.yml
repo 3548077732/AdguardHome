@@ -56,6 +56,12 @@ jobs:
       - name: 运行AdGuard规则合并脚本
         run: |
           python scripts/adguard_rules_merger.py
+      - name: 运行域名聚合脚本
+        run: |
+          python scripts/aggregate_domains.py
+      - name: 运行规则简化脚本
+        run: |
+          python scripts/adguard_rules_simplifier.py
       
       - name: 配置Git环境
         run: |
@@ -66,7 +72,7 @@ jobs:
       - name: 添加规则文件
         run: |
           # 添加所有规则文件
-          git add Black.txt White.txt
+          git add Black.txt White.txt "scripts/logs/domain name.txt" "scripts/logs/log"
       
       - name: 提交更改并推送
         run: |
