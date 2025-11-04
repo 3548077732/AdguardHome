@@ -380,7 +380,7 @@ az1-live.ksapisrv.com 3785
 mtvod.meituan.net 3775
 cdndns.kwd.inkuai.com 3771
 apd-pcdnwxstat.teg.tencent-cloud.net 3768
-mcs.ctobsnssdk.com 3764
+mcs.ctobsnssdk.com 3766
 az1-upload-js.gifshow.com 3760
 apd-pcdnwxnat.teg.tencent-cloud.net 3748
 zy123a4b5abc.lbv1.com 3748
