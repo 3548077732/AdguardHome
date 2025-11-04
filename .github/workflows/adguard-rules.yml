@@ -71,8 +71,8 @@ jobs:
       
       - name: 添加规则文件
         run: |
-          # 添加所有规则文件
-          git add Black.txt White.txt "scripts/logs/domain name.txt" "scripts/logs/log"
+          # 全量添加，确保 staged 包含新增和删除（包括删除 querylog*.json、新增 pure black.txt）
+          git add -A
       
       - name: 提交更改并推送
         run: |
