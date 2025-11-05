@@ -237,7 +237,8 @@ class AdGuardRulesSimplifier:
         # 6. 保存最终规则
         print("\n6. 保存最终规则...")
         updated_time = override_time if override_time else self.read_updated_time_from_black()
-        self.save_rules(final_rules, black_count=len(final_black_rules), updated_time=updated_time)
+        # 黑名单规则数应为最终写入文件的规则总数
+        self.save_rules(final_rules, updated_time=updated_time)
         
         print("\n=== 处理完成 ===")
 
