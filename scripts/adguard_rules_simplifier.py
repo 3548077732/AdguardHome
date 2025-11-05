@@ -4,6 +4,7 @@
 import os
 import re
 import requests
+import datetime
 from urllib.parse import urlparse
 from typing import Set, List, Tuple
 
@@ -19,6 +20,24 @@ class AdGuardRulesSimplifier:
         self.black_url = os.path.join(self.base_dir, "Black.txt")
         self.autumn_url = "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt"
         self.github_url = "https://raw.githubusercontent.com/521xueweihan/GitHub520/refs/heads/main/hosts"
+    
+    def read_updated_time_from_black(self) -> str:
+        """从 Black.txt 头部读取更新时间，找不到则返回当前北京时间"""
+        try:
+            if os.path.exists(self.black_url):
+                with open(self.black_url, 'r', encoding='utf-8', errors='ignore') as f:
+                    for _ in range(10):  # 只检查前若干行
+                        line = f.readline()
+                        if not line:
+                            break
+                        s = line.strip()
+                        if s.startswith('# 更新时间:'):
+                            # 形如: # 更新时间: 2025-11-05 08:20:56
+                            return s.split(':', 1)[1].strip()
+        except Exception:
+            pass
+        # 回退：当前北京时间
+        return (datetime.datetime.utcnow() + datetime.timedelta(hours=8)).strftime("%Y-%m-%d %H:%M:%S")
         
     def download_rules(self, url: str) -> List[str]:
         """加载规则文件：支持本地文件路径或HTTP(S)链接"""
@@ -147,21 +166,24 @@ class AdGuardRulesSimplifier:
         """仅倒序规则列表（不影响文件头部注释）"""
         return list(reversed(rules))
     
-    def save_rules(self, rules: List[str], filename: str = None):
-        """保存规则到文件"""
+    def save_rules(self, rules: List[str], filename: str = None, black_count: int = None, updated_time: str = None):
+        """保存规则到文件，按指定格式写入头部"""
         if filename is None:
             filename = self.output_file
-        
+        if updated_time is None:
+            # 使用北京时间（UTC+8）
+            updated_time = (datetime.datetime.utcnow() + datetime.timedelta(hours=8)).strftime("%Y-%m-%d %H:%M:%S")
+        if black_count is None:
+            black_count = len(rules)
         try:
             with open(filename, 'w', encoding='utf-8') as f:
-                f.write("! AdGuard规则简化版\n")
-                f.write(f"! 总计规则数: {len(rules)}\n")
-                f.write("! 生成时间: " + str(__import__('datetime').datetime.now()) + "\n")
+                f.write(f"# 更新时间: {updated_time}\n")
+                f.write(f"# 黑名单规则数：{black_count}\n")
+                f.write(f"# 作者名称: Menghuibanxian  酷安名: 梦半仙\n")
+                f.write(f"# 作者主页: `https://github.com/Menghuibanxian/AdguardHome`\n")
                 f.write("\n")
-                
                 for rule in rules:
                     f.write(rule + "\n")
-            
             print(f"规则已保存到: {filename}")
             print(f"总计规则数: {len(rules)}")
         except Exception as e:
@@ -213,7 +235,8 @@ class AdGuardRulesSimplifier:
         
         # 6. 保存最终规则
         print("\n6. 保存最终规则...")
-        self.save_rules(final_rules)
+        updated_time = self.read_updated_time_from_black()
+        self.save_rules(final_rules, black_count=len(final_black_rules), updated_time=updated_time)
         
         print("\n=== 处理完成 ===")
 
