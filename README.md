@@ -8,10 +8,9 @@ https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Bla
 白名单:
 https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/White.txt
 
+精简黑名单:
 
 
-一个更激进的分支:
-https://github.com/Menghuibanxian/AdguardHome_all
 
 ## 项目结构
 
