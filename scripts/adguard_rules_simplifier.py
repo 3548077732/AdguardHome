@@ -30,10 +30,11 @@ class AdGuardRulesSimplifier:
                         line = f.readline()
                         if not line:
                             break
-                        s = line.strip()
-                        if s.startswith('# 更新时间:'):
-                            # 形如: # 更新时间: 2025-11-05 08:20:56
-                            return s.split(':', 1)[1].strip()
+                        s = line.strip().lstrip('\ufeff')
+                        # 支持中英文冒号
+                        m = re.match(r"^#\s*更新时间[:：]\s*(.+)$", s)
+                        if m:
+                            return m.group(1).strip()
         except Exception:
             pass
         # 回退：当前北京时间
@@ -176,7 +177,7 @@ class AdGuardRulesSimplifier:
         if black_count is None:
             black_count = len(rules)
         try:
-            with open(filename, 'w', encoding='utf-8') as f:
+            with open(filename, 'w', encoding='utf-8-sig') as f:
                 f.write(f"# 更新时间: {updated_time}\n")
                 f.write(f"# 黑名单规则数：{black_count}\n")
                 f.write(f"# 作者名称: Menghuibanxian  酷安名: 梦半仙\n")
@@ -189,7 +190,7 @@ class AdGuardRulesSimplifier:
         except Exception as e:
             print(f"保存规则失败: {e}")
     
-    def run(self):
+    def run(self, override_time: str = None):
         """运行主程序"""
         print("=== AdGuard规则简化器 ===")
         
@@ -235,11 +236,19 @@ class AdGuardRulesSimplifier:
         
         # 6. 保存最终规则
         print("\n6. 保存最终规则...")
-        updated_time = self.read_updated_time_from_black()
+        updated_time = override_time if override_time else self.read_updated_time_from_black()
         self.save_rules(final_rules, black_count=len(final_black_rules), updated_time=updated_time)
         
         print("\n=== 处理完成 ===")
 
 if __name__ == "__main__":
+    import sys
     simplifier = AdGuardRulesSimplifier()
-    simplifier.run()
+    override_time = None
+    if "--timestamp" in sys.argv:
+        try:
+            idx = sys.argv.index("--timestamp")
+            override_time = sys.argv[idx+1]
+        except Exception:
+            pass
+    simplifier.run(override_time)

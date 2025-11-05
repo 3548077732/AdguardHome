@@ -319,11 +319,11 @@ def process_rules(rules):
     final_rules = usable_extracted + usable_original
     return final_rules
 
-def main(generate_white_file=True):
+def main(generate_white_file=True, override_time: str = None):
     print("开始处理AdGuardHome规则...")
     
-    # 获取当前北京时间，只获取一次，所有文件使用相同的时间戳
-    current_time = get_beijing_time()
+    # 获取当前北京时间或使用传入的统一时间戳
+    current_time = override_time if override_time else get_beijing_time()
     
     # 下载所有黑名单源
     blacklist_rules = download_blacklist_sources()
@@ -437,6 +437,13 @@ def main(generate_white_file=True):
 
 if __name__ == "__main__":
     import sys
-    # 检查命令行参数，如果没有"--no-white-file"参数，则生成White.txt文件
+    # 解析参数：是否生成 White.txt，以及统一时间戳
     generate_white_file = "--no-white-file" not in sys.argv
-    main(generate_white_file)
+    override_time = None
+    if "--timestamp" in sys.argv:
+        try:
+            idx = sys.argv.index("--timestamp")
+            override_time = sys.argv[idx+1]
+        except Exception:
+            pass
+    main(generate_white_file, override_time)
