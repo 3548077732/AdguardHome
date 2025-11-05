@@ -1,6 +1,6 @@
 # AdguardHome
 我很懒如果你愿意帮我那我乐此不疲喵
-
+本仓库每十分时准时自动执行
 黑名单:
 https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Black.txt
 
@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Bla
 白名单:
 https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/White.txt
 
-精简黑名单:
+精简黑名单:https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/pure%20black.txt
 
 
 
