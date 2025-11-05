@@ -4,13 +4,13 @@
 本仓库每十分时准时自动执行
 
 黑名单:
-https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Black.txt
+https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/main/Black.txt
 
 白名单:
-https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/White.txt
+https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/main/White.txt
 
 精简黑名单:
-https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/pure%20black.txt
+https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/main/pure%20black.txt
 
 
 ## 项目结构
