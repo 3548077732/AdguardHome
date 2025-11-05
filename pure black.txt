@@ -1,6 +1,6 @@
 ! AdGuard规则简化版
 ! 总计规则数: 6245
-! 生成时间: 2025-11-05 00:23:18.806377
+! 生成时间: 2025-11-05 00:31:16.239690
 
 ||zz.bdstatic.com^
 ||zxid-m.mobileservice.cn^
@@ -2070,12 +2070,12 @@ Banner468x60
 74.125.200.188 alt2-mtalk.google.com
 62.76.25.28^
 62.76.25.27^
-52.217.117.33                 github-production-user-asset-6210df.s3.amazonaws.com
-52.216.211.113                github-production-repository-file-5c1aeb.s3.amazonaws.com
+54.231.139.201                github-production-user-asset-6210df.s3.amazonaws.com
+52.217.75.124                 github-cloud.s3.amazonaws.com
+52.217.43.188                 github-com.s3.amazonaws.com
 47.246.37.220 hugeota.d.miui.com
 47.246.37.220 bigota.d.miui.com
 45.82.68.79^
-3.5.29.83                     github-production-release-asset-2e65be.s3.amazonaws.com
 20.43.185.14 github.dev
 20.205.243.168                api.github.com
 20.205.243.166                github.com
@@ -2122,8 +2122,8 @@ Banner468x60
 185.199.108.133               avatars1.githubusercontent.com
 185.199.108.133               avatars0.githubusercontent.com
 185.199.108.133               avatars.githubusercontent.com
-16.182.66.201                 github-cloud.s3.amazonaws.com
-16.15.184.171                 github-com.s3.amazonaws.com
+16.15.192.74                  github-production-repository-file-5c1aeb.s3.amazonaws.com
+16.15.181.34                  github-production-release-asset-2e65be.s3.amazonaws.com
 151.101.76.133 raw.github.com
 151.101.193.194               github.global.ssl.fastly.net
 146.75.48.133 release-assets.githubusercontent.com
@@ -2136,18 +2136,18 @@ Banner468x60
 142.250.152.188 alt7-mtalk.google.com
 142.250.115.188 alt6-mtalk.google.com
 142.250.107.188 alt5-mtalk.google.com
-140.82.114.25                 alive.github.com
-140.82.114.18                 github.community
-140.82.114.10                 codeload.github.com
+140.82.114.9                  codeload.github.com
+140.82.114.25                 live.github.com
+140.82.114.22                 education.github.com
+140.82.114.22                 central.github.com
 140.82.113.26 alive.github.com
 140.82.113.22 central.github.com
-140.82.113.22                 central.github.com
 140.82.113.21 collector.github.com
-140.82.113.21                 collector.github.com
-140.82.112.26                 live.github.com
+140.82.113.17                 github.community
+140.82.112.26                 alive.github.com
 140.82.112.25 live.github.com
-140.82.112.22                 api.individual.githubcopilot.com
-140.82.112.21                 education.github.com
+140.82.112.22                 collector.github.com
+140.82.112.21                 api.individual.githubcopilot.com
 140.82.112.18 github.community
 13.107.42.16 pipelines.actions.githubusercontent.com
 13.107.42.16                  pipelines.actions.githubusercontent.com
