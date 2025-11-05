@@ -53,15 +53,21 @@ jobs:
             fi
           done
       
+      - name: 生成统一北京时间变量
+        run: |
+          UPDATED_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
+          echo "UPDATED_TIME=$UPDATED_TIME" >> $GITHUB_ENV
+          echo "统一时间戳: $UPDATED_TIME"
+      
       - name: 运行AdGuard规则合并脚本
         run: |
-          python scripts/adguard_rules_merger.py
+          python scripts/adguard_rules_merger.py --timestamp "$UPDATED_TIME"
       - name: 运行域名聚合脚本
         run: |
           python scripts/aggregate_domains.py
       - name: 运行规则简化脚本
         run: |
-          python scripts/adguard_rules_simplifier.py
+          python scripts/adguard_rules_simplifier.py --timestamp "$UPDATED_TIME"
       
       - name: 配置Git环境
         run: |
@@ -88,7 +94,7 @@ jobs:
           # 检查是否有变更
           if ! git diff --staged --quiet; then
             # 有变更时创建普通提交
-            git commit -m "Auto update rules at $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "Auto update rules at $UPDATED_TIME"
             
             # 添加推送重试机制，处理non-fast-forward错误
             for i in {1..3}; do
