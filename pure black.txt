@@ -1,6 +1,7 @@
-! AdGuard规则简化版
-! 总计规则数: 6245
-! 生成时间: 2025-11-05 00:31:16.239690
+# 更新时间: 2025-11-05 08:36:43
+# 黑名单规则数：5731
+# 作者名称: Menghuibanxian  酷安名: 梦半仙
+# 作者主页: `https://github.com/Menghuibanxian/AdguardHome`
 
 ||zz.bdstatic.com^
 ||zxid-m.mobileservice.cn^
