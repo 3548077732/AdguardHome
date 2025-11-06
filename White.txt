@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-06 20:50:52
-# 白名单规则数：4573
+﻿# 更新时间: 2025-11-06 21:01:01
+# 白名单规则数：4575
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -3310,6 +3310,8 @@
 @@||ztgame.com^
 @@||h35.ynodd.cn^$
 @@|wxpaylogo.qpic.cn^
+@@||p9-pc-sign.douyinpic.com^$important
+@@||imagex.bytedanceapi.com^$important
 @@||haohuo.jinritemai.com^
 @@||analytics.google.com
 @@||analytics.twitter.com
