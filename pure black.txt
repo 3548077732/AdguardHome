@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-06 11:58:35
-# 黑名单规则数：6252
+﻿# 更新时间: 2025-11-06 12:00:53
+# 黑名单规则数：6254
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: `https://github.com/Menghuibanxian/AdguardHome`
 
@@ -962,6 +962,7 @@
 ||klink.volceapplog.com^
 ||kl.67it.com^
 ||kjp.cupid.iqiyi.com^
+||kernelstatic.vivo.com.cn^
 ||kepler.jd.com^
 ||kde.qq.com^
 ||kcart.alipay.com^
@@ -1454,6 +1455,7 @@
 ||az2-upload-js.gifshow.com^
 ||az2-api-js.gifshow.com^
 ||az.appstore.vivo.com.cn^
+||award.xmcdn.com^
 ||avlstatic.vivo.com.cn^
 ||auth.be.sec.miui.com^
 ||auni.unioncom.cc^
