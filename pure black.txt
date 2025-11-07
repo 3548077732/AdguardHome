@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-08 00:10:56
-# 黑名单规则数：6264
+﻿# 更新时间: 2025-11-08 00:21:01
+# 黑名单规则数：6263
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: `https://github.com/Menghuibanxian/AdguardHome`
 
@@ -1850,7 +1850,6 @@ www.itdog.cn##.lantern_left
 www.akcjasamsung.e-kei.pl
 www.adview.cn
 wtradv.market.xiaomi.com
-weatherapi.market.xioami.com
 wap.game.xiaomi.com
 wan.douyu.com
 wallpaper.cdn.pandora.xiaomi.com
