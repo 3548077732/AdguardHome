@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-08 12:31:00
-# 黑名单规则数：6262
+﻿# 更新时间: 2025-11-08 12:40:58
+# 黑名单规则数：6265
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: `https://github.com/Menghuibanxian/AdguardHome`
 
@@ -78,6 +78,7 @@
 ||wn.pos.baidu.com^
 ||wlog.kuaishou.com^
 ||wlog.ksapisrv.com^
+||wjz-cdn.baidu.com^
 ||win.gdt.qq.com^
 ||wildcard.moatads.com.edgekey.net^
 ||widgets.pinterest.com^
@@ -538,6 +539,7 @@
 ||report.meituan.com^
 ||report.meeting.tencent.com^
 ||report.gamecenter.qq.com^
+||report-uri.baidu.com^
 ||report-edge.agora.io^
 ||render-resource.11222.cn^
 ||referrer.disqus.com^
@@ -1215,6 +1217,7 @@
 ||dyp2p-ali.douyucdn.cn^
 ||dxp.baidu.com^
 ||dw-online.ksosoft.com^
+||duzhanread.cdn.bcebos.com^
 ||dup.baidustatic.com^
 ||dualstack-logs.amap.com^
 ||dualstack-cgicol.amap.com^
