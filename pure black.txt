@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-08 18:01:09
-# 黑名单规则数：6271
+﻿# 更新时间: 2025-11-08 18:10:56
+# 黑名单规则数：6270
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: `https://github.com/Menghuibanxian/AdguardHome`
 
@@ -505,7 +505,6 @@
 ||s.1rtb.net^
 ||rumt-zh.com^
 ||rum.cronitor.io^
-||rule.tencent.com^
 ||rubiconproject.com^
 ||rtlog5-applog-lq.fqnovel.com^
 ||rtlog5-applog-lf.fqnovel.com^
@@ -2098,16 +2097,16 @@ Banner468x60
 74.125.200.188 alt2-mtalk.google.com
 62.76.25.28^
 62.76.25.27^
-54.231.197.105                github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.65.84                  github-production-user-asset-6210df.s3.amazonaws.com
-52.216.48.89                  github-com.s3.amazonaws.com
-52.216.208.185                github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.169.121                github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.115.233                github-production-repository-file-5c1aeb.s3.amazonaws.com
 47.246.37.220 hugeota.d.miui.com
 47.246.37.220 bigota.d.miui.com
 45.82.68.79^
+3.5.30.39                     github-com.s3.amazonaws.com
 20.43.185.14 github.dev
 20.205.243.168                api.github.com
 20.205.243.166                github.com
+20.205.243.166                gist.github.com
 20.205.243.165                codeload.github.com
 20.200.245.247 github.com
 20.200.245.247 gist.github.com
@@ -2151,7 +2150,8 @@ Banner468x60
 185.199.109.154               github.githubassets.com
 185.199.109.153               githubstatus.com
 185.199.109.153               github.io
-16.182.75.25                  github-cloud.s3.amazonaws.com
+16.15.200.201                 github-cloud.s3.amazonaws.com
+16.15.191.139                 github-production-user-asset-6210df.s3.amazonaws.com
 151.101.76.133 raw.github.com
 151.101.193.194               github.global.ssl.fastly.net
 146.75.48.133 release-assets.githubusercontent.com
@@ -2164,17 +2164,16 @@ Banner468x60
 142.250.152.188 alt7-mtalk.google.com
 142.250.115.188 alt6-mtalk.google.com
 142.250.107.188 alt5-mtalk.google.com
-140.82.114.4                  gist.github.com
 140.82.114.26                 live.github.com
+140.82.114.22                 collector.github.com
 140.82.114.22                 central.github.com
-140.82.114.17                 github.community
+140.82.114.21                 api.individual.githubcopilot.com
 140.82.113.26 alive.github.com
-140.82.113.26                 alive.github.com
 140.82.113.22 central.github.com
-140.82.113.22                 collector.github.com
-140.82.113.22                 api.individual.githubcopilot.com
 140.82.113.21 collector.github.com
+140.82.113.17                 github.community
 140.82.112.25 live.github.com
+140.82.112.25                 alive.github.com
 140.82.112.22                 education.github.com
 140.82.112.18 github.community
 13.107.42.16 pipelines.actions.githubusercontent.com
