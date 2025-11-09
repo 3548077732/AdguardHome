@@ -1,4 +1,4 @@
-﻿# 更新时间: 2025-11-10 02:11:01
+﻿# 更新时间: 2025-11-10 02:20:59
 # 白名单规则数：4582
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
@@ -2655,6 +2655,7 @@
 @@||m.zhuanzhuan.com^$important
 @@||mac.bmcx.com^
 @@||mail.qq.com^
+@@||mairuan.com^
 @@||mall.csdn.net^
 @@||mam.netease.com^
 @@||mangabz.com^
@@ -3144,6 +3145,7 @@
 @@||user1.game.qq.com^
 @@||ut-public-service-prod10.ol.epicgames.com^$important
 @@||uxip.meizu.com^
+@@||uzzf.com^$important
 @@||v*-dc-ad.ixigua.com^
 @@||v*-fq-tts.fqnovelvod.com^
 @@||v.gdt.qq.com^
@@ -3251,6 +3253,7 @@
 @@||www.kdocs.cn^
 @@||www.lsds.cn^
 @@||www.maimemo.com^
+@@||www.mairuan.com^$important
 @@||www.manhuabei.com^
 @@||www.microsoft.com^$important
 @@||www.microsoft365.com^$important
@@ -3264,6 +3267,7 @@
 @@||www.sygjx.com^
 @@||www.tudou.com^
 @@||www.twitter.com^
+@@||www.uzzf.com^$important
 @@||www.wandoujia.com^$important
 @@||www.youtube-nocookie.com^
 @@||www.youtube.com^
@@ -3312,10 +3316,6 @@
 @@||zkres.myzaker.com^
 @@||zm.sm-tc.cn^
 @@||ztgame.com^
-@@||www.uzzf.com^$important
-@@||uzzf.com^$important
-@@||www.mairuan.com^$important
-@@||mairuan.com^
 @@||h35.ynodd.cn^$
 @@|wxpaylogo.qpic.cn^
 @@||haohuo.jinritemai.com^
