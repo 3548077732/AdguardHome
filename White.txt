@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-09 20:10:58
-# 白名单规则数：4594
+﻿# 更新时间: 2025-11-09 20:20:59
+# 白名单规则数：4578
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -1916,7 +1916,7 @@
 @@||apd-vlive.apdcdn.tc.qq.com^
 @@||api-album.quark.cn^
 @@||api-album.quark.cn^$important
-@@||api-chat.soulapp.cn^$important
+@@||api-chat.soulapp.cn^
 @@||api-cmnt.wtzw.com^
 @@||api-cn.cdo.heytapmobi.com^
 @@||api-cn.store.heytapmobi.com^
@@ -2045,7 +2045,7 @@
 @@||bbs-static.miyoushe.com^
 @@||bbs.mobileapi.hupu.com^
 @@||bce.baidu.com^
-@@||bcelive.com^$important
+@@||bcelive.com^
 @@||bcloud.uc.cn^$important
 @@||bd1.zuimeitianqi.com^
 @@||bd2.zuimeitianqi.com^
@@ -2414,7 +2414,7 @@
 @@||game.html5.qq.com^
 @@||game.res.meizu.com^
 @@||game.weixin.qq.com^
-@@||games-community-gl.heytapmobile.com^$important
+@@||games-community-gl.heytapmobile.com^
 @@||games.mobileapi.hupu.com^
 @@||gateway.kugou.com^
 @@||gc.apple.com^$important
@@ -2518,7 +2518,7 @@
 @@||im-x.jd.com^
 @@||im.qq.com^
 @@||image.coolapk.com^
-@@||imagex.bytedanceapi.com^$important
+@@||imagex.bytedanceapi.com^
 @@||imasdk.googleapis.com^
 @@||ime-store-cdn.gtimg.com^$important
 @@||img.360kuai.com^
@@ -2539,7 +2539,7 @@
 @@||in.appcenter.ms^
 @@||increase-openapi.soulapp.cn^
 @@||indivi-cdn.shouji.sogou.com^$important
-@@||info.zb.qq.com^$important
+@@||info.zb.qq.com^
 @@||info.zuimeitianqi.com^
 @@||informationprotection.hosting.portal.azure.net^$important
 @@||ingest.sentry.io^
@@ -2561,7 +2561,7 @@
 @@||ipxx.pro^
 @@||is-hl.snssdk.com^
 @@||is1-ssl.mzstatic.com^
-@@||isite.baidu.com^$important
+@@||isite.baidu.com^
 @@||isrg.trustid.ocsp.identrust.com^$important
 @@||issuecdn.baidupcs.com^
 @@||issuecdn.baidupcs.com^$important
@@ -2578,7 +2578,7 @@
 @@||jimdo.com^
 @@||jingfen.jd.com^
 @@||jnn-pa.googleapis.com^
-@@||jomodns.com^$important
+@@||jomodns.com^
 @@||jr.jd.com^
 @@||jspassport.ssl.qhimg.com^
 @@||jump.luna.58.com^
@@ -2697,7 +2697,7 @@
 @@||micloud.xiaomi.net^
 @@||migrate.driveapi.micloud.xiaomi.net^
 @@||mime.baidu.com^
-@@||mini-game-gl.heytapmobile.com^$important
+@@||mini-game-gl.heytapmobile.com^
 @@||mini2015.qq.com^
 @@||minigame.zijieapi.com^
 @@||minigame5-normal-hl.zijieapi.com^
@@ -2809,10 +2809,10 @@
 @@||p3-novel-sign.byteimg.com^
 @@||p3-reading-sign.fqnovelpic.com^
 @@||p3-tt.byteimg.com^
-@@||p4-ad.adukwai.com^$important
+@@||p4-ad.adukwai.com^
 @@||p6-reading-sign.fqnovelpic.com^
 @@||p6-shortvideo-sign.toutiaoimg.com^
-@@||p9-pc-sign.douyinpic.com^$important
+@@||p9-pc-sign.douyinpic.com^
 @@||p9-reading-sign.fqnovelpic.com^
 @@||p9-sign.toutiaoimg.com^
 @@||p9-tt.byteimg.com^
@@ -2828,7 +2828,7 @@
 @@||pay.weixin.qq.com^
 @@||paydns.wechatpay.cn^
 @@||pbaccess.video.qq.com^
-@@||pc-api.uc.cn^$important
+@@||pc-api.uc.cn^
 @@||pcvideoaliyun.titan.mgtv.com^
 @@||pda.jd.com^
 @@||pdc.micloud.xiaomi.net^
@@ -3039,11 +3039,11 @@
 @@||store-site-backend-static.ak.epicgames.com^$important
 @@||store.epicgames.com^$important
 @@||store.heytapimage.com^
-@@||store.is.autonavi.com^$important
+@@||store.is.autonavi.com^
 @@||store.meizu.com^
 @@||storedl1.nearme.com.cn^
 @@||studcat.infra.systems^
-@@||su.uc.cn^$important
+@@||su.uc.cn^
 @@||subscription.iqiyi.com^
 @@||suconfig.apple.com^$important
 @@||sug.browser.miui.com^
@@ -3181,7 +3181,7 @@
 @@||w.pandora.xiaomi.com^
 @@||w1.kskwai.com^
 @@||w1.kskwai.com^$important
-@@||w2.kskwai.com^$important
+@@||w2.kskwai.com^
 @@||w8.com.cn^
 @@||waapdg.jd.com^
 @@||waimai-guide.ele.me^
@@ -3195,9 +3195,9 @@
 @@||we.tl^
 @@||weather-data.apple.com*^
 @@||web.vip.miui.com^
-@@||webapi.amap.com^$important
+@@||webapi.amap.com^
 @@||webcast-open.douyin.com^
-@@||webcast.amemv.com^$important
+@@||webcast.amemv.com^
 @@||webzjcaptcha.reg.163.com^
 @@||weidian.com^
 @@||widget.gleamjs.io^
@@ -3261,6 +3261,7 @@
 @@||www.onedrive.com^$important
 @@||www.outlook.com^$important
 @@||www.sway.com^$important
+@@||www.sygjx.com^
 @@||www.tudou.com^
 @@||www.twitter.com^
 @@||www.wandoujia.com^$important
@@ -3311,26 +3312,9 @@
 @@||zkres.myzaker.com^
 @@||zm.sm-tc.cn^
 @@||ztgame.com^
-@@||www.sygjx.com^
-@@||mini-game-gl.heytapmobile.com^
-@@||games-community-gl.heytapmobile.com^
-@@||jomodns.com^
-@@||bcelive.com^
-@@||p4-ad.adukwai.com^
-@@||store.is.autonavi.com^
 @@||h35.ynodd.cn^$
-@@||webapi.amap.com^
-@@||api-chat.soulapp.cn^
-@@||isite.baidu.com^
 @@|wxpaylogo.qpic.cn^
-@@||info.zb.qq.com^
-@@||p9-pc-sign.douyinpic.com^
-@@||imagex.bytedanceapi.com^
-@@||webcast.amemv.com^
 @@||haohuo.jinritemai.com^
-@@||w2.kskwai.com^
-@@||su.uc.cn^
-@@||pc-api.uc.cn^
 @@||analytics.google.com
 @@||analytics.twitter.com
 @@||azure.com^
