@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-11 07:01:05
-# 总规则数：10878 (黑名单: 6295, 白名单: 4583)
+﻿# 更新时间: 2025-11-11 07:11:01
+# 总规则数：10882 (黑名单: 6299, 白名单: 4583)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -626,6 +626,7 @@
 ||pgdt.ugdtimg.com^
 ||pgdt.gtimg.cn^
 ||people-pa.googleapis.com^
+||pds.pinduoduo.com^
 ||pcm-img.zhls.qq.com^
 ||pcdn.yximgs.com^
 ||pcdn.xmcdn.com^
@@ -688,6 +689,7 @@
 ||p.imgur.com^
 ||outlookads.live.com^
 ||outbrain.com^
+||otk.pinduoduo.com^
 ||otheve.play.aiseet.atianqi.com^
 ||otheve.beacon.qq.com^
 ||oth.str.mdt.qq.com^
@@ -860,6 +862,7 @@
 ||lx-upload-log.go2yd.com^
 ||luimg.baidu.com^
 ||luckyorange.com^
+||lpcdn.pinduoduo.com^
 ||lookup.api.bsb.baidu.com^
 ||logupdate.avlyun.sec.miui.com^
 ||logtj.kugou.com^
@@ -1671,6 +1674,7 @@
 ||advertising-api.amazon.com^
 ||advertising-api-fe.amazon.com^
 ||advertising-api-eu.amazon.com^
+||advert.58.com^
 ||adv.sec.miui.com^
 ||adv.sec.intl.miui.com^
 ||adv.bandi.so^
