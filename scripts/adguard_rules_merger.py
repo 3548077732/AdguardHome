@@ -390,9 +390,19 @@ def main(generate_white_file=True, override_time: str = None):
         ):
             filtered_whitelist_lines.append(line)
 
+    # 统一白名单格式：若不是 @@|| 开头，则移除行内的 @ 与 |，并前置 @@||
+    normalized_whitelist_lines = []
+    for line in filtered_whitelist_lines:
+        s = str(line).strip()
+        if s.startswith('@@||'):
+            normalized_whitelist_lines.append(s)
+        else:
+            sanitized = re.sub(r'[@|]', '', s)
+            normalized_whitelist_lines.append('@@||' + sanitized)
+
     # 根据最终将写入的有效规则行数进行统计，确保与文件一致
     blacklist_count = sum(1 for l in processed_blacklist if str(l).strip())
-    whitelist_count = len(filtered_whitelist_lines)  # 使用已过滤的白名单数量
+    whitelist_count = len(normalized_whitelist_lines)  # 使用规范化后的白名单数量
     total_count = blacklist_count + whitelist_count
     
     # 合并黑名单和格式化后的白名单到 Black.txt
@@ -409,8 +419,8 @@ def main(generate_white_file=True, override_time: str = None):
             if str(line).strip():
                 f.write(f"{line}\n")
         
-        # 写入过滤后的白名单内容到Black.txt
-        for line in filtered_whitelist_lines:
+        # 写入规范化后的白名单内容到Black.txt
+        for line in normalized_whitelist_lines:
             f.write(f"{line}\n")
 
     # 如果需要生成单独的White.txt文件
@@ -419,13 +429,13 @@ def main(generate_white_file=True, override_time: str = None):
         with open(WHITE_FILE, "w", encoding="utf-8-sig") as f:
             # 写入白名单文件头部信息（使用过滤后的实际规则数量）
             f.write(f"# 更新时间: {current_time}\n")
-            f.write(f"# 白名单规则数：{len(filtered_whitelist_lines)}\n")  # 使用过滤后的实际数量
+            f.write(f"# 白名单规则数：{len(normalized_whitelist_lines)}\n")  # 使用规范化后的实际数量
             f.write(f"# 作者名称: Menghuibanxian  酷安名: 梦半仙\n")
             f.write(f"# 作者主页: https://github.com/Menghuibanxian/AdguardHome\n")
             f.write("\n")
             
-            # 写入过滤后的白名单内容到White.txt
-            for line in filtered_whitelist_lines:
+            # 写入规范化后的白名单内容到White.txt
+            for line in normalized_whitelist_lines:
                 f.write(f"{line}\n")
         
         print("AdGuardHome规则处理完成！Black.txt和White.txt文件已生成。")

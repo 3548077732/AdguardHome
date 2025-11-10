@@ -18,6 +18,8 @@ class AdGuardRulesSimplifier:
         
         # 输入规则从本地合并产物 Black.txt 读取，避免远程依赖
         self.black_url = os.path.join(self.base_dir, "Black.txt")
+        # 白名单来源：本地生成的 White.txt
+        self.white_file = os.path.join(self.base_dir, "White.txt")
         self.autumn_url = "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt"
         self.github_url = "https://raw.githubusercontent.com/521xueweihan/GitHub520/refs/heads/main/hosts"
     
@@ -88,6 +90,26 @@ class AdGuardRulesSimplifier:
             if rule and not rule.startswith(('@', '!', '#')):
                 cleaned_rules.append(rule)
         return cleaned_rules
+
+    def load_whitelist_from_white(self) -> List[str]:
+        """从 White.txt 读取白名单内容，跳过注释和空行，保留规则原样"""
+        whitelist = []
+        if os.path.exists(self.white_file):
+            try:
+                with open(self.white_file, 'r', encoding='utf-8', errors='ignore') as f:
+                    for line in f:
+                        s = line.strip().lstrip('\ufeff')
+                        # 跳过头部注释和空行
+                        if not s or s.startswith('#') or s.startswith('!'):
+                            continue
+                        # 保留 @@ 开头及已格式化的白名单规则
+                        whitelist.append(s)
+                print(f"读取 White.txt 白名单规则: {len(whitelist)} 条")
+            except Exception as e:
+                print(f"读取 White.txt 失败: {e}")
+        else:
+            print("White.txt 文件不存在，跳过追加白名单")
+        return whitelist
     
     def extract_pipe_rules(self, rules: List[str]) -> Tuple[List[str], List[str]]:
         """提取|开头的规则并从原规则中删除"""
@@ -167,26 +189,41 @@ class AdGuardRulesSimplifier:
         """仅倒序规则列表（不影响文件头部注释）"""
         return list(reversed(rules))
     
-    def save_rules(self, rules: List[str], filename: str = None, black_count: int = None, updated_time: str = None):
-        """保存规则到文件，按指定格式写入头部"""
+    def save_rules(self, rules: List[str], filename: str = None, black_count: int = None, updated_time: str = None, whitelist_rules: List[str] = None, whitelist_count: int = None):
+        """保存规则到文件，头部与 Black.txt 一致，并将白名单追加到底部"""
         if filename is None:
             filename = self.output_file
         if updated_time is None:
             # 使用北京时间（UTC+8）
             updated_time = (datetime.datetime.utcnow() + datetime.timedelta(hours=8)).strftime("%Y-%m-%d %H:%M:%S")
+        # 规则计数
+        if rules is None:
+            rules = []
+        if whitelist_rules is None:
+            whitelist_rules = []
         if black_count is None:
-            black_count = len(rules)
+            black_count = len([r for r in rules if str(r).strip()])
+        if whitelist_count is None:
+            whitelist_count = len([w for w in whitelist_rules if str(w).strip()])
+        total_count = black_count + whitelist_count
+
         try:
             with open(filename, 'w', encoding='utf-8-sig') as f:
                 f.write(f"# 更新时间: {updated_time}\n")
-                f.write(f"# 黑名单规则数：{black_count}\n")
+                f.write(f"# 总规则数：{total_count} (黑名单: {black_count}, 白名单: {whitelist_count})\n")
                 f.write(f"# 作者名称: Menghuibanxian  酷安名: 梦半仙\n")
-                f.write(f"# 作者主页: `https://github.com/Menghuibanxian/AdguardHome`\n")
+                f.write(f"# 作者主页: https://github.com/Menghuibanxian/AdguardHome\n")
                 f.write("\n")
+                # 写入黑名单
                 for rule in rules:
-                    f.write(rule + "\n")
+                    if str(rule).strip():
+                        f.write(rule + "\n")
+                # 追加白名单到底部
+                for w in whitelist_rules:
+                    if str(w).strip():
+                        f.write(w + "\n")
             print(f"规则已保存到: {filename}")
-            print(f"总计规则数: {len(rules)}")
+            print(f"黑名单: {black_count}，白名单: {whitelist_count}，总计: {total_count}")
         except Exception as e:
             print(f"保存规则失败: {e}")
     
@@ -234,11 +271,13 @@ class AdGuardRulesSimplifier:
         # 5.1 倒序规则（保持文件头部注释在顶部）
         final_rules = self.reverse_rules(final_rules)
         
-        # 6. 保存最终规则
-        print("\n6. 保存最终规则...")
+        # 6. 读取 White.txt 并保存最终规则（白名单追加到底部）
+        print("\n6. 保存最终规则并追加白名单...")
         updated_time = override_time if override_time else self.read_updated_time_from_black()
-        # 黑名单规则数应为最终写入文件的规则总数
-        self.save_rules(final_rules, updated_time=updated_time)
+        whitelist_rules = self.load_whitelist_from_white()
+        black_count = len([r for r in final_rules if str(r).strip()])
+        white_count = len([w for w in whitelist_rules if str(w).strip()])
+        self.save_rules(final_rules, updated_time=updated_time, black_count=black_count, whitelist_rules=whitelist_rules, whitelist_count=white_count)
         
         print("\n=== 处理完成 ===")
 
