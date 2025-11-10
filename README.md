@@ -32,7 +32,7 @@ https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/main/pure%20black.t
 │
 ├── Black.txt                              # 合并后的总规则（黑名单+格式化白名单）
 ├── White.txt                              # 独立白名单规则
-└── pure black.txt                         # 简化器输出的纯黑名单（基于本地 Black.txt）
+└── pure black.txt                         # 合并后的总规则（纯黑名单＋白名单）
 ```
 
 
