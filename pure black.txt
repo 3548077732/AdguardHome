@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-10 21:01:11
-# 黑名单规则数：6279
+﻿# 更新时间: 2025-11-10 21:11:08
+# 黑名单规则数：6280
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: `https://github.com/Menghuibanxian/AdguardHome`
 
@@ -198,6 +198,7 @@
 ||umdc.alibabachengdun.com^
 ||umc.danuoyi.alicdn.com^
 ||umami.is^
+||ulogs2.ksapisrv.com^
 ||ulogs2.gifshow.com^
 ||ulogs1.ksapisrv.com^
 ||ulogs1.gifshow.com^
