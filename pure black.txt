@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-12 14:41:05
-# 总规则数：10892 (黑名单: 6307, 白名单: 4585)
+﻿# 更新时间: 2025-11-12 15:01:06
+# 总规则数：10896 (黑名单: 6311, 白名单: 4585)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -391,6 +391,7 @@
 ||st.todesk.com^
 ||st-ads-jssdk.vivo.com.cn^
 ||ssp.vivo.com.cn^
+||ssp.disqus.com^
 ||ssp.1rtb.com^
 ||ssp-sdk-config.uc.cn^
 ||srv.sec.miui.com^
@@ -1014,6 +1015,7 @@
 ||jmy-pic.baidu.com^
 ||jiguang.cn^
 ||janapi.jd.com^
+||j.mrpdata.net^
 ||iyfbodn.com^
 ||iyes.youku.com^
 ||ixav-cse.avlyun.com^
@@ -1317,11 +1319,13 @@
 ||cws-cctv.conviva.com^
 ||csp-reporting.cloudflare.com^
 ||csjplatform.com^
+||csi.gstatic.com^
 ||cs.luckyorange.net^
 ||cs.dds.microsoft.com^
 ||cs-feige.iqiyi.com^
 ||crypto-loot.org^
 ||criteo.com^
+||creativecdn.com^
 ||creative.myavlive.com^
 ||creative.chiccams.com^
 ||crashlyticsreports-pa.googleapis.com^
