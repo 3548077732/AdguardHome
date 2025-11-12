@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-12 15:01:06
-# 总规则数：10896 (黑名单: 6311, 白名单: 4585)
+﻿# 更新时间: 2025-11-12 15:11:05
+# 总规则数：10904 (黑名单: 6319, 白名单: 4585)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -351,6 +351,8 @@
 ||t-dsp.pinduoduo.com^
 ||szbdyd.com^
 ||sysupgrade.vivo.com.cn^
+||sync.clearnview.com^
+||sync.adkernel.com^
 ||syh-imp.cdnjtzy.com^
 ||sv-video.play.aiseet.atianqi.com^
 ||surveys.hotjar.com^
@@ -390,6 +392,7 @@
 ||staging-notify.sec.miui.com^
 ||st.todesk.com^
 ||st-ads-jssdk.vivo.com.cn^
+||ssp.wp.pl^
 ||ssp.vivo.com.cn^
 ||ssp.disqus.com^
 ||ssp.1rtb.com^
@@ -509,6 +512,7 @@
 ||s.360.cn^
 ||s.1rtb.net^
 ||s-ring-fallback.msedge.net^
+||s-cs.rmp.rakuten.com^
 ||rumt-zh.com^
 ||rum.cronitor.io^
 ||rubiconproject.com^
@@ -636,6 +640,7 @@
 ||pcapp-data-collect.youku.com^
 ||pc-mon.zijieapi.com^
 ||pc-mon.snssdk.com^
+||pbs.yahoo.com^
 ||pay.sboot.cn^
 ||passport.kuaishou.com^
 ||partwithner.com^
@@ -752,6 +757,7 @@
 ||nd-api.chuangjing.com^
 ||nbsdk-baichuan.alicdn.com^
 ||nbnest-admonitor.cainiao.com^
+||navvy.media.net^
 ||nadvideo2.baidu.com^
 ||nadvideo.baidu.com^
 ||mum.alibabachengdun.com^
@@ -776,6 +782,7 @@
 ||ms.bdimg.com^
 ||ms.applvn.com^
 ||ms.applovin.com^
+||ms-ads-monitoring-events.presage.io^
 ||mp.imgur.com^
 ||mp-activity.csdn.net^
 ||mouseflow.com^
@@ -1445,6 +1452,7 @@
 ||business-ad.cdn-go.cn^
 ||bungeesleeves.com^
 ||bugly.qq.com^
+||bttrack.com^
 ||btrace.qq.com^
 ||btloader.com^
 ||bsync3-normal-lq.zijieapi.com^
