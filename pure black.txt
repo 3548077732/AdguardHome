@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-13 11:51:09
-# 总规则数：10919 (黑名单: 6333, 白名单: 4586)
+﻿# 更新时间: 2025-11-13 12:01:06
+# 总规则数：10911 (黑名单: 6325, 白名单: 4586)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -421,7 +421,6 @@
 ||smrtmnk2.com^
 ||smetrics.samsung.com^
 ||smartad.10010.com^
-||smart-tv.cn^
 ||smad.ms.zhangyue.net^
 ||slb-p2p.vcloud.ks-live.com^
 ||sl.hpplay.cn^
@@ -434,7 +433,6 @@
 ||sis-ipv6.jpush.cn^
 ||silkroad.csdn.net^
 ||sigmob.com^
-||sigmob.cn^
 ||shouji.sogou.com^
 ||shield.sitelock.com^
 ||shark.dianping.com^
@@ -498,7 +496,6 @@
 ||scc.bytedance.com^
 ||saxysec.com^
 ||saveu5-normal-lq.zijieapi.com^
-||sanme2.taisantech.com^
 ||samsungads.com^
 ||samsungadhub.com^
 ||samsung-com.112.2o7.net^
@@ -540,7 +537,6 @@
 ||rlog.popin.cc^
 ||risk-fp-openapi.vivo.com.cn^
 ||review.gdtimg.com^
-||rev.aiclk.com^
 ||resolver.mi.xiaomi.com^
 ||resolver.dingtalk.com^
 ||resolve.umeng.com^
@@ -1039,7 +1035,6 @@
 ||iyfbodn.com^
 ||iyes.youku.com^
 ||ixav-cse.avlyun.com^
-||itv2-up.openspeech.cn^
 ||itsdata.map.baidu.com^
 ||isrpt-in.gdt.qq.com^
 ||isecure.vivo.com.cn^
@@ -1165,7 +1160,6 @@
 ||googleadservices.com^
 ||googleadservices-cn.com^
 ||googleads.g.doubleclick.net^
-||googleads.g.doubleclick.com^
 ||googleads.g.doubleclick-cn.net^
 ||google-analytics.com^
 ||go.stripchat.com^
@@ -1337,7 +1331,6 @@
 ||d.reddit.com^
 ||d.applvn.com^
 ||d.applovin.com^
-||cws-cctv.conviva.com^
 ||csp-reporting.cloudflare.com^
 ||csjplatform.com^
 ||csi.gstatic.com^
@@ -1406,7 +1399,6 @@
 ||click-v4.exmainclckback.com^
 ||ckm.iqiyi.com^
 ||ck.ads.oppomobile.com^
-||cj.qidian.com^
 ||chiq-cloud.com^
 ||chat1.jd.com^
 ||chaseherbalpasty.com^
@@ -1436,7 +1428,6 @@
 ||cdn-f.adsmoloco.com^
 ||cdn-ads.oss-cn-shanghai.aliyuncs.com^
 ||cdn-ad.wtzw.com^
-||cctv.adsunion.com^
 ||ccs.umeng.com^
 ||ccc-x.jd.com^
 ||cc-api-data.adobe.io^
@@ -1738,7 +1729,6 @@
 ||adserviceretry.kugou.com^
 ||adservice.sigmob.cn^
 ||adservice.google.com^
-||adservice.google.cn^
 ||adservetx.media.net^
 ||adserver.unityads.unity3d.com^
 ||adsense.google.cn^
@@ -4664,6 +4654,7 @@ Banner468x60
 0.0.0.0 gouwu.mediav.com
 0.0.0.0 googlesyndication.com
 0.0.0.0 googleads4.g.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.com
 0.0.0.0 googleadapis.l.google.com
 0.0.0.0 googleadapis.google.com
 0.0.0.0 go.mmstat.com
@@ -5268,6 +5259,7 @@ Banner468x60
 0.0.0.0 cleaner.baidu.com
 0.0.0.0 ckmap.mediav.com
 0.0.0.0 cjhd.mediav.com
+0.0.0.0 cj.qidian.com
 0.0.0.0 cic.umeng.com
 0.0.0.0 chinaqa.appsflyer.com
 0.0.0.0 chinacdntest-b59b.inmobi.com
