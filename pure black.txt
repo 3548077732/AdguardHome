@@ -1,4 +1,4 @@
-﻿# 更新时间: 2025-11-14 06:21:10
+﻿# 更新时间: 2025-11-14 06:31:09
 # 总规则数：10938 (黑名单: 6352, 白名单: 4586)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
