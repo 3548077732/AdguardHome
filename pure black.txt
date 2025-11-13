@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-14 03:41:05
-# 总规则数：10928 (黑名单: 6342, 白名单: 4586)
+﻿# 更新时间: 2025-11-14 03:51:04
+# 总规则数：10931 (黑名单: 6345, 白名单: 4586)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -288,6 +288,7 @@
 ||tnc3-aliec2.snssdk.com^
 ||tnc3-aliec2.bytedance.com^
 ||tnc3-aliec1.toutiaoapi.com^
+||tnc16-normal-us-ttp.capcutapi.us^
 ||tnc16-alisg.isnssdk.com^
 ||tnc0-normal-useast1a.tiktokv.com^
 ||tnc0-bjlgy.zijieapi.com^
@@ -646,10 +647,12 @@
 ||pcdn.yximgs.com^
 ||pcdn.xmcdn.com^
 ||pcapp-data-collect.youku.com^
+||pc-mon16-normal-us-ttp.capcutapi.us^
 ||pc-mon.zijieapi.com^
 ||pc-mon.snssdk.com^
 ||pc-mon-va.byteoversea.com^
 ||pc-mon-normal-sg.capcutapi.com^
+||pc-mon-boot.capcutapi.com^
 ||pbs.yahoo.com^
 ||pay.sboot.cn^
 ||passport.kuaishou.com^
