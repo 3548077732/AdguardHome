@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-13 15:11:04
-# 总规则数：10911 (黑名单: 6325, 白名单: 4586)
+﻿# 更新时间: 2025-11-13 15:21:33
+# 总规则数：10924 (黑名单: 6338, 白名单: 4586)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -261,6 +261,7 @@
 ||tracelog-debug.qquanquan.com^
 ||tracelog-debug.aiclk.com^
 ||trace.qq.com^
+||trace.aqyad.com^
 ||tr.medproad.com^
 ||tr.jianshu.com^
 ||tr-asia.adsmoloco.com^
@@ -336,6 +337,7 @@
 ||t7z.cupid.ptqy.gitv.tv^
 ||t7z.cupid.iqiyi.com^
 ||t3.a.market.xiaomi.com^
+||t2.fancyapi.com^
 ||t2.a.market.xiaomi.com^
 ||t1.teads.tv^
 ||t1.a.market.xiaomi.com^
@@ -376,6 +378,7 @@
 ||stats.lineageos.org^
 ||statistic.csdn.net^
 ||statics.woozooo.com^
+||statichf.shihuocdn.cn^
 ||static.pddpic.com^
 ||static.media.net^
 ||static.hotjar.com^
@@ -396,6 +399,7 @@
 ||ssp.wp.pl^
 ||ssp.vivo.com.cn^
 ||ssp.disqus.com^
+||ssp.cloooud.com^
 ||ssp.1rtb.com^
 ||ssp-sdk-config.uc.cn^
 ||ssl.google-analytics.com^
@@ -475,12 +479,14 @@
 ||sdkconf.avlyun.com^
 ||sdkauth.hpplay.cn^
 ||sdkapp.uve.weibo.com^
+||sdkapi.cloooud.com^
 ||sdk.mobads.adwangmai.com^
 ||sdk.markmedia.com.cn^
 ||sdk.hzsanjiaomao.com^
 ||sdk.e.qq.com^
 ||sdk.cferw.com^
 ||sdk.beizi.biz^
+||sdk.aqyad.com^
 ||sdk.adx.adwangmai.com^
 ||sdk.ad.smaato.net^
 ||sdk.51.la^
@@ -712,6 +718,7 @@
 ||optimus-ads.amap.com^
 ||opportunarch.iqiyi.com^
 ||openmonitor.alipay-eco.com^
+||openadapi.fancydsp.com^
 ||open.snssdk.com^
 ||open.oneplus.net^
 ||open.kwaizt.com^
@@ -982,6 +989,7 @@
 ||license.vod2.myqcloud.com^
 ||lhp.map.qq.com^
 ||lh3.googleadsserving.cn^
+||lftxali.fancyapi.com^
 ||lf6-sf-be-pack-sign.pglstatp-toutiao.com^
 ||lf6-ad-union-sdk.pglstatp-toutiao.com^
 ||lf3-webcastcdn-tos-sign.douyinstatic.com^
@@ -1188,6 +1196,7 @@
 ||game.loveota.com^
 ||galileotelemetry.tencent.com^
 ||g2.ganjing.world^
+||g.fancyapi.com^
 ||g.dtv.cn.miaozhen.com^
 ||g-staic.ganjingworld.com^
 ||g-adnet.hiaiabc.com^
@@ -1227,6 +1236,7 @@
 ||fbs.smoot.apple.com^
 ||fastclick.net^
 ||fastclick.com^
+||fancyapi.com^
 ||facebook.com^
 ||extmaps-api.yandex.net^
 ||ext.baidu.com^
@@ -1382,6 +1392,7 @@
 ||cloudflareinsights.com^
 ||cloudauth.aliyuncs.com^
 ||cloud.tgpa.qq.com^
+||cloooud.com^
 ||clog.miguvideo.com^
 ||clienttracing-pa.googleapis.com^
 ||clientlogsf.music.163.com^
@@ -1538,6 +1549,7 @@
 ||aspect-upush.umeng.com^
 ||arms-retcode.aliyuncs.com^
 ||arc.io^
+||aqyad.com^
 ||appversion.115.com^
 ||appupgrade.vivo.com.cn^
 ||appsupport.qq.com^
@@ -1579,6 +1591,7 @@
 ||api.statsig.com^
 ||api.ssp.xcultur.com^
 ||api.sm.cn^
+||api.shanghailingye.cn^
 ||api.sec.miui.com^
 ||api.miui.security.xiaomi.com^
 ||api.kwaizt.com^
@@ -1594,6 +1607,7 @@
 ||api.e.kuaishou.com^
 ||api.e.kuaishou.cn^
 ||api.bugsnag.com^
+||api.aqyad.com^
 ||api.anythinktech.com^
 ||api.afdback.ppsimg.com^
 ||api.ad.xiaomi.com^
@@ -1832,6 +1846,7 @@
 ||ad.twinrdengine.com^
 ||ad.toutiao.com^
 ||ad.tencentmusic.com^
+||ad.shunchangzhixing.com^
 ||ad.richmob.cn^
 ||ad.qq.com^
 ||ad.qingting.fm^
@@ -2778,7 +2793,6 @@ Banner468x60
 0.0.0.0 trace.popin.cc
 0.0.0.0 trace.mediago.io
 0.0.0.0 trace.m1905.cn
-0.0.0.0 trace.aqyad.com
 0.0.0.0 trace-api.aiclk.com
 0.0.0.0 tr.byteurl.cn
 0.0.0.0 tr-vcode-od.vivoglobal.com
@@ -3201,7 +3215,6 @@ Banner468x60
 0.0.0.0 sdk.fliduo.cn
 0.0.0.0 sdk.conf.igexin.com
 0.0.0.0 sdk.conf.getui.com
-0.0.0.0 sdk.aqyad.com
 0.0.0.0 sdk.api.gamex.mobile.youku.com
 0.0.0.0 sdk.1rtb.com
 0.0.0.0 sdk-push.hiaiabc.com
