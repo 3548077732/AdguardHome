@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-14 20:41:13
-# 总规则数：10941 (黑名单: 6355, 白名单: 4586)
+﻿# 更新时间: 2025-11-14 20:51:06
+# 总规则数：10950 (黑名单: 6364, 白名单: 4586)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -179,6 +179,7 @@
 ||upos-sz-staticcos.bilivideo.com^
 ||upload.luckyorange.net^
 ||upload.ksapisrv.com^
+||upgrade.xl9.xunlei.com^
 ||upgrade-update.hismarttv.com^
 ||update0.aiclk.com^
 ||update.lejiao.tv^
@@ -391,6 +392,7 @@
 ||static.doubleclick.net^
 ||static.cloudflareinsights.com^
 ||static.ads-twitter.com^
+||static-xl9-ssl.xunlei.com^
 ||static-s.iqiyi.com^
 ||static-d.iqiyi.com^
 ||stat.youpin.mi.com^
@@ -422,6 +424,7 @@
 ||sofire.baidu.com^
 ||sofire-dr.baidu.com^
 ||social.pinduoduo.com^
+||soa-vip-ssl.xunlei.com^
 ||snowflake.qq.com^
 ||sngmta.qq.com^
 ||snap.licdn.com^
@@ -556,6 +559,7 @@
 ||res1.hubcloud.com.cn^
 ||res1.applovin.com^
 ||res.hubcloud.com.cn^
+||res-etl-ssl.xunlei.com^
 ||rereddit.com^
 ||report.tv.kohesport.qq.com^
 ||report.trade.weixin.qq.com^
@@ -958,6 +962,7 @@
 ||log.aliyuncs.com^
 ||log.aispeech.com^
 ||log.ad.xiaomi.com^
+||log-vip-ssl.xunlei.com^
 ||log-verify.hiaiabc.com^
 ||log-verify.dutils.com^
 ||log-upload.mihoyo.com^
@@ -1129,6 +1134,7 @@
 ||huichuan.sm.cn^
 ||huichuan-mc.sm.cn^
 ||hugelog.fcbox.com^
+||hub5pnc.sandai.net^
 ||hub5idx.v6.shub.sandai.net^
 ||httpdnsmultiapivip.meituan.com^
 ||httpdnsmultiapi.meituan.com^
@@ -1629,9 +1635,11 @@
 ||api.afdback.ppsimg.com^
 ||api.ad.xiaomi.com^
 ||api-unionid.meituan.com^
+||api-shoulei-ssl.xunlei.com^
 ||api-htp.beizi.biz^
 ||api-hotjar.com^
 ||api-gd.hiaiabc.com^
+||api-game-ssl.xunlei.com^
 ||api-adservices.apple.com^
 ||api-ad-product.huxiu.com^
 ||api-access.pangolin-sdk-toutiao5.com^
@@ -1723,6 +1731,7 @@
 ||adx-ad.smart-tv.cn^
 ||adview.cn^
 ||advice-ads.s3.amazonaws.com^
+||advertpay-vip-ssl.xunlei.com^
 ||advertising.yandex.ru^
 ||advertising.yahoo.com^
 ||advertising.twitter.com^
