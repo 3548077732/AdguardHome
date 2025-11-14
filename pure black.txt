@@ -1,4 +1,4 @@
-﻿# 更新时间: 2025-11-15 04:01:09
+﻿# 更新时间: 2025-11-15 04:11:13
 # 总规则数：10951 (黑名单: 6365, 白名单: 4586)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
@@ -2192,11 +2192,12 @@ Banner468x60
 74.125.200.188 alt2-mtalk.google.com
 62.76.25.28^
 62.76.25.27^
+52.216.49.57                  github-production-user-asset-6210df.s3.amazonaws.com
 47.246.37.220 hugeota.d.miui.com
 47.246.37.220 bigota.d.miui.com
 45.82.68.79^
-3.5.6.125                     github-production-user-asset-6210df.s3.amazonaws.com
-3.5.22.177                    github-cloud.s3.amazonaws.com
+3.5.6.143                     github-production-repository-file-5c1aeb.s3.amazonaws.com
+3.5.27.160                    github-cloud.s3.amazonaws.com
 20.43.185.14 github.dev
 20.205.243.168                api.github.com
 20.205.243.166                github.com
@@ -2227,7 +2228,6 @@ Banner468x60
 185.199.111.133               avatars.githubusercontent.com
 185.199.110.154 github.githubassets.com
 185.199.110.154 docs.github.com
-185.199.110.154               github.githubassets.com
 185.199.110.153 topjohnwu.github.io
 185.199.110.153 lsposed.github.io
 185.199.110.153 githubstatus.com
@@ -2242,11 +2242,11 @@ Banner468x60
 185.199.110.133 avatars1.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars.githubusercontent.com
+185.199.109.154               github.githubassets.com
 185.199.109.153               githubstatus.com
 185.199.109.153               github.io
-16.182.32.25                  github-production-repository-file-5c1aeb.s3.amazonaws.com
-16.15.220.235                 github-production-release-asset-2e65be.s3.amazonaws.com
-16.15.205.253                 github-com.s3.amazonaws.com
+16.15.192.65                  github-com.s3.amazonaws.com
+16.15.180.71                  github-production-release-asset-2e65be.s3.amazonaws.com
 151.101.76.133 raw.github.com
 151.101.193.194               github.global.ssl.fastly.net
 146.75.48.133 release-assets.githubusercontent.com
@@ -2259,17 +2259,17 @@ Banner468x60
 142.250.152.188 alt7-mtalk.google.com
 142.250.115.188 alt6-mtalk.google.com
 142.250.107.188 alt5-mtalk.google.com
-140.82.114.21                 api.individual.githubcopilot.com
-140.82.114.18                 github.community
+140.82.114.25                 live.github.com
+140.82.114.21                 education.github.com
 140.82.113.26 alive.github.com
+140.82.113.26                 alive.github.com
 140.82.113.22 central.github.com
 140.82.113.21 collector.github.com
-140.82.113.21                 central.github.com
-140.82.112.26                 live.github.com
-140.82.112.26                 alive.github.com
+140.82.113.17                 github.community
 140.82.112.25 live.github.com
-140.82.112.22                 education.github.com
-140.82.112.21                 collector.github.com
+140.82.112.22                 collector.github.com
+140.82.112.21                 central.github.com
+140.82.112.21                 api.individual.githubcopilot.com
 140.82.112.18 github.community
 13.107.42.16 pipelines.actions.githubusercontent.com
 13.107.42.16                  pipelines.actions.githubusercontent.com
