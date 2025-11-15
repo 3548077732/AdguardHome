@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-15 19:11:06
-# 总规则数：10952 (黑名单: 6365, 白名单: 4587)
+﻿# 更新时间: 2025-11-15 19:21:08
+# 总规则数：10954 (黑名单: 6367, 白名单: 4587)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -2116,6 +2116,8 @@ events.samsungads.com
 events-dra.op.hicloud.com
 dynamic-report-api.appsflyersdk.com^
 dvb.pandora.xiaomi.com
+dns2.titannetwork.cn
+dns.wechat.com
 dnkeeper.platform.dbankcloud.cn
 dnkeeper.hicloud.com
 dnkeeper.dbankcloud.com
