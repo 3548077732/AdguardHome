@@ -1,4 +1,4 @@
-﻿# 更新时间: 2025-11-15 16:11:20
+﻿# 更新时间: 2025-11-15 16:21:10
 # 总规则数：10951 (黑名单: 6365, 白名单: 4586)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
@@ -2192,12 +2192,11 @@ Banner468x60
 74.125.200.188 alt2-mtalk.google.com
 62.76.25.28^
 62.76.25.27^
-54.231.170.65                 github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.235.17                 github-com.s3.amazonaws.com
+52.217.170.145                github-cloud.s3.amazonaws.com
+52.216.78.148                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 47.246.37.220 hugeota.d.miui.com
 47.246.37.220 bigota.d.miui.com
 45.82.68.79^
-3.5.0.1                       github-cloud.s3.amazonaws.com
 20.43.185.14 github.dev
 20.205.243.166                github.com
 20.205.243.166                gist.github.com
@@ -2208,23 +2207,6 @@ Banner468x60
 192.178.131.188 alt8-mtalk.google.com
 192.0.66.2 github.blog
 192.0.66.2                    github.blog
-185.199.111.133               user-images.githubusercontent.com
-185.199.111.133               raw.githubusercontent.com
-185.199.111.133               private-user-images.githubusercontent.com
-185.199.111.133               objects.githubusercontent.com
-185.199.111.133               media.githubusercontent.com
-185.199.111.133               github.map.fastly.net
-185.199.111.133               favicons.githubusercontent.com
-185.199.111.133               desktop.githubusercontent.com
-185.199.111.133               cloud.githubusercontent.com
-185.199.111.133               camo.githubusercontent.com
-185.199.111.133               avatars5.githubusercontent.com
-185.199.111.133               avatars4.githubusercontent.com
-185.199.111.133               avatars3.githubusercontent.com
-185.199.111.133               avatars2.githubusercontent.com
-185.199.111.133               avatars1.githubusercontent.com
-185.199.111.133               avatars0.githubusercontent.com
-185.199.111.133               avatars.githubusercontent.com
 185.199.110.154 github.githubassets.com
 185.199.110.154 docs.github.com
 185.199.110.153 topjohnwu.github.io
@@ -2244,8 +2226,26 @@ Banner468x60
 185.199.109.154               github.githubassets.com
 185.199.109.153               githubstatus.com
 185.199.109.153               github.io
-16.15.191.169                 github-production-user-asset-6210df.s3.amazonaws.com
-16.15.185.225                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+185.199.108.133               user-images.githubusercontent.com
+185.199.108.133               raw.githubusercontent.com
+185.199.108.133               private-user-images.githubusercontent.com
+185.199.108.133               objects.githubusercontent.com
+185.199.108.133               media.githubusercontent.com
+185.199.108.133               github.map.fastly.net
+185.199.108.133               favicons.githubusercontent.com
+185.199.108.133               desktop.githubusercontent.com
+185.199.108.133               cloud.githubusercontent.com
+185.199.108.133               camo.githubusercontent.com
+185.199.108.133               avatars5.githubusercontent.com
+185.199.108.133               avatars4.githubusercontent.com
+185.199.108.133               avatars3.githubusercontent.com
+185.199.108.133               avatars2.githubusercontent.com
+185.199.108.133               avatars1.githubusercontent.com
+185.199.108.133               avatars0.githubusercontent.com
+185.199.108.133               avatars.githubusercontent.com
+16.15.202.137                 github-production-release-asset-2e65be.s3.amazonaws.com
+16.15.184.63                  github-com.s3.amazonaws.com
+16.15.179.111                 github-production-user-asset-6210df.s3.amazonaws.com
 151.101.76.133 raw.github.com
 151.101.193.194               github.global.ssl.fastly.net
 146.75.48.133 release-assets.githubusercontent.com
@@ -2258,19 +2258,19 @@ Banner468x60
 142.250.152.188 alt7-mtalk.google.com
 142.250.115.188 alt6-mtalk.google.com
 142.250.107.188 alt5-mtalk.google.com
-140.82.114.22                 education.github.com
-140.82.114.22                 collector.github.com
-140.82.114.21                 central.github.com
-140.82.114.17                 github.community
+140.82.114.5                  api.github.com
+140.82.114.25                 live.github.com
 140.82.113.26 alive.github.com
-140.82.113.26                 live.github.com
+140.82.113.26                 alive.github.com
 140.82.113.22 central.github.com
+140.82.113.22                 central.github.com
 140.82.113.21 collector.github.com
-140.82.112.5                  api.github.com
-140.82.112.26                 alive.github.com
+140.82.113.21                 collector.github.com
 140.82.112.25 live.github.com
-140.82.112.21                 api.individual.githubcopilot.com
+140.82.112.22                 education.github.com
+140.82.112.22                 api.individual.githubcopilot.com
 140.82.112.18 github.community
+140.82.112.18                 github.community
 13.107.42.16 pipelines.actions.githubusercontent.com
 13.107.42.16                  pipelines.actions.githubusercontent.com
 13.107.213.73                 vscode.dev
@@ -6555,15 +6555,15 @@ Banner468x60
 @@||track.rutarget.ru^|
 @@||5471782.fls.doubleclick.net^|
 @@||omniture.walmart.com^|
+@@||cdn.datatables.net^
 @@||local.adguard.org^
 @@||s1.wp.com^
 @@||redirect.disqus.com^
-@@||krebsonsecurity.com
 @@||pgpartner.com^
-@@||login.gaijin.net^
 @@||webstatic.nero.com^
-@@||cdn.datatables.net^
+@@||login.gaijin.net^
 @@||admin.mailchimp.com^
+@@||krebsonsecurity.com
 @@||download.adguard.com^
 @@||auto-api.yelp.com
 @@||pics.porndroids.com^
@@ -6576,18 +6576,18 @@ Banner468x60
 @@||al-aqsanews.com
 @@||api.sec.miui.com^
 @@||umengjmacs.m.taobao.com^
+@@||log-api.pangolin-sdk-toutiao-b.com^
 @@||log-api.pangolin-sdk-toutiao.com^
 @@||lf*-cdn-tos.bytegoofy.com^
 @@||*ad*.ksyungslb.com^
-@@||log-api.pangolin-sdk-toutiao-b.com^
 @@||p*-img.searchpstatp.com^
 @@||lf*material.searchpstatp.com^
 @@||p*.toutiaoimg.com^
 @@||tcbox.baidu.com^
 @@||nsclick.baidu.com^
 @@||feed-image.baidu.com^
-@@||cm-10-*.getui.com^
 @@||cdn.ynuf.aliapp.org^
+@@||cm-10-*.getui.com^
 @@||v*.douyinvod.com^
 @@||saveu*-normal-lf.zijieapi.com^
 @@||lf*-webcast-cdn-tos-ncdn.bytegecko.com^
@@ -6596,6 +6596,7 @@ Banner468x60
 @@||lf*-dy-cdn-tos.bytegecko.com^
 @@||lf*-static.bytednsdoc.com^
 @@||lf*-webcast-cdn-tos.bytegecko.com^
+@@||pan.quark.cn^
 @@||lf*-webcastcdn-tos.douyinstatic.com^
 @@||ma*-normal-lf.zijieapi.com^
 @@||p*-piu.byteimg.com^
@@ -6608,164 +6609,163 @@ Banner468x60
 @@||tvapp.hpplay.cn^
 @@||h5.hpplay.com.cn^
 @@||sl.hpplay.cn^
-@@||drive.quark.cn^
 @@||conf.hpplay.cn^
 @@||d*.static.yximgs.com^
+@@||lf-c-flwb.bytetos.com^
 @@||is.snssdk.com^
 @@||d*-magic.static.yximgs.com^
 @@||live*.static.yximgs.com^
+@@||p9-flow-imagex-sign.byteimg.com^
 @@||*m.chenzhongtech.com^
-@@||app.toutiao.com^
 @@||p*-novel.byteimg.com^
-@@||pan.quark.cn^
 @@||p*-novel-sign.byteimg.com^
 @@||p*-ppx-sign.byteimg.com^
 @@||p*-ppx-report.byteimg.com^
 @@||bgp.video-upload-v*.lf.bytelb.net^
-@@||mssdk3-normal-lf.zijieapi.com^
-@@||pic2.zhimg.com^
-@@||wxsnsdy.wxs.qq.com^
-@@||ib.snssdk.com^
-@@||lf3-short.ibytedapm.com^
-@@||i2.y.qq.com^
-@@||tnc3-bjlgy.zijieapi.com^
-@@||v*.kwaicdn.com^
-@@||www.toutiao.com^
-@@||monsetting.toutiao.com^
-@@||pitaya.bytedance.com^
-@@||lf-c-flwb.bytetos.com^
-@@||lf-webcast-gr-sourcecdn.bytegecko.com^
-@@||v.miguvideo.com^
-@@||gm.mmstat.com^
-@@||aweme.snssdk.com^
-@@||qzonestyle.gtimg.cn^
-@@||www.paypalobjects.com^
-@@||ylog.huya.com^
-@@||bootcdn.net^
-@@||wgo.mmstat.com^
-@@||lf-cdn-tos.bytescm.com^
-@@||dig.lianjia.com^
-@@||lf-webcast-sourcecdn-tos.bytegecko.com^
-@@||polaris.zijieapi.com^
-@@||m.toutiao.com^
-@@||ali.static.yximgs.com^
-@@||fastconn-api.iot.360.cn^
-@@||cloudcontrol.live.360.cn^
-@@||cn.app.chat.xiaomi.net^
-@@||bjfesdk.douyucdn.cn^
-@@||msg.douyu.com^
-@@||payapp.weixin.qq.com^
-@@||na61-na62.wagbridge.alibaba.tanx.com^
-@@||p*-faceu-img-sign.byteimg.com^
-@@||gift.douyucdn.cn^
-@@||p*-passport.byteacctimg.com^
-@@||dinamicx.alibabausercontent.com^
-@@||meiqia.com^
-@@||avatar.coolapk.com^
-@@||app.home.360.cn^
-@@||foundation.youdao.com^
-@@||img*.funshion.com^
-@@||cainiao-app-logs.cn-zhangjiakou.log.aliyuncs.com^
-@@||360.cn^
-@@||myquark.cn^
-@@||effect.snssdk.com^
-@@||v16m-default.akamaized.net^
-@@||speed.live.360.cn^
-@@||souti-ims.sm.cn^
-@@||tybook.taoyuewenhua.net^
-@@||scan.call.f.360.cn^
-@@||mdm.openapi.360.cn^
-@@||po.funshion.com^
-@@||shouji.360.cn^
-@@||sdk.live.360.cn^
-@@||download.uc.cn^
-@@||pm.funshion.com^
-@@||puser.funshion.com^
-@@||mobilist.kuwo.cn^
-@@||search.kuwo.cn^
-@@||vip1.kuwo.cn^
-@@||pvip.funshion.com^
-@@||passport.360.cn^
-@@||ncomment.kuwo.cn^
-@@||ydlunacommon-cdn.nosdn.127.net^
-@@||jia.360.cn^
-@@||adash-emas.cn-hangzhou.aliyuncs.com^
-@@||yanxuan-item.nosdn.127.net^
-@@||onegoods.nosdn.127.net^
-@@||www.bqgyy.com^
-@@||c.pc.qq.com^
-@@||gecko.zijieapi.com^
-@@||necaptcha.nosdn.127.net^
-@@||ad-log-upload.mihoyo.com^
-@@||mooc-image.nosdn.127.net^
-@@||lf3-cdn2-tos.bytescm.com^
-@@||lf3-cdn-tos.bytegoofy.com^
-@@||soutiapi.quark.cn^
-@@||mimg.127.net^
-@@||saveu.zijieapi.com^
-@@||yanxuan-dl.nosdn.127.net^
-@@||p3-search.byteimg.com^
-@@||auth.zijieapi.com^
-@@||pic.imgdb.cn
-@@||p3-dcd.byteimg.com^
-@@||p3-flow-imagex-sign.byteimg.com^
-@@||lf1-cdn-tos.bytegoofy.com^
-@@||p3-cpay.byteimg.com^
-@@||ttwid.bytedance.com^
-@@||p1-dcd.byteimg.com^
-@@||ali-gamezone.static.yximgs.com^
-@@||p3-iz-e-sign.byteimg.com^
-@@||lf1-cdn-tos.bytescm.com^
-@@||ali-ky.static.yximgs.com^
-@@||lf3-cdn-tos.bytescm.com^
-@@||p3-scmimg.bytescm.com^
-@@||f-cpay.snssdk.com^
-@@||down.360safe.com^
-@@||click.aliyun.com^
-@@||api.coolapk.com^
-@@||f-cashloan.snssdk.com^
-@@||p9-dy.byteimg.com
-@@||mall.360.cn^
-@@||edu-image.nosdn.127.net^
-@@||luna-dict-community.nosdn.127.net^
-@@||dp.push.dc.360.cn^
-@@||js-gamezone.static.yximgs.com^
-@@||yanxuan.nosdn.127.net^
-@@||lf6-cdn-tos.bytegoofy.com^
-@@||p3-dcd-sign.byteimg.com^
-@@||ic.snssdk.com^
-@@||portal.volccdn.com^
-@@||p6-dy-ipv6.byteimg.com^
-@@||staticsns.cdn.bcebos.com^
-@@||p6-flow-imagex-sign.byteimg.com^
-@@||p6-dcd-sign.byteimg.com^
-@@||lf3-cdn-tos.bytecdntp.com^
-@@||gia.jd.com^
-@@||develope-oss.lanzoug.com^
-@@||vcs.zijieapi.com^
-@@||vas.snssdk.com^
-@@||lf3-imcloud-file-sign.bytetos.com^
-@@||ipolyfill-origin.bytedance.com^
-@@||qwhdcdn.cmcc-cs.cn^
-@@||ms.bdimg.com^
-@@||tianshu.gtimg.cn^
-@@||lf3-search.searchpstatp.com^
-@@||open.bytedanceapi.com^
-@@||p9-dcd-sign.byteimg.com^
-@@||p3-notice.byteimg.com^
-@@||abtest3-misc-lf.zijieapi.com^
-@@||vcs-quality.zijieapi.com^
-@@||lf6-imcloud-file-sign.bytetos.com^
-@@||smart.360.cn^
-@@||p9-flow-imagex-sign.byteimg.com^
-@@||survey.feelgood.cn^
 @@||p9-dcd.byteimg.com^
+@@||mssdk3-normal-lf.zijieapi.com^
+@@||ylog.huya.com^
+@@||lf3-short.ibytedapm.com^
+@@||wxsnsdy.wxs.qq.com^
+@@||qzonestyle.gtimg.cn^
+@@||lf-webcast-gr-sourcecdn.bytegecko.com^
+@@||pic2.zhimg.com^
+@@||v*.kwaicdn.com^
+@@||pitaya.bytedance.com^
+@@||gm.mmstat.com^
+@@||tnc3-bjlgy.zijieapi.com^
+@@||ib.snssdk.com^
+@@||monsetting.toutiao.com^
+@@||cn.app.chat.xiaomi.net^
+@@||cainiao-app-logs.cn-zhangjiakou.log.aliyuncs.com^
+@@||www.paypalobjects.com^
+@@||dig.lianjia.com^
+@@||gift.douyucdn.cn^
+@@||vcs.zijieapi.com^
+@@||wgo.mmstat.com^
+@@||aweme.snssdk.com^
+@@||pic.imgdb.cn
+@@||v.miguvideo.com^
+@@||www.toutiao.com^
+@@||bootcdn.net^
+@@||m.toutiao.com^
+@@||bjfesdk.douyucdn.cn^
+@@||ali.static.yximgs.com^
+@@||v16m-default.akamaized.net^
+@@||msg.douyu.com^
+@@||gecko.zijieapi.com^
+@@||mdm.openapi.360.cn^
+@@||cloudcontrol.live.360.cn^
+@@||scan.call.f.360.cn^
+@@||www.bqgyy.com^
+@@||p*-faceu-img-sign.byteimg.com^
+@@||p*-passport.byteacctimg.com^
+@@||meiqia.com^
+@@||na61-na62.wagbridge.alibaba.tanx.com^
+@@||myquark.cn^
+@@||payapp.weixin.qq.com^
+@@||dinamicx.alibabausercontent.com^
+@@||img*.funshion.com^
+@@||effect.snssdk.com^
+@@||soutiapi.quark.cn^
+@@||drive.quark.cn^
+@@||onegoods.nosdn.127.net^
+@@||tybook.taoyuewenhua.net^
+@@||souti-ims.sm.cn^
+@@||app.home.360.cn^
+@@||sdk.live.360.cn^
+@@||pvip.funshion.com^
+@@||dp.push.dc.360.cn^
+@@||pm.funshion.com^
+@@||po.funshion.com^
+@@||download.uc.cn^
+@@||search.kuwo.cn^
+@@||ncomment.kuwo.cn^
+@@||mobilist.kuwo.cn^
+@@||adash-emas.cn-hangzhou.aliyuncs.com^
 @@||report.passport.360.cn^
-@@||m.jingxi.com^
-@@||res.mi.baidu.com^
-@@||p3-insurance.byteimg.com^
-@@||cp2-cdn-play.funshion.com^
+@@||ydlunacommon-cdn.nosdn.127.net^
+@@||mimg.127.net^
+@@||foundation.youdao.com^
+@@||c.pc.qq.com^
+@@||p3-search.byteimg.com^
+@@||edu-image.nosdn.127.net^
+@@||ad-log-upload.mihoyo.com^
+@@||lf3-imcloud-file-sign.bytetos.com^
+@@||yanxuan.nosdn.127.net^
+@@||saveu.zijieapi.com^
+@@||vas.snssdk.com^
+@@||mooc-image.nosdn.127.net^
+@@||lf1-cdn-tos.bytegoofy.com^
+@@||p3-flow-imagex-sign.byteimg.com^
+@@||yanxuan-item.nosdn.127.net^
+@@||i2.y.qq.com^
+@@||lf1-cdn-tos.bytescm.com^
+@@||app.toutiao.com^
+@@||p3-dcd.byteimg.com^
+@@||p3-cpay.byteimg.com^
+@@||p1-dcd.byteimg.com^
+@@||lf3-cdn-tos.bytescm.com^
+@@||ali-gamezone.static.yximgs.com^
+@@||lf3-cdn-tos.bytegoofy.com^
+@@||polaris.zijieapi.com^
+@@||p3-scmimg.bytescm.com^
+@@||p3-iz-e-sign.byteimg.com^
+@@||passport.360.cn^
+@@||f-cashloan.snssdk.com^
+@@||staticsns.cdn.bcebos.com^
+@@||avatar.coolapk.com^
+@@||f-cpay.snssdk.com^
+@@||shouji.360.cn^
+@@||ali-ky.static.yximgs.com^
+@@||ipolyfill-origin.bytedance.com^
+@@||360.cn^
+@@||speed.live.360.cn^
+@@||vip1.kuwo.cn^
+@@||jia.360.cn^
+@@||smart.360.cn^
+@@||fastconn-api.iot.360.cn^
+@@||yanxuan-dl.nosdn.127.net^
+@@||down.360safe.com^
 @@||s.mvconf.f.360.cn^
+@@||puser.funshion.com^
+@@||necaptcha.nosdn.127.net^
+@@||api.coolapk.com^
+@@||lf-cdn-tos.bytescm.com^
+@@||luna-dict-community.nosdn.127.net^
+@@||p3-notice.byteimg.com^
+@@||ic.snssdk.com^
+@@||lf6-imcloud-file-sign.bytetos.com^
+@@||develope-oss.lanzoug.com^
+@@||p3-dcd-sign.byteimg.com^
+@@||p3-insurance.byteimg.com^
+@@||portal.volccdn.com^
+@@||js-gamezone.static.yximgs.com^
+@@||auth.zijieapi.com^
+@@||p6-dcd-sign.byteimg.com^
+@@||ttwid.bytedance.com^
+@@||p6-flow-imagex-sign.byteimg.com^
+@@||p6-dy-ipv6.byteimg.com^
+@@||click.aliyun.com^
+@@||m.jingxi.com^
+@@||tianshu.gtimg.cn^
+@@||ms.bdimg.com^
+@@||lf3-search.searchpstatp.com^
+@@||lf3-cdn2-tos.bytescm.com^
+@@||lf6-cdn-tos.bytegoofy.com^
+@@||open.bytedanceapi.com^
+@@||lf3-cdn-tos.bytecdntp.com^
+@@||lf-webcast-sourcecdn-tos.bytegecko.com^
+@@||vcs-quality.zijieapi.com^
+@@||abtest3-misc-lf.zijieapi.com^
+@@||p9-dcd-sign.byteimg.com^
+@@||mall.360.cn^
+@@||gia.jd.com^
+@@||p9-dy.byteimg.com
+@@||survey.feelgood.cn^
+@@||res.mi.baidu.com^
+@@||qwhdcdn.cmcc-cs.cn^
+@@||cp2-cdn-play.funshion.com^
 @@||img.funshion.com^
 @@||白名单仅用于测试.com^
 @@||web.qun.qq.com^
