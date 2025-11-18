@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-18 14:41:23
-# 总规则数：10961 (黑名单: 6373, 白名单: 4588)
+﻿# 更新时间: 2025-11-18 14:51:13
+# 总规则数：10966 (黑名单: 6378, 白名单: 4588)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -337,6 +337,7 @@
 ||tdid.m.qq.com^
 ||tdc.qq.com^
 ||tcbox.baidu.com^
+||target.ads.jihuoniao.com^
 ||tangram.e.qq.com^
 ||tangram-config.gdt.qq.com^
 ||tag.wknd.ai^
@@ -523,6 +524,7 @@
 ||sa.api.intl.miui.com^
 ||s8t.teads.tv^
 ||s3.bytecdn.cn^
+||s1.cdn-sg.advlion.com^
 ||s.pemsrv.com^
 ||s.jpush.cn^
 ||s.click.taobao.com^
@@ -542,6 +544,7 @@
 ||rtlog3-applog-lf.fqnovel.com^
 ||rtlog22-normal-alisg.tiktokv.com^
 ||rtb.voiceads.cn^
+||rtb.adxsenmeng.com^
 ||rt.applvn.com^
 ||rt.applovin.com^
 ||rpt.gdt.qq.com^
@@ -587,6 +590,7 @@
 ||qqpublic.qpic.cn^
 ||qqdata.ab.qq.com^
 ||qn-cdnfile1pcdn.msstatic.com^
+||qmlog.baertt.com^
 ||qbdsp.html5.qq.com^
 ||qappcenterv6.3g.qq.com^
 ||q.i.gdt.qq.com^
@@ -815,6 +819,7 @@
 ||monsetting.toutiao.com^
 ||monitor.uu.qq.com^
 ||monitor.music.qq.com^
+||monitor.adxsenmeng.com^
 ||monitor-uu.play.aiseet.atianqi.com^
 ||monitor-ads-test.huan.tv^
 ||moni-onrt-stsdk.vivo.com.cn^
@@ -1521,6 +1526,7 @@
 ||boardy.huanqiu.com^
 ||bluekai.com^
 ||bj.ad.track.66mobi.com^
+||bj-td-menta-01-callback.advlion.com^
 ||biz.weibo.com^
 ||bingads.microsoft.com^
 ||bigdata.ssp.samsung.com^
@@ -1727,12 +1733,14 @@
 ||adx.ads.oppomobile.com^
 ||adx.ads.heytapmobi.com^
 ||adx-track.adn-plus.com.cn^
+||adx-saas.advlion.com^
 ||adx-os.anythinktech.com^
 ||adx-open-service.youku.com^
 ||adx-drcn.op.dbankcloud.cn^
 ||adx-cn.anythinktech.com^
 ||adx-bj.anythinktech.com^
 ||adx-bj-req.anythinktech.com^
+||adx-api.jinmo.tech^
 ||adx-ad.smart-tv.cn^
 ||adview.cn^
 ||advice-ads.s3.amazonaws.com^
@@ -3413,7 +3421,6 @@ Banner468x60
 0.0.0.0 s1.irs03.com
 0.0.0.0 s1.cnzz.com
 0.0.0.0 s1.cmfu.com
-0.0.0.0 s1.cdn-sg.advlion.com
 0.0.0.0 s0.doubleclick.net
 0.0.0.0 s0.2mdn.net
 0.0.0.0 s.wrating.com
@@ -5506,7 +5513,6 @@ Banner468x60
 0.0.0.0 bj8-api.ad.jiguang.cn
 0.0.0.0 bj.qchannel03.cn
 0.0.0.0 bj.imp.voiceads.cn
-0.0.0.0 bj-td-menta-01-callback.advlion.com
 0.0.0.0 bj-td-01-callback.advlion.com
 0.0.0.0 bj-superset.oa.vlion.cn
 0.0.0.0 bj-api.srv.jpush.cn
@@ -5938,7 +5944,6 @@ Banner468x60
 0.0.0.0 adx.adubest.com
 0.0.0.0 adx.ads.vungle.com
 0.0.0.0 adx-track.domob.cn
-0.0.0.0 adx-saas.advlion.com
 0.0.0.0 adx-os.toponadss.com
 0.0.0.0 adx-fb.wandoujia.com
 0.0.0.0 adx-event.ad.jiguang.cn
