@@ -1,4 +1,4 @@
-﻿# 更新时间: 2025-11-18 22:01:16
+﻿# 更新时间: 2025-11-18 22:11:25
 # 总规则数：10967 (黑名单: 6378, 白名单: 4589)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
@@ -2208,19 +2208,15 @@ Banner468x60
 74.125.200.188 alt2-mtalk.google.com
 62.76.25.28^
 62.76.25.27^
-52.216.211.25                 github-production-user-asset-6210df.s3.amazonaws.com
 47.246.37.220 hugeota.d.miui.com
 47.246.37.220 bigota.d.miui.com
 45.82.68.79^
 20.43.185.14 github.dev
-20.205.243.168                api.github.com
-20.205.243.166                github.com
 20.200.245.247 github.com
 20.200.245.247 gist.github.com
 20.200.245.245 api.github.com
 192.178.131.188 alt8-mtalk.google.com
 192.0.66.2 github.blog
-192.0.66.2                    github.blog
 185.199.110.154 github.githubassets.com
 185.199.110.154 docs.github.com
 185.199.110.153 topjohnwu.github.io
@@ -2237,7 +2233,6 @@ Banner468x60
 185.199.110.133 avatars1.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars.githubusercontent.com
-16.15.218.81                  github-production-repository-file-5c1aeb.s3.amazonaws.com
 152.32.215.247                vscode.dev
 152.32.215.247                user-images.githubusercontent.com
 152.32.215.247                raw.githubusercontent.com
@@ -2251,6 +2246,11 @@ Banner468x60
 152.32.215.247                github.io
 152.32.215.247                github.global.ssl.fastly.net
 152.32.215.247                github.githubassets.com
+152.32.215.247                github.community
+152.32.215.247                github.com
+152.32.215.247                github.blog
+152.32.215.247                github-production-user-asset-6210df.s3.amazonaws.com
+152.32.215.247                github-production-repository-file-5c1aeb.s3.amazonaws.com
 152.32.215.247                github-production-release-asset-2e65be.s3.amazonaws.com
 152.32.215.247                github-com.s3.amazonaws.com
 152.32.215.247                github-cloud.s3.amazonaws.com
@@ -2270,6 +2270,9 @@ Banner468x60
 152.32.215.247                avatars1.githubusercontent.com
 152.32.215.247                avatars0.githubusercontent.com
 152.32.215.247                avatars.githubusercontent.com
+152.32.215.247                api.individual.githubcopilot.com
+152.32.215.247                api.github.com
+152.32.215.247                alive.github.com
 151.101.76.133 raw.github.com
 146.75.48.133 release-assets.githubusercontent.com
 146.75.48.133 raw.githubusercontent.com
@@ -2284,11 +2287,8 @@ Banner468x60
 140.82.113.26 alive.github.com
 140.82.113.22 central.github.com
 140.82.113.21 collector.github.com
-140.82.112.26                 alive.github.com
 140.82.112.25 live.github.com
-140.82.112.21                 api.individual.githubcopilot.com
 140.82.112.18 github.community
-140.82.112.17                 github.community
 13.107.42.16 pipelines.actions.githubusercontent.com
 127.0.0.1 localhost
 127.0.0.1 etl-xlmc-ssl.sandai.net
