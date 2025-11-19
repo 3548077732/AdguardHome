@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-19 11:31:16
-# 总规则数：10967 (黑名单: 6378, 白名单: 4589)
+﻿# 更新时间: 2025-11-19 11:51:28
+# 总规则数：10969 (黑名单: 6380, 白名单: 4589)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -933,6 +933,7 @@
 ||log3-misc-lf.amemv.com^
 ||log3-applog-lq.fqnovel.com^
 ||log3-applog-lf.fqnovel.com^
+||log2.cmpassport.com^
 ||log19-normal-alisg.tiktokv.com^
 ||log16-normal-useast2a.tiktokv.com^
 ||log1.cmpassport.com^
@@ -1397,6 +1398,7 @@
 ||connect.facebook.net^
 ||confinfo.map.qq.com^
 ||configsvr.msf.3g.qq.com^
+||config2.cmpassport.com^
 ||config.unityads.unity3d.com^
 ||config.inmobi.com^
 ||config.cmpassport.com^
