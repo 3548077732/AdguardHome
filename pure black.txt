@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-21 02:11:36
-# 总规则数：10975 (黑名单: 6380, 白名单: 4595)
+﻿# 更新时间: 2025-11-21 02:21:18
+# 总规则数：10967 (黑名单: 6380, 白名单: 4587)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -8486,7 +8486,6 @@ Banner468x60
 @@||cdn-f1.assistant.miui.com^
 @@||cdn.ark.qq.com^$important
 @@||cdn.bootcdn.net^
-@@||cdn.deepseek.com^$important
 @@||cdn.iocdn.cc^
 @@||cdn.odc.officeapps.live.com^$important
 @@||cdn.staticfile.org^
@@ -8829,7 +8828,6 @@ Banner468x60
 @@||gtimg.wechatpay.cn^
 @@||guanjia.qq.com^
 @@||guid.tpns.tencent.com^
-@@||guide-acs.m.taobao.com^$important
 @@||guzzoni.apple.com^$important
 @@||gvt1.com^
 @@||gvt2.com^
@@ -9408,7 +9406,6 @@ Banner468x60
 @@||static-ss.xvideos-cdn.com^
 @@||static-tapad.tapdb.net^
 @@||static.122.gov.cn^
-@@||static.deepseek.com^$important
 @@||static.iask.cn^
 @@||static.inkuai.com^
 @@||static.ips.apple.com^$important
@@ -9489,7 +9486,7 @@ Banner468x60
 @@||trade-acs.m.taobao.com^
 @@||train.17u.cn^
 @@||translator.qq.com^
-@@||trpc.qianbao.qq.com^$important
+@@||trpc.qianbao.qq.com^
 @@||tse1.mm.bing.net^$important
 @@||tsis.jpush.cn^
 @@||tube.e.kuaishou.com^
@@ -9530,7 +9527,7 @@ Banner468x60
 @@||user1.game.qq.com^
 @@||ut-public-service-prod10.ol.epicgames.com^$important
 @@||uxip.meizu.com^
-@@||uzzf.com^$important
+@@||uzzf.com^
 @@||v*-dc-ad.ixigua.com^
 @@||v*-fq-tts.fqnovelvod.com^
 @@||v.gdt.qq.com^
@@ -9596,6 +9593,7 @@ Banner468x60
 @@||wmflabs.org^
 @@||wodenongtian.com^
 @@||woniu.com^
+@@||woocall.sina.com.cn^
 @@||work.weixin.qq.com^
 @@||worldwide.sogou.com^
 @@||wq.jd.com^
@@ -9638,7 +9636,7 @@ Banner468x60
 @@||www.kdocs.cn^
 @@||www.lsds.cn^
 @@||www.maimemo.com^
-@@||www.mairuan.com^$important
+@@||www.mairuan.com^
 @@||www.manhuabei.com^
 @@||www.microsoft.com^$important
 @@||www.microsoft365.com^$important
@@ -9652,7 +9650,7 @@ Banner468x60
 @@||www.sygjx.com^
 @@||www.tudou.com^
 @@||www.twitter.com^
-@@||www.uzzf.com^$important
+@@||www.uzzf.com^
 @@||www.wandoujia.com^$important
 @@||www.youtube-nocookie.com^
 @@||www.youtube.com^
@@ -9665,7 +9663,7 @@ Banner468x60
 @@||wxpay.qpic.cn^
 @@||wxsnsencsvp.wxs.qq.com^
 @@||x6img.com^
-@@||xbk.189.cn^$important
+@@||xbk.189.cn^
 @@||xhslink.com^
 @@||xiaoshuo.wtzw.com^
 @@||xifuquan.com^
@@ -9702,14 +9700,8 @@ Banner468x60
 @@||zkres.myzaker.com^
 @@||zm.sm-tc.cn^
 @@||ztgame.com^
-@@||woocall.sina.com.cn^
-@@||www.uzzf.com^
-@@||uzzf.com^
-@@||www.mairuan.com^
 @@||h35.ynodd.cn^$
-@@||xbk.189.cn^
 @@||wxpaylogo.qpic.cn^
-@@||trpc.qianbao.qq.com^
 @@||haohuo.jinritemai.com^
 @@||analytics.google.com
 @@||analytics.twitter.com

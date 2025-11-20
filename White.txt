@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-21 02:11:36
-# 白名单规则数：4595
+﻿# 更新时间: 2025-11-21 02:21:18
+# 白名单规则数：4587
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -2106,7 +2106,6 @@
 @@||cdn-f1.assistant.miui.com^
 @@||cdn.ark.qq.com^$important
 @@||cdn.bootcdn.net^
-@@||cdn.deepseek.com^$important
 @@||cdn.iocdn.cc^
 @@||cdn.odc.officeapps.live.com^$important
 @@||cdn.staticfile.org^
@@ -2449,7 +2448,6 @@
 @@||gtimg.wechatpay.cn^
 @@||guanjia.qq.com^
 @@||guid.tpns.tencent.com^
-@@||guide-acs.m.taobao.com^$important
 @@||guzzoni.apple.com^$important
 @@||gvt1.com^
 @@||gvt2.com^
@@ -3028,7 +3026,6 @@
 @@||static-ss.xvideos-cdn.com^
 @@||static-tapad.tapdb.net^
 @@||static.122.gov.cn^
-@@||static.deepseek.com^$important
 @@||static.iask.cn^
 @@||static.inkuai.com^
 @@||static.ips.apple.com^$important
@@ -3109,7 +3106,7 @@
 @@||trade-acs.m.taobao.com^
 @@||train.17u.cn^
 @@||translator.qq.com^
-@@||trpc.qianbao.qq.com^$important
+@@||trpc.qianbao.qq.com^
 @@||tse1.mm.bing.net^$important
 @@||tsis.jpush.cn^
 @@||tube.e.kuaishou.com^
@@ -3150,7 +3147,7 @@
 @@||user1.game.qq.com^
 @@||ut-public-service-prod10.ol.epicgames.com^$important
 @@||uxip.meizu.com^
-@@||uzzf.com^$important
+@@||uzzf.com^
 @@||v*-dc-ad.ixigua.com^
 @@||v*-fq-tts.fqnovelvod.com^
 @@||v.gdt.qq.com^
@@ -3216,6 +3213,7 @@
 @@||wmflabs.org^
 @@||wodenongtian.com^
 @@||woniu.com^
+@@||woocall.sina.com.cn^
 @@||work.weixin.qq.com^
 @@||worldwide.sogou.com^
 @@||wq.jd.com^
@@ -3258,7 +3256,7 @@
 @@||www.kdocs.cn^
 @@||www.lsds.cn^
 @@||www.maimemo.com^
-@@||www.mairuan.com^$important
+@@||www.mairuan.com^
 @@||www.manhuabei.com^
 @@||www.microsoft.com^$important
 @@||www.microsoft365.com^$important
@@ -3272,7 +3270,7 @@
 @@||www.sygjx.com^
 @@||www.tudou.com^
 @@||www.twitter.com^
-@@||www.uzzf.com^$important
+@@||www.uzzf.com^
 @@||www.wandoujia.com^$important
 @@||www.youtube-nocookie.com^
 @@||www.youtube.com^
@@ -3285,7 +3283,7 @@
 @@||wxpay.qpic.cn^
 @@||wxsnsencsvp.wxs.qq.com^
 @@||x6img.com^
-@@||xbk.189.cn^$important
+@@||xbk.189.cn^
 @@||xhslink.com^
 @@||xiaoshuo.wtzw.com^
 @@||xifuquan.com^
@@ -3322,14 +3320,8 @@
 @@||zkres.myzaker.com^
 @@||zm.sm-tc.cn^
 @@||ztgame.com^
-@@||woocall.sina.com.cn^
-@@||www.uzzf.com^
-@@||uzzf.com^
-@@||www.mairuan.com^
 @@||h35.ynodd.cn^$
-@@||xbk.189.cn^
 @@||wxpaylogo.qpic.cn^
-@@||trpc.qianbao.qq.com^
 @@||haohuo.jinritemai.com^
 @@||analytics.google.com
 @@||analytics.twitter.com
