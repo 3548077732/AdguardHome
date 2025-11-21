@@ -1,4 +1,4 @@
-﻿# 更新时间: 2025-11-22 02:01:21
+﻿# 更新时间: 2025-11-22 02:18:12
 # 总规则数：10967 (黑名单: 6380, 白名单: 4587)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
@@ -2210,15 +2210,14 @@ Banner468x60
 74.125.200.188 alt2-mtalk.google.com
 62.76.25.28^
 62.76.25.27^
-54.231.224.41                 github-com.s3.amazonaws.com
-52.216.237.187                github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.45.204                 github-production-release-asset-2e65be.s3.amazonaws.com
 47.246.37.220 hugeota.d.miui.com
 47.246.37.220 bigota.d.miui.com
 45.82.68.79^
-3.5.13.54                     github-cloud.s3.amazonaws.com
+3.5.27.60                     github-production-repository-file-5c1aeb.s3.amazonaws.com
+3.5.13.113                    github-production-user-asset-6210df.s3.amazonaws.com
 20.43.185.14 github.dev
 20.205.243.168                api.github.com
-20.205.243.166                github.com
 20.205.243.166                gist.github.com
 20.205.243.165                codeload.github.com
 20.200.245.247 github.com
@@ -2229,23 +2228,6 @@ Banner468x60
 192.0.66.2                    github.blog
 185.199.111.153               githubstatus.com
 185.199.111.153               github.io
-185.199.111.133               user-images.githubusercontent.com
-185.199.111.133               raw.githubusercontent.com
-185.199.111.133               private-user-images.githubusercontent.com
-185.199.111.133               objects.githubusercontent.com
-185.199.111.133               media.githubusercontent.com
-185.199.111.133               github.map.fastly.net
-185.199.111.133               favicons.githubusercontent.com
-185.199.111.133               desktop.githubusercontent.com
-185.199.111.133               cloud.githubusercontent.com
-185.199.111.133               camo.githubusercontent.com
-185.199.111.133               avatars5.githubusercontent.com
-185.199.111.133               avatars4.githubusercontent.com
-185.199.111.133               avatars3.githubusercontent.com
-185.199.111.133               avatars2.githubusercontent.com
-185.199.111.133               avatars1.githubusercontent.com
-185.199.111.133               avatars0.githubusercontent.com
-185.199.111.133               avatars.githubusercontent.com
 185.199.110.154 github.githubassets.com
 185.199.110.154 docs.github.com
 185.199.110.154               github.githubassets.com
@@ -2263,8 +2245,25 @@ Banner468x60
 185.199.110.133 avatars1.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars.githubusercontent.com
-16.182.73.225                 github-production-release-asset-2e65be.s3.amazonaws.com
-16.15.216.14                  github-production-user-asset-6210df.s3.amazonaws.com
+185.199.109.133               user-images.githubusercontent.com
+185.199.109.133               raw.githubusercontent.com
+185.199.109.133               private-user-images.githubusercontent.com
+185.199.109.133               objects.githubusercontent.com
+185.199.109.133               media.githubusercontent.com
+185.199.109.133               github.map.fastly.net
+185.199.109.133               favicons.githubusercontent.com
+185.199.109.133               desktop.githubusercontent.com
+185.199.109.133               cloud.githubusercontent.com
+185.199.109.133               camo.githubusercontent.com
+185.199.109.133               avatars5.githubusercontent.com
+185.199.109.133               avatars4.githubusercontent.com
+185.199.109.133               avatars3.githubusercontent.com
+185.199.109.133               avatars2.githubusercontent.com
+185.199.109.133               avatars1.githubusercontent.com
+185.199.109.133               avatars0.githubusercontent.com
+185.199.109.133               avatars.githubusercontent.com
+16.182.38.161                 github-com.s3.amazonaws.com
+16.15.181.132                 github-cloud.s3.amazonaws.com
 151.101.76.133 raw.github.com
 151.101.129.194               github.global.ssl.fastly.net
 146.75.48.133 release-assets.githubusercontent.com
@@ -2277,17 +2276,18 @@ Banner468x60
 142.250.152.188 alt7-mtalk.google.com
 142.250.115.188 alt6-mtalk.google.com
 142.250.107.188 alt5-mtalk.google.com
-140.82.114.26                 alive.github.com
-140.82.114.22                 education.github.com
-140.82.114.22                 collector.github.com
-140.82.114.22                 central.github.com
+140.82.114.26                 live.github.com
+140.82.114.21                 central.github.com
+140.82.114.18                 github.community
 140.82.113.26 alive.github.com
-140.82.113.25                 live.github.com
 140.82.113.22 central.github.com
+140.82.113.22                 education.github.com
 140.82.113.21 collector.github.com
-140.82.113.18                 github.community
+140.82.113.21                 api.individual.githubcopilot.com
+140.82.112.3                  github.com
+140.82.112.26                 alive.github.com
 140.82.112.25 live.github.com
-140.82.112.21                 api.individual.githubcopilot.com
+140.82.112.21                 collector.github.com
 140.82.112.18 github.community
 13.107.42.16 pipelines.actions.githubusercontent.com
 13.107.42.16                  pipelines.actions.githubusercontent.com
