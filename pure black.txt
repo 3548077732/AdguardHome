@@ -1,4 +1,4 @@
-﻿# 更新时间: 2025-11-23 02:01:20
+﻿# 更新时间: 2025-11-23 02:11:36
 # 总规则数：10966 (黑名单: 6379, 白名单: 4587)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
@@ -2212,11 +2212,11 @@ Banner468x60
 47.246.37.220 hugeota.d.miui.com
 47.246.37.220 bigota.d.miui.com
 45.82.68.79^
-3.5.31.164                    github-production-repository-file-5c1aeb.s3.amazonaws.com
-3.5.11.155                    github-production-release-asset-2e65be.s3.amazonaws.com
+3.5.29.175                    github-com.s3.amazonaws.com
 20.43.185.14 github.dev
 20.205.243.168                api.github.com
 20.205.243.166                github.com
+20.205.243.166                gist.github.com
 20.200.245.247 github.com
 20.200.245.247 gist.github.com
 20.200.245.245 api.github.com
@@ -2259,11 +2259,12 @@ Banner468x60
 185.199.110.133 avatars1.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
 185.199.110.133 avatars.githubusercontent.com
-16.182.73.217                 github-cloud.s3.amazonaws.com
-16.182.65.233                 github-com.s3.amazonaws.com
-16.15.217.137                 github-production-user-asset-6210df.s3.amazonaws.com
+16.182.66.177                 github-production-release-asset-2e65be.s3.amazonaws.com
+16.15.207.90                  github-production-repository-file-5c1aeb.s3.amazonaws.com
+16.15.181.122                 github-cloud.s3.amazonaws.com
+16.15.179.132                 github-production-user-asset-6210df.s3.amazonaws.com
 151.101.76.133 raw.github.com
-151.101.65.194                github.global.ssl.fastly.net
+151.101.193.194               github.global.ssl.fastly.net
 146.75.48.133 release-assets.githubusercontent.com
 146.75.48.133 raw.githubusercontent.com
 146.75.48.133 objects.githubusercontent.com
@@ -2274,20 +2275,19 @@ Banner468x60
 142.250.152.188 alt7-mtalk.google.com
 142.250.115.188 alt6-mtalk.google.com
 142.250.107.188 alt5-mtalk.google.com
-140.82.114.9                  codeload.github.com
-140.82.114.3                  gist.github.com
-140.82.114.26                 alive.github.com
-140.82.114.22                 education.github.com
-140.82.114.21                 collector.github.com
-140.82.114.17                 github.community
+140.82.114.21                 api.individual.githubcopilot.com
+140.82.113.9                  codeload.github.com
 140.82.113.26 alive.github.com
+140.82.113.25                 alive.github.com
 140.82.113.22 central.github.com
-140.82.113.22                 central.github.com
 140.82.113.21 collector.github.com
-140.82.113.21                 api.individual.githubcopilot.com
+140.82.113.21                 education.github.com
+140.82.113.21                 collector.github.com
+140.82.112.26                 live.github.com
 140.82.112.25 live.github.com
-140.82.112.25                 live.github.com
+140.82.112.21                 central.github.com
 140.82.112.18 github.community
+140.82.112.18                 github.community
 13.107.42.16 pipelines.actions.githubusercontent.com
 13.107.42.16                  pipelines.actions.githubusercontent.com
 13.107.213.73                 vscode.dev
