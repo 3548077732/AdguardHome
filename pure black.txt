@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-23 18:01:22
-# 总规则数：10966 (黑名单: 6379, 白名单: 4587)
+﻿# 更新时间: 2025-11-23 18:11:22
+# 总规则数：10965 (黑名单: 6378, 白名单: 4587)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -2212,11 +2212,9 @@ Banner468x60
 47.246.37.220 hugeota.d.miui.com
 47.246.37.220 bigota.d.miui.com
 45.82.68.79^
-3.5.21.109                    github-production-release-asset-2e65be.s3.amazonaws.com
-3.5.20.205                    github-com.s3.amazonaws.com
-3.5.1.196                     github-production-repository-file-5c1aeb.s3.amazonaws.com
+3.5.28.205                    github-cloud.s3.amazonaws.com
+3.5.22.12                     github-production-user-asset-6210df.s3.amazonaws.com
 20.43.185.14 github.dev
-20.205.243.168                api.github.com
 20.205.243.166                github.com
 20.205.243.166                gist.github.com
 20.205.243.165                codeload.github.com
@@ -2262,10 +2260,11 @@ Banner468x60
 185.199.109.133               avatars1.githubusercontent.com
 185.199.109.133               avatars0.githubusercontent.com
 185.199.109.133               avatars.githubusercontent.com
-16.15.193.26                  github-production-user-asset-6210df.s3.amazonaws.com
-16.15.189.130                 github-cloud.s3.amazonaws.com
+16.182.73.161                 github-com.s3.amazonaws.com
+16.15.197.129                 github-production-release-asset-2e65be.s3.amazonaws.com
+16.15.189.17                  github-production-repository-file-5c1aeb.s3.amazonaws.com
 151.101.76.133 raw.github.com
-151.101.129.194               github.global.ssl.fastly.net
+151.101.65.194                github.global.ssl.fastly.net
 146.75.48.133 release-assets.githubusercontent.com
 146.75.48.133 raw.githubusercontent.com
 146.75.48.133 objects.githubusercontent.com
@@ -2277,15 +2276,16 @@ Banner468x60
 142.250.115.188 alt6-mtalk.google.com
 142.250.107.188 alt5-mtalk.google.com
 140.82.114.26                 live.github.com
-140.82.114.22                 central.github.com
+140.82.114.25                 alive.github.com
 140.82.113.26 alive.github.com
 140.82.113.22 central.github.com
+140.82.113.22                 education.github.com
 140.82.113.21 collector.github.com
-140.82.113.21                 education.github.com
-140.82.113.21                 collector.github.com
+140.82.113.21                 central.github.com
+140.82.113.21                 api.individual.githubcopilot.com
+140.82.112.6                  api.github.com
 140.82.112.25 live.github.com
-140.82.112.25                 alive.github.com
-140.82.112.22                 api.individual.githubcopilot.com
+140.82.112.22                 collector.github.com
 140.82.112.18 github.community
 140.82.112.17                 github.community
 13.107.42.16 pipelines.actions.githubusercontent.com
@@ -3023,7 +3023,6 @@ Banner468x60
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 stats.dmp.ghac.cn
 0.0.0.0 stats.cnzz.com
-0.0.0.0 stats.cn.ronghub.com
 0.0.0.0 stats-ipv6.jpush.cn
 0.0.0.0 statres.quickapp.cn
 0.0.0.0 statistic.qzone.qq.com
