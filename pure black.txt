@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-25 02:11:25
-# 总规则数：122065 (黑名单: 117412, 白名单: 4653)
+﻿# 更新时间: 2025-11-25 02:21:26
+# 总规则数：122066 (黑名单: 117413, 白名单: 4653)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -42323,6 +42323,7 @@ Banner468x60
 0.0.0.0 tracktp.sigmob.cn
 0.0.0.0 tracksy.com
 0.0.0.0 tracksurf.daooda.com
+0.0.0.0 tracknet.twyn.com
 0.0.0.0 trackmysales.com
 0.0.0.0 trackmy-maps.info
 0.0.0.0 tracklead.net
@@ -120470,6 +120471,7 @@ Banner468x60
 @@||sofire.baidu.com^
 @@||sofire.bdstatic.com^
 @@||soft.360.cn^
+@@||soft.imtt.qq.com^$important
 @@||soft.tbs.imtt.qq.com^
 @@||sogoucdn.com^$important
 @@||soup.v.qq.com^
@@ -120652,6 +120654,7 @@ Banner468x60
 @@||vmware.com^
 @@||volcengine-cache-weboffice.wpscdn.cn^
 @@||volcengine-kdocs-cache.wpscdn.cn^
+@@||vpic.cms.qq.com^$important
 @@||vpp.itunes.apple.com^$important
 @@||vps.uc.cn^
 @@||vt.sm.cn^$important
@@ -120798,8 +120801,6 @@ Banner468x60
 @@||ztgame.com^
 @@||h35.ynodd.cn^$
 @@||wxpaylogo.qpic.cn^
-@@||vpic.cms.qq.com^$important
-@@||soft.imtt.qq.com^$important
 @@||haohuo.jinritemai.com^
 @@||analytics.google.com
 @@||analytics.twitter.com
