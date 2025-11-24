@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-24 11:31:18
-# 白名单规则数：4587
+﻿# 更新时间: 2025-11-24 11:41:58
+# 白名单规则数：4651
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -411,6 +411,87 @@
 @@||support.apple.com^
 @@||icloud.com^
 @@||mzstatic.com^
+@@||a0.app.xiaomi.com^
+@@||globalapi.ad.xiaomi.com^
+@@||api.ad.xiaomi.com^
+@@||tracker.ai.xiaomi.com^
+@@||s.click.taobao.com^
+@@||acs.m.taobao.com^
+@@||click.simba.taobao.com^
+@@||amdc.m.taobao.com^
+@@||api.jr.mi.com^
+@@||c2.gdt.qq.com^
+@@||d.gdt.qq.com^
+@@||gw.365you.com^
+@@||h5.gdt.qq.com^
+@@||i.gdt.qq.com^
+@@||ii.gdt.qq.com^
+@@||ipv4.gdt.qq.com^
+@@||m.gdt.qq.com^
+@@||mi.gdt.qq.com^
+@@||nc.gdt.qq.com^
+@@||pgdt.gtimg.cn^
+@@||pgdt.ugdtimg.com^
+@@||pv.sohu.com^
+@@||q.i.gdt.qq.com^
+@@||rm.gdt.qq.com^
+@@||sdk.e.qq.com^
+@@||t.gdt.qq.com^
+@@||tangram.e.qq.com^
+@@||v2.gdt.qq.com^
+@@||v3.gdt.qq.com^
+@@||v6ii.gdt.qq.com^
+@@||vr.gdt.qq.com^
+@@||x.adnet.qq.com^
+@@||xc.gdt.qq.com^
+@@||win.gdt.qq.com^
+@@||wxsnsad.tc.qq.com^
+@@||wxsnsdy.tc.qq.com^
+@@||wxsnsdy.video.qq.com^
+@@||wxsnsdythumb.wxs.qq.com^
+@@||wxa.wxs.qq.com^
+@@||wximg.wxs.qq.com^
+@@||wxsmw.wxs.qq.com^
+@@||nadvideo.baidu.com^
+@@||nadvideo2.baidu.com^
+@@||open.e.kuaishou.com^
+@@||e.kuaishou.com^
+@@||api2.e.kuaishou.com^
+@@||api.e.kuaishou.com^
+@@||api-access.pangolin-sdk-toutiao.com^
+@@||api-access.pangolin-sdk-toutiao-b.com^
+@@||adstats.tencentmusic.com^
+@@||ad.tencentmusic.com^
+@@||adexpo.tencentmusic.com^
+@@||adcdn.tencentmusic.com^
+@@||adclick.tencentmusic.com^
+@@||adsmind.gdtimg.com^
+@@||rpt.gdt.qq.com^
+@@||v.gdt.qq.com^
+@@||c.gdt.qq.com^
+@@||tmead.y.qq.com^
+@@||tmeadcomm.y.qq.com^
+@@||tmeadbak.y.qq.com^
+@@||oth.eve.mdt.qq.com^
+@@||oth.str.mdt.qq.com^
+@@||oth.update.mdt.qq.com^
+@@||mtt.eve.mdt.qq.com^
+@@||mtt.str.mdt.qq.com^
+@@||adx-bj.anythinktech.com^
+@@||adx-bj-req.anythinktech.com^
+@@||dc.sigmob.cn^
+@@||cn-api.anythinktech.com^
+@@||cn-tk.anythinktech.com^
+@@||tk.anythinktech.com^
+@@||adx.anythinktech.com^
+@@||v1-lm.adukwai.com^
+@@||v2-lm.adukwai.com^
+@@||v4-lm.adukwai.com^
+@@||clientlog.music.163.com^
+@@||clientlog3.music.163.com^
+@@||ecmb.bdimg.com^
+@@||ecma.bdimg.com^
+@@||click.discord.com^
 @@||intro.limestart.cn^
 @@||limestart.cn^
 @@||www.hisense.com^
@@ -959,7 +1040,6 @@
 @@||login.taobao.com^
 @@||login.m.taobao.com^
 @@||o.alicdn.com^
-@@||s.click.taobao.com^
 @@||s.click.tmall.com^
 @@||h5api.m.tmall.com^
 @@||item.taobao.com^
@@ -1083,7 +1163,6 @@
 @@||ifdian.net^
 @@||static.e.189.cn^
 @@||wappass.baidu.com^
-@@||acs.m.taobao.com^
 @@||uop.quark.cn^
 @@||image.uc.cn^
 @@||drive-pc.quark.cn^
@@ -1829,7 +1908,6 @@
 @@||7x24s.com^
 @@||96956.com.cn^
 @@||a.video.qq.com^
-@@||a0.app.xiaomi.com^
 @@||a0.app.xiaomi.com^$important
 @@||abbott.iqiyi.com^
 @@||about.gitlab.cn^
@@ -1896,7 +1974,6 @@
 @@||als.baidu.com^
 @@||alsc-buy2.ele.me^$important
 @@||alt*.gstatic.com3^
-@@||amdc.m.taobao.com^
 @@||amdcopen.m.taobao.com^
 @@||amp-api*apple.com.*^
 @@||amp-api-edge.apps.apple.com^
@@ -1947,7 +2024,6 @@
 @@||api.iplay.163.com^
 @@||api.jdl.cn^
 @@||api.jdl.com^
-@@||api.jr.mi.com^
 @@||api.ke.com^
 @@||api.kingdata.ksyun.com^$important
 @@||api.kuaishouzt.com^
@@ -2135,7 +2211,6 @@
 @@||click.appcast.io^
 @@||click.chp.kohls.com^
 @@||click.cptrack.de^
-@@||click.discord.com^
 @@||click.dji.com^
 @@||click.e.krogermail.com^
 @@||click.e.lowes.com^
@@ -2169,7 +2244,6 @@
 @@||click.redditmail.com^
 @@||click.royalcaribbeanmarketing.com^
 @@||click.s.kohls.com^
-@@||click.simba.taobao.com^
 @@||click.snapshat.com^
 @@||click.zoom.us^
 @@||clickcease.com^
@@ -2185,7 +2259,6 @@
 @@||client.wns.windows.com^
 @@||clientconfig.microsoftonline-p.net^$important
 @@||clientlog*music.163.com^
-@@||clientlog3.music.163.com^
 @@||clients.l.google.com^
 @@||clients1.google.com^
 @@||clients1.google.com^$important
@@ -2260,7 +2333,6 @@
 @@||datarouter.ol.epicgames.com^$important
 @@||datastorage-public-service-liveegs.live.use1a.on.epicgames.com^$important
 @@||dc.services.visualstudio.com^
-@@||dc.sigmob.cn^
 @@||dcms.1688.com^
 @@||ddys.pro^
 @@||debugtbs.qq.com^
@@ -2339,7 +2411,6 @@
 @@||e.weather.com.cn^
 @@||eastus.api.speech.microsoft.com^
 @@||ecard.shenzhentong.com^
-@@||ecmb.bdimg.com^
 @@||ecmb.bdimg.com^$important
 @@||ecn.dev.virtualearth.net^$important
 @@||eco.taobao.com^
@@ -2433,7 +2504,6 @@
 @@||gl.zle.com^
 @@||global-search.browser.miui.com^
 @@||global.market.xiaomi.com^$important
-@@||globalapi.ad.xiaomi.com^
 @@||gma.alicdn.com^
 @@||go.microsoft.com^$important
 @@||googleadservices.com^
@@ -2515,7 +2585,6 @@
 @@||iflow.uc.cn^
 @@||iflow.uczzd.cn^
 @@||ig.apple.com^$important
-@@||ii.gdt.qq.com^
 @@||im-x.jd.com^
 @@||im.qq.com^
 @@||image.coolapk.com^
@@ -2839,7 +2908,6 @@
 @@||pepsico.com.cn^
 @@||personaclick.com^
 @@||pg-bootstrap.itunes.apple.com^$important
-@@||pgdt.gtimg.cn^
 @@||phonecallapi.micloud.xiaomi.net^
 @@||phonesubmissions.apple.com^$important
 @@||pic*.iqiyipic.com^
@@ -2884,7 +2952,6 @@
 @@||push.oray.com^
 @@||push.yximgs.com^
 @@||push1.91cloud.net^
-@@||pv.sohu.com^
 @@||px.wpk.quark.cn^
 @@||px.wpk.quark.cn^$important
 @@||py.qlogo.cn^
@@ -3072,7 +3139,6 @@
 @@||t3.market.mi-img.com^
 @@||t7z.cupid.iqiyi.com^
 @@||tagtic.cn^
-@@||tangram.e.qq.com^
 @@||target.clickfunnels.com^
 @@||tbm-auth.alicdn.com^
 @@||tbs.imtt.qq.com^
@@ -3101,7 +3167,6 @@
 @@||tpns.tencent.com^
 @@||tpstelemetry.tencent.com^
 @@||track.sohu.com^
-@@||tracker.ai.xiaomi.com^
 @@||tracker.didistatic.com^
 @@||trade-acs.m.taobao.com^
 @@||train.17u.cn^
@@ -3150,7 +3215,6 @@
 @@||uzzf.com^
 @@||v*-dc-ad.ixigua.com^
 @@||v*-fq-tts.fqnovelvod.com^
-@@||v.gdt.qq.com^
 @@||v.stream.qq.com^
 @@||v.uc.cn^
 @@||v1.jinrishici.com^
