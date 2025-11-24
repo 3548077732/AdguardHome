@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-24 15:41:25
-# 总规则数：121392 (黑名单: 116741, 白名单: 4651)
+﻿# 更新时间: 2025-11-24 15:51:26
+# 总规则数：121390 (黑名单: 116739, 白名单: 4651)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -41089,6 +41089,7 @@ Banner468x60
 0.0.0.0 u.openx.net
 0.0.0.0 u.l.qq.com
 0.0.0.0 u.extreme-dm.com
+0.0.0.0 u.dxsvr.com
 0.0.0.0 u.ds.duapps.com
 0.0.0.0 u.cdnwidget.com
 0.0.0.0 u-x.jd.com
@@ -43098,6 +43099,7 @@ Banner468x60
 0.0.0.0 tm.sigmob.cn
 0.0.0.0 tlx.3lift.com
 0.0.0.0 tls.telemetry.swe.quicinc.com
+0.0.0.0 tls.dxsvr.com
 0.0.0.0 tls-cn-beijing.volces.com
 0.0.0.0 tlgrm.help
 0.0.0.0 tleafi.cyou
@@ -52013,7 +52015,6 @@ Banner468x60
 0.0.0.0 ravenfortbitfund-soft.com
 0.0.0.0 ravenfort-bitfund.net
 0.0.0.0 ravendrixulia.lat
-0.0.0.0 raven.aprod.scopely.io
 0.0.0.0 raveinytproapp.net
 0.0.0.0 raveinytpro-solution.com
 0.0.0.0 rauch2.emberbucht.ru
@@ -88513,6 +88514,7 @@ Banner468x60
 0.0.0.0 ak.sail-horizon.com
 0.0.0.0 ak.quantcast.com
 0.0.0.0 ak.maxserving.com
+0.0.0.0 ak.dxsvr.com
 0.0.0.0 ak.buyservices.com
 0.0.0.0 ak.5.p2l.info
 0.0.0.0 ak-cdn.placelocal.com
@@ -89541,7 +89543,6 @@ Banner468x60
 0.0.0.0 adscdn.baidu.com
 0.0.0.0 adscaling.xyz
 0.0.0.0 adscale-emea.adnxs.com
-0.0.0.0 adsbydelema.com
 0.0.0.0 adsby.klikki.com
 0.0.0.0 adsby.bidtheatre.com
 0.0.0.0 adsbox.detik.com
@@ -94124,6 +94125,7 @@ Banner468x60
 0.0.0.0  www999999safagqwhg-1327129302.cos.ap-chengdu.myqcloud.com
 0.0.0.0  www999999asgasg-1327129302.cos.ap-chengdu.myqcloud.com
 0.0.0.0  www91.intel.pl
+0.0.0.0  www91.intel.la
 0.0.0.0  www91.intel.in
 0.0.0.0  www91.intel.fr
 0.0.0.0  www91.intel.es
@@ -97217,6 +97219,7 @@ Banner468x60
 0.0.0.0  starget.orlandofuntickets.com
 0.0.0.0  starget.intel.ru
 0.0.0.0  starget.intel.pl
+0.0.0.0  starget.intel.la
 0.0.0.0  starget.intel.it
 0.0.0.0  starget.intel.in
 0.0.0.0  starget.intel.fr
@@ -97343,7 +97346,6 @@ Banner468x60
 0.0.0.0  ssh.lifu11.com
 0.0.0.0  ssh.hbhtbn.com
 0.0.0.0  ssfllp.actonservice.com
-0.0.0.0  ssc.vozdeamerica.com
 0.0.0.0  ssc.votvot.tv
 0.0.0.0  ssc.voathai.com
 0.0.0.0  ssc.voacambodia.com
@@ -98570,7 +98572,6 @@ Banner468x60
 0.0.0.0  sentry.siepomaga.pl
 0.0.0.0  sentry.d.xiaomi.net
 0.0.0.0  sentry.bhbapp.cn
-0.0.0.0  sentry-monitor-new.zdmimg.com
 0.0.0.0  sentiment.icis.com
 0.0.0.0  sensorsdata.ruguoapp.com
 0.0.0.0  sense.cliexa.com
@@ -100290,7 +100291,6 @@ Banner468x60
 0.0.0.0  pladform.ru
 0.0.0.0  placehold.co
 0.0.0.0  pla.pearlinsurance.com
-0.0.0.0  pl520.com
 0.0.0.0  pl14369502.puserving.com
 0.0.0.0  pl108258.puserving.com
 0.0.0.0  pl.youku.com
@@ -106419,7 +106419,6 @@ Banner468x60
 0.0.0.0  hmcvs.cn
 0.0.0.0  hm.baidu.com.zzsdtzb.com
 0.0.0.0  hlzad.com
-0.0.0.0  hly.com
 0.0.0.0  hlreoc.gonuldensevenler.com
 0.0.0.0  hlqpie.waves.com
 0.0.0.0  hlms.ecologie.gouv.fr
@@ -113127,7 +113126,6 @@ Banner468x60
 0.0.0.0  agentanalytics.com
 0.0.0.0  agcs-knowledge.allianz.com
 0.0.0.0  agcjee.sklep-nasiona.pl
-0.0.0.0  aftership-pixel.com
 0.0.0.0  afterschoolallstars.actonservice.com
 0.0.0.0  aftermath.actonservice.com
 0.0.0.0  afterclick.co
