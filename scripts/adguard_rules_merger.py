@@ -63,7 +63,9 @@ BLACKLIST_SOURCES = {
     #"anti-ad混合名单   　     ": "https://anti-ad.net/easylist.txt",
     #"酷安 番茄 七猫　         ": "https://d.kstore.dev/download/10497/xiaoshuo.txt",
     #"酷安          　         ": "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/refs/heads/Master/OtherRules/CoolapkRules.txt",
-    "那个谁520   　　　　     ": "https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt"
+    "那个谁520   　　　　     ": "https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt",
+    "StevenBlack 　　　　     ": "https://raw.githubusercontent.com/StevenBlack/hosts/refs/heads/master/hosts",
+    "neodevpro   　　　　     ": "https://raw.githubusercontent.com/neodevpro/neodevhost/master/host"
 }
 
 #　#
