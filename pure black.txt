@@ -1,5 +1,5 @@
-﻿# 更新时间: 2025-11-25 09:31:25
-# 总规则数：122066 (黑名单: 117413, 白名单: 4653)
+﻿# 更新时间: 2025-11-25 09:41:23
+# 总规则数：122068 (黑名单: 117415, 白名单: 4653)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
 
@@ -759,6 +759,7 @@
 ||offerwall.yandex.net^
 ||o4508134825000960.ingest.us.sentry.io^
 ||o33249.ingest.sentry.io^
+||o324374.ingest.sentry.io^
 ||o315582.ingest.sentry.io^
 ||o2o.api.xiaomi.com^
 ||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^
@@ -1152,6 +1153,7 @@
 ||httpdnsmultiapi.meituan.com^
 ||httpdns.ocloud.oppomobile.com^
 ||httpdns.bcelive.com^
+||http-inputs-notion.splunkcloud.com^
 ||hpplay.cdn.cibn.cc^
 ||hpd.baidu.com^
 ||houyi.kkmh.com^
