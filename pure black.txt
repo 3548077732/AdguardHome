@@ -1,4 +1,4 @@
-﻿# 更新时间: 2025-11-25 15:41:23
+﻿# 更新时间: 2025-11-25 15:51:46
 # 总规则数：122069 (黑名单: 117416, 白名单: 4653)
 # 作者名称: Menghuibanxian  酷安名: 梦半仙
 # 作者主页: https://github.com/Menghuibanxian/AdguardHome
@@ -40925,6 +40925,7 @@ Banner468x60
 0.0.0.0 uk.at.atwola.com
 0.0.0.0 uk.adserver.yahoo.com
 0.0.0.0 uk.ads.justpremium.com
+0.0.0.0 uk.ads.hexus.net
 0.0.0.0 uk.activeshopper.com
 0.0.0.0 uk.2.cqcounter.com
 0.0.0.0 uk-youtube.xyz
@@ -61526,7 +61527,6 @@ Banner468x60
 0.0.0.0 maxmusics.com
 0.0.0.0 maxiwealthai-app.com
 0.0.0.0 maxitrade.com
-0.0.0.0 maxiparfum.pl
 0.0.0.0 maxionixtrader19flexreview.com
 0.0.0.0 maximizorwhizproair.net
 0.0.0.0 maximizorwhizproair.com
@@ -61617,7 +61617,6 @@ Banner468x60
 0.0.0.0 mastrobiologicals.com
 0.0.0.0 mastiffdrool.com
 0.0.0.0 mastermind.com
-0.0.0.0 masteringdiabetes.org
 0.0.0.0 masteringbusinessacumen.com
 0.0.0.0 masterconn.qq.com
 0.0.0.0 master.wap.dphub.sandai.net
@@ -65921,7 +65920,6 @@ Banner468x60
 0.0.0.0 iq001.adtech.us
 0.0.0.0 iq001.adtech.fr
 0.0.0.0 ipzd.pl
-0.0.0.0 ipwt5mio5yi3q.mocha.app
 0.0.0.0 ipw.metadsp.co.uk
 0.0.0.0 ipv6.umeng.com
 0.0.0.0 ipv6.kg.qq.com
@@ -78868,6 +78866,7 @@ Banner468x60
 0.0.0.0 cpoutlet-pl4.shop
 0.0.0.0 cpocommerceinc.112.2o7.net
 0.0.0.0 cpo.adflex.vn
+0.0.0.0 cpnall-webmail.web.app
 0.0.0.0 cpmly.com
 0.0.0.0 cpm1.affiz.net
 0.0.0.0 cpm.vidoomy.com
@@ -83172,6 +83171,7 @@ Banner468x60
 0.0.0.0 breakingnewsnow1611.ru
 0.0.0.0 breakingnewsburst.pro
 0.0.0.0 breakingnewsasia.com
+0.0.0.0 breakingnewsalert.pro
 0.0.0.0 breakinginfo1611.ru
 0.0.0.0 breakingflashreport.pro
 0.0.0.0 breaking-news.co
@@ -83307,7 +83307,6 @@ Banner468x60
 0.0.0.0 bornprix.fr
 0.0.0.0 bormis.com
 0.0.0.0 boriqya.com
-0.0.0.0 borhan-holding.ir
 0.0.0.0 borganisation.com
 0.0.0.0 boreaswine.com
 0.0.0.0 boreal-valtrixtech.com
@@ -83528,6 +83527,7 @@ Banner468x60
 0.0.0.0 bluevaultdexeris.net
 0.0.0.0 bluesulin.com
 0.0.0.0 bluestreak.com
+0.0.0.0 blueserving.com
 0.0.0.0 bluescreenalert.com
 0.0.0.0 bluequbittradingapp.net
 0.0.0.0 bluequbittradingapp.com
@@ -93839,6 +93839,7 @@ Banner468x60
 0.0.0.0  yxqfkm.24mx.de
 0.0.0.0  yxcpm.com
 0.0.0.0  ywwm.net
+0.0.0.0  ywrcqa.wqad.com
 0.0.0.0  ywkiyt.candere.com
 0.0.0.0  ywcqef.lyst.com.nl
 0.0.0.0  ywayoh.ecipo.hu
@@ -98917,8 +98918,6 @@ Banner468x60
 0.0.0.0  secure.visionary-enterprise-wisdom.com
 0.0.0.0  secure.visionary-enterprise-ingenuity.com
 0.0.0.0  secure.visionary-data-intuition.com
-0.0.0.0  secure.visionary-company-ingenuity.com
-0.0.0.0  secure.visionary-business-ingenuity.com
 0.0.0.0  secure.visionary-business-52.com
 0.0.0.0  secure.vick6duty.com
 0.0.0.0  secure.venture365office.com
@@ -98967,7 +98966,6 @@ Banner468x60
 0.0.0.0  secure.scan6show.com
 0.0.0.0  secure.saon6harz.com
 0.0.0.0  secure.sale0home.com
-0.0.0.0  secure.said3page.com
 0.0.0.0  secure.ryke4peep.com
 0.0.0.0  secure.ruth8badb.com
 0.0.0.0  secure.rote8mino.com
@@ -99413,6 +99411,7 @@ Banner468x60
 0.0.0.0  salamantex.com
 0.0.0.0  sailinsight20-app.sapsailing.com
 0.0.0.0  sailinsight-app.sapsailing.com
+0.0.0.0  said3page.com
 0.0.0.0  sagxlv.daniellashevel.com
 0.0.0.0  safety.west.com
 0.0.0.0  safetravelsapp.progressive.com
@@ -104044,7 +104043,6 @@ Banner468x60
 0.0.0.0  liufenghua.com
 0.0.0.0  littlebee.site
 0.0.0.0  listlog.baofeng.net
-0.0.0.0  listen.tunein.com
 0.0.0.0  listen.trakks.com
 0.0.0.0  list1holp.com
 0.0.0.0  list.z.qingting.fm
@@ -104125,7 +104123,6 @@ Banner468x60
 0.0.0.0  links.nexttrucking.com
 0.0.0.0  links.news.riverview.org
 0.0.0.0  links.news.forhims.com
-0.0.0.0  links.nbcnews.com
 0.0.0.0  links.nbc.com
 0.0.0.0  links.myvolly.com
 0.0.0.0  links.myplace.co
@@ -104926,6 +104923,7 @@ Banner468x60
 0.0.0.0  leadelephant.com
 0.0.0.0  leadcertain.actonservice.com
 0.0.0.0  leadboltmobile.net
+0.0.0.0  leadbolt.com
 0.0.0.0  leadbi.com
 0.0.0.0  leadberry.com
 0.0.0.0  lead-analytics-1000.com
@@ -106258,6 +106256,7 @@ Banner468x60
 0.0.0.0  in.upipr.co
 0.0.0.0  in.mgwcn.com
 0.0.0.0  in.invitd.us
+0.0.0.0  in.brilliant.org
 0.0.0.0  in-mktg.vodafone.com
 0.0.0.0  in-business.vodafone.com
 0.0.0.0  impservice2.youdao.com
@@ -106386,6 +106385,7 @@ Banner468x60
 0.0.0.0  images.service.freo.nl
 0.0.0.0  images.sbs.americanexpress.com
 0.0.0.0  images.rx.reedexpo.ae
+0.0.0.0  images.rsvp.capitalgrouppcs.com
 0.0.0.0  images.retail.ausbil.com.au
 0.0.0.0  images.response.wexinc.com
 0.0.0.0  images.response.vodafone.co.nz
@@ -109341,6 +109341,7 @@ Banner468x60
 0.0.0.0  eloq.fiducial.fr
 0.0.0.0  elogic-learning.actonservice.com
 0.0.0.0  ellypsio.net.jumia.com.ng
+0.0.0.0  elinks.dice.com
 0.0.0.0  elijah.tantawy.app
 0.0.0.0  elia.thermofisher.com
 0.0.0.0  elgreco.openapp.link
@@ -111278,7 +111279,6 @@ Banner468x60
 0.0.0.0  cnt-tm-1.com
 0.0.0.0  cnsecurity.actonservice.com
 0.0.0.0  cns-service.actonservice.com
-0.0.0.0  cnnic.net.cn
 0.0.0.0  cnnic.net
 0.0.0.0  cnnic.cn
 0.0.0.0  cnlink8.com
